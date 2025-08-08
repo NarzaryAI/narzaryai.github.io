@@ -31,7 +31,7 @@ export default function ThemesHome() {
 	return (
 		<MobileMenuProvider>
 			<TitleAndMetaTags
-				title="Radix UI"
+				title="SeekGPT | NarzaryAI"
 				description="Components, icons, and colors for building high‑quality, accessible UI. Free and open-source."
 				image="themes.png"
 			/>

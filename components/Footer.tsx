@@ -46,8 +46,8 @@ export const Footer = () => {
 							}}
 						>
 							A project by{" "}
-							<Link color="gray" href="https://workos.com">
-								WorkOS
+							<Link color="gray" href="https://narzary.com">
+								NarzaryAI
 							</Link>
 							.
 						</Heading>
@@ -61,28 +61,35 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/" passHref legacyBehavior>
-									<Link color="gray">Themes</Link>
+									<Link color="gray">Models</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/primitives" passHref legacyBehavior>
-									<Link color="gray">Primitives</Link>
+									<Link color="gray">Transformers Lab</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/colors" passHref legacyBehavior>
-									<Link color="gray">Colors</Link>
+									<Link color="gray">AI Agents</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/icons" passHref legacyBehavior>
-									<Link color="gray">Icons</Link>
+									<Link color="gray">Web based Chat</Link>
+								</NextLink>
+							</Text>
+						</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/icons" passHref legacyBehavior>
+									<Link color="gray">Mobile Apps</Link>
 								</NextLink>
 							</Text>
 						</li>
@@ -202,7 +209,7 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<Link
-									href="https://github.com/radix-ui"
+									href="https://github.com/seekgpt"
 									color="gray"
 									target="_blank"
 									style={{ display: "inline-flex", alignItems: "center" }}
@@ -217,12 +224,12 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<Link
-									href="https://bsky.app/profile/radix-ui.com"
+									href="https://fb.com/seekgpt"
 									color="gray"
 									target="_blank"
 									style={{ display: "inline-flex", alignItems: "center" }}
 								>
-									Bluesky
+									Facebook
 									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
 										<ArrowTopRightIcon />
 									</Flex>
@@ -232,7 +239,7 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<Link
-									href="https://twitter.com/radix_ui"
+									href="https://twitter.com/seekgpt"
 									color="gray"
 									target="_blank"
 									style={{ display: "inline-flex", alignItems: "center" }}
@@ -247,12 +254,12 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<Link
-									href="https://discord.com/invite/7Xb99uG"
+									href="https://huggingface.co/seekgpt"
 									color="gray"
 									target="_blank"
 									style={{ display: "inline-flex", alignItems: "center" }}
 								>
-									Discord
+									Huggingface
 									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
 										<ArrowTopRightIcon />
 									</Flex>

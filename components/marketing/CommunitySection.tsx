@@ -23,7 +23,7 @@ export const CommunitySection = () => {
 				columns={{ xs: "1fr 1fr", sm: "repeat(4, 230px)" }}
 			>
 				<Card asChild>
-					<a target="_blank" href="https://bsky.app/profile/radix-ui.com">
+					<a target="_blank" href="https://twitter.com/seekgpt">
 						<Box mb="3">
 							<svg
 								width="30"
@@ -75,7 +75,7 @@ export const CommunitySection = () => {
 				</Card>
 
 				<Card asChild>
-					<a target="_blank" href="https://github.com/radix-ui">
+					<a target="_blank" href="https://github.com/seekgpt">
 						<Box mb="3">
 							<svg
 								width="30"
