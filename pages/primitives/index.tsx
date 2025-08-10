@@ -23,7 +23,7 @@ export default function PrimitivesHome() {
 			<PrimitivesMobileMenu />
 
 			<TitleAndMetaTags
-				title="Radix Primitives"
+				title="SeekGPT API Reference"
 				description="Unstyled, accessible, open source React primitives for high-quality web apps and design systems."
 				image="primitives.png"
 			/>
