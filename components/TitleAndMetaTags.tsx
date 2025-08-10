@@ -12,10 +12,10 @@ type TitleAndMetaTagsProps = {
 };
 
 export function TitleAndMetaTags({
-	title = "Radix UI",
-	description = "Everything you need to build a design system, website or web app.",
+	title = "SeekGPT | NarzaryAI",
+	description = "An open, and ethically grounded Artificial General Intelligence (AGI) foundational model. Everything you need to build a design system, website or web app.",
 	image,
-	url = "https://radix-ui.com",
+	url = "https://narzaryai.github.io",
 	pathname,
 }: TitleAndMetaTagsProps) {
 	const router = useRouter();
