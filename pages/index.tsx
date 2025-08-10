@@ -32,8 +32,8 @@ export default function ThemesHome() {
 		<MobileMenuProvider>
 			<TitleAndMetaTags
 				title="SeekGPT | NarzaryAI"
-				description="Components, icons, and colors for building high‑quality, accessible UI. Free and open-source."
-				image="themes.png"
+				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model."
+				image="seekgpt.png"
 			/>
 
 			<ThemesMobileMenu />

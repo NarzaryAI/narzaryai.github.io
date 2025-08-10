@@ -301,7 +301,7 @@ export const PrimitivesHero = () => {
 							high-quality web apps and design systems.
 						</Text>
 					</Box>
-					<NextLink href="/primitives/docs" passHref legacyBehavior>
+					<NextLink href="/primitives/docs/overview/introduction" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}

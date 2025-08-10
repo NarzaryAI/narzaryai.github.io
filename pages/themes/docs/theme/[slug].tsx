@@ -26,7 +26,7 @@ export default function ThemesDoc({ frontmatter, code }: Doc) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – Radix Themes`}
 				description={frontmatter.metaDescription}
-				image="themes.png"
+				image="seekgpt.png"
 			/>
 
 			<MDXProvider frontmatter={frontmatter}>

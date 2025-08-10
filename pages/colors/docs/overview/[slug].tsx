@@ -24,7 +24,7 @@ export default function ColorsGettingStartedDoc({ frontmatter, code }: Doc) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – Radix Colors`}
 				description={frontmatter.metaDescription}
-				image="colors.png"
+				image="seekgpt.png"
 			/>
 
 			<MDXProvider frontmatter={frontmatter}>

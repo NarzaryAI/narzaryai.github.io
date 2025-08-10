@@ -67,7 +67,7 @@ export default function ColorsHome() {
 				<TitleAndMetaTags
 					title="Radix Colors"
 					description="An open-source color system for designing beautiful, accessible websites and apps."
-					image="colors.png"
+					image="seekgpt.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>

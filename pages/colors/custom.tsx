@@ -216,7 +216,7 @@ export default function Page() {
 				<TitleAndMetaTags
 					title="Create a custom palette – Radix Colors"
 					description="An open-source color system for designing beautiful, accessible websites and apps."
-					image="colors.png"
+					image="seekgpt.png"
 				/>
 
 				<Section

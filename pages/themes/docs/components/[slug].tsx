@@ -30,7 +30,7 @@ export default function GuidesDoc({ frontmatter, code }: Doc) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – Radix Themes`}
 				description={frontmatter.metaDescription}
-				image="themes.png"
+				image="seekgpt.png"
 			/>
 
 			<Heading

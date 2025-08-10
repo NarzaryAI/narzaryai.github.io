@@ -26,7 +26,7 @@ export default function CaseStudy() {
 			<TitleAndMetaTags
 				title="Case studies – Radix Primitives"
 				description="An open-source React component library for building high-quality, accessible design systems and web apps."
-				image="primitives.png"
+				image="seekgpt.png"
 			/>
 
 			<PrimitivesMobileMenu />

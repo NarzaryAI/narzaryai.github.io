@@ -36,7 +36,7 @@ export default function RadixBlog({ frontmatters }: Blog) {
 			<TitleAndMetaTags
 				title="Blog – Radix UI"
 				description={description}
-				image="themes.png"
+				image="seekgpt.png"
 			/>
 
 			<MobileMenuProvider>
