@@ -39,7 +39,7 @@ type ExampleLayoutProps = React.ComponentPropsWithoutRef<typeof Flex> & {
 	focusable?: boolean;
 };
 
-export const ExampleThemesDashboard = ({
+export const ExampleThemesDashboardNew = ({
 	focusable = true,
 	...props
 }: ExampleLayoutProps) => {
