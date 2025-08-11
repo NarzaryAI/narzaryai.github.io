@@ -60,6 +60,7 @@ export default function ThemesHome() {
 									hasBackground={false}
 								>
 									<ExampleThemesDashboard align="start" focusable={false} />
+									
 								</Theme>
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
@@ -259,8 +260,8 @@ const MainContent = () => (
 			<Box>
 				<Flex align="center" gap="2" mb="6">
 					<Badge asChild size="3" radius="full">
-						<NextLink href="/blog/themes-3">
-							Read about Radix Themes 3.0
+						<NextLink href="/blog/seekgpt-blueprint">
+							Read about SeekGPT Blueprint 1.0
 							<ArrowRightIcon
 								width="15"
 								height="15"
@@ -288,7 +289,7 @@ const MainContent = () => (
 					>
 						Start building
 						<br />
-						your app now
+						your AI app now
 					</SerifHeading>
 				</Box>
 			</Box>
@@ -296,9 +297,7 @@ const MainContent = () => (
 			<Box style={{ maxWidth: 500 }}>
 				<Text size={{ initial: "4", xs: "5" }}>
 					<Text as="p" mb="5" color="gray">
-						An open source component library optimized for fast development,
-						easy maintenance, and accessibility. Just import and go—no
-						configuration required.
+						An open, and ethically grounded Artificial General Intelligence (AGI) foundational model.
 					</Text>
 
 					<Box mb="5">
@@ -415,14 +414,17 @@ const redBackgroundImageStyle = {
 //   transform: 'scaleY(-0.5) scaleX(-1) rotate(-15deg)',
 
 const codeExample = `
-import "@radix-ui/themes/styles.css";
-import { Theme, Button } from "@radix-ui/themes";
+from seekgpt import SeekGPT
+client = SeekGPT(
+    api_base="https://api.seekgpt.org/v1",
+    api_key="your-api-key",
+    default_model="deepseek-chat" 
+)
+response = client.chat(
+    messages=[{"role": "user", "content": "Hello OpenAI!"}]
+)
+print(response['choices'][0]['message']['content'])
 
-export default () => (
-	<Theme>
-		<Button>Hey 👋</Button>
-	</Theme>
-);
 `.trim();
 
 const BackgroundImage = ({

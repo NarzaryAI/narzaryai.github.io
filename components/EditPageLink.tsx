@@ -2,7 +2,7 @@ import * as React from "react";
 import { useRouter } from "next/router";
 import { Box, Link, Separator } from "@radix-ui/themes";
 
-const DATA_FOLDER_PATH = "https://github.com/radix-ui/website/edit/main/data";
+const DATA_FOLDER_PATH = "https://github.com/seekgpt/website/edit/main/data";
 
 export function EditPageLink() {
 	const router = useRouter();

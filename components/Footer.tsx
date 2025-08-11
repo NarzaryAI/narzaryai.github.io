@@ -81,7 +81,7 @@ export const Footer = () => {
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/icons" passHref legacyBehavior>
+								<NextLink href="https://chat.seekgpt.org" passHref legacyBehavior>
 									<Link color="gray">Web based Chat</Link>
 								</NextLink>
 							</Text>

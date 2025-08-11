@@ -5,7 +5,7 @@ import { getAllFrontmatter, getMdxBySlug } from "@utils/mdx";
 import type { Frontmatter } from "types/frontmatter";
 import { ThemesMDXComponents } from "@components/ThemesMDXComponents";
 import { MobileMenuProvider } from "@components/MobileMenu";
-import { Box, Flex, Link, Section, Separator, Text } from "@radix-ui/themes";
+import { Box, Container, Flex, Link, Section, Separator, Text } from "@radix-ui/themes";
 import { EditPageLink } from "@components/EditPageLink";
 import { DocsPageWrapper } from "@components/DocsPageWrapper";
 import { BlogHeader } from "@components/BlogHeader";
@@ -15,6 +15,8 @@ import NextLink from "next/link";
 import { ArrowLeftIcon } from "@radix-ui/react-icons";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { GetStaticPropsContext } from "next";
+import { CommunitySection } from "@components/marketing/CommunitySection";
+import { Footer } from "@components/Footer";
 
 type BlogPost = {
 	frontmatter: Frontmatter;
@@ -27,7 +29,7 @@ export default function BlogPost({ frontmatter, code }: BlogPost) {
 	return (
 		<>
 			<TitleAndMetaTags
-				title={`${frontmatter.metaTitle} – Radix UI`}
+				title={`${frontmatter.metaTitle} – SeekGPT | NarzaryAI`}
 				description={frontmatter.metaDescription}
 				image={frontmatter.metaImage}
 			/>
@@ -53,6 +55,20 @@ export default function BlogPost({ frontmatter, code }: BlogPost) {
 						<EditPageLink />
 					</DocsPageWrapper>
 				</Flex>
+				<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
+					<Separator size="2" />
+				</Container>
+				<Section size={{ initial: "2", md: "4" }}>
+					<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
+						<CommunitySection />
+					</Container>
+				</Section>
+				<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
+					<Separator size="2" />
+					<Section size={{ initial: "2", md: "4" }} pb="0">
+						<Footer />
+					</Section>
+				</Container>
 			</MobileMenuProvider>
 
 			<QuickNav key={frontmatter.slug} title="In this article" />
