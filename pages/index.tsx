@@ -7,6 +7,7 @@ import {
 	Section,
 	Link,
 	Badge,
+	Container,
 } from "@radix-ui/themes";
 import * as React from "react";
 import NextLink from "next/link";
@@ -23,6 +24,7 @@ import { ThemesMobileMenu } from "@components/ThemesMobileMenu";
 import { ArrowRightIcon, GridIcon } from "@radix-ui/react-icons";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { CodeBlock } from "@components/CodeBlock";
+import { DecorativeBox } from "@components/ThemesDocsAssets";
 
 export default function ThemesHome() {
 	const { resolvedTheme } = useTheme();
@@ -54,15 +56,21 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Showcase >
 								<Theme
 									className="radix-themes-default-fonts"
 									hasBackground={false}
 								>
-									<ExampleThemesDashboard align="start" focusable={false} />
+									<Box p={{ sm: '2', lg: '9', md: '4'}} m={{ sm: '2', lg: '10', md: '4' }}>
+									<SecondMainContent />
+									</Box>
+
+									
 									
 								</Theme>
 							</ThemesHeroLayout.Showcase>
+							
+							
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -92,8 +100,11 @@ export default function ThemesHome() {
 									className="radix-themes-default-fonts"
 									hasBackground={false}
 								>
-									<ExampleThemesDashboard align="start" focusable={false} />
+									<SecondMainContent />
+									
 								</Theme>
+							
+								
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
 					</Theme>
@@ -121,7 +132,7 @@ export default function ThemesHome() {
 									grayColor="gray"
 									hasBackground={false}
 								>
-									<ExampleThemesEcommerce align="start" focusable={false} />
+									<SecondMainContent />
 								</Theme>
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
@@ -154,7 +165,7 @@ export default function ThemesHome() {
 									accentColor="gray"
 									hasBackground={false}
 								>
-									<ExampleThemesEcommerce align="start" focusable={false} />
+									<SecondMainContent />
 								</Theme>
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
@@ -175,13 +186,14 @@ export default function ThemesHome() {
 							<ThemesHeroLayout.Main>
 								<MainContent />
 							</ThemesHeroLayout.Main>
+							
 
 							<ThemesHeroLayout.Showcase>
 								<Theme
 									className="radix-themes-default-fonts"
 									hasBackground={false}
 								>
-									<ExampleThemesMusicApp align="start" focusable={false} />
+									<SecondMainContent/>
 								</Theme>
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
@@ -213,7 +225,7 @@ export default function ThemesHome() {
 									className="radix-themes-default-fonts"
 									hasBackground={false}
 								>
-									<ExampleThemesMusicApp align="start" focusable={false} />
+									<SecondMainContent/>
 								</Theme>
 							</ThemesHeroLayout.Showcase>
 						</ThemesHeroLayout.Root>
@@ -364,12 +376,120 @@ const MainContent = () => (
 
 			<ThemesHeroLayout.Controls>
 				<Text weight="bold" size="3" style={{ pointerEvents: "none" }}>
-					Live examples
+					Try Different Looks
 				</Text>
 				<Box mx="-1">
 					<MagicCurtain.MirrorControls />
 				</Box>
 			</ThemesHeroLayout.Controls>
+		</Section>
+	</Box>
+);
+
+const SecondMainContent = () => (
+	<Box>
+		<Section
+			size={{ initial: "2", md: "4", lg: "2" }}
+			pb={{ initial: "4", lg: "7" }}
+			mt={{ lg: "max(-160px, min(0px, calc(-0.2 * (100vh - 800px)))" }}
+		>
+			<Box>
+				<Flex align="center" gap="2" mb="6">
+					
+				</Flex>
+				<Box display={{ lg: "none" }}>
+					<SerifHeading mb="3">
+						Open Source Library Compatible
+					</SerifHeading>
+				</Box>
+				<Box display={{ initial: "none", lg: "block" }}>
+					<SerifHeading
+						mb="4"
+						style={
+							{
+								lineHeight: 0.9,
+								"--heading-font-size-adjust": 1.3,
+							} as React.CSSProperties
+						}
+					>
+						Open Source <br/>
+						<Text as="span" color="purple">
+							Compatible
+						</Text>
+					</SerifHeading>
+				</Box>
+			</Box>
+
+			<Box style={{ maxWidth: 500 }}>
+				<Text size={{ initial: "4", xs: "5" }}>
+					<Text as="p" mb="5" color="gray">
+						You can call with existing AI libraries like OpenAI, LangChain, and more.
+					</Text>
+
+					<Box mb="5">
+						<CodeBlock.Root
+							style={
+								{
+									"--code-block-background": "var(--color-panel-solid)",
+								} as React.CSSProperties
+							}
+						>
+							<CodeBlock.Content>
+								<CodeBlock.Pre>
+									<CodeBlock.Code language="jsx">{secondCodeExample}</CodeBlock.Code>
+								</CodeBlock.Pre>
+							</CodeBlock.Content>
+						</CodeBlock.Root>
+					</Box>
+				</Text>
+
+				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
+					<NextLink
+						href="https://platform.seekgpt.org/api-keys"
+						passHref
+						legacyBehavior
+					>
+						<Button
+							asChild
+							size={{ initial: "3", xs: "4" }}
+							color="gray"
+							highContrast
+							style={{ flexGrow: 1 }}
+							disabled
+							title="This feature is not available yet"
+						>
+							<a>
+								Get API Key
+								<svg
+									width="14"
+									height="14"
+									viewBox="0 0 12 12"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="currentcolor"
+									style={{ opacity: 1, marginRight: -3 }}
+								>
+									<path d="M6.39205 11.6023L5.36932 10.5909L8.92045 7.03977H0V5.5625H8.92045L5.36932 2.01705L6.39205 1L11.6932 6.30114L6.39205 11.6023Z" />
+								</svg>
+							</a>
+						</Button>
+					</NextLink>
+					<NextLink href="https://chat.seekgpt.org" passHref legacyBehavior>
+						<Button
+							asChild
+							size={{ initial: "3", xs: "4" }}
+							variant="soft"
+							highContrast
+							style={{ flexGrow: 1 }}
+						>
+							<a>
+								<GridIcon width="18" height="18" style={{ marginTop: 1 }} />
+								Chat with SeekGPT
+							</a>
+						</Button>
+					</NextLink>
+				</Flex>
+			</Box>
+			
 		</Section>
 	</Box>
 );
@@ -426,6 +546,31 @@ response = client.chat(
 print(response['choices'][0]['message']['content'])
 
 `.trim();
+
+const secondCodeExample = `
+import OpenAI from 'openai';
+
+const openai = new OpenAI({
+  apiKey: "your_api_key", // Your API key for the compatible host
+  baseURL: "https://api.seekgpt.org/v1", // The base URL of the compatible host
+});
+
+async function aiChat() {
+  try {
+    const chatCompletion = await openai.chat.completions.create({
+      messages: [{ role: 'user', content: 'Hello, world!' }],
+      model: 'mistralai/Mistral-7B-Instruct-v0.2', // A model available on the compatible host
+    });
+    console.log(chatCompletion.choices[0].message.content);
+  } catch (error) {
+    console.error('Error calling compatible host:', error);
+  }
+}
+
+aiChat();
+
+`.trim();
+
 
 const BackgroundImage = ({
 	style,
