@@ -559,7 +559,7 @@ async function aiChat() {
   try {
     const chatCompletion = await openai.chat.completions.create({
       messages: [{ role: 'user', content: 'Hello, world!' }],
-      model: 'mistralai/Mistral-7B-Instruct-v0.2', // A model available on the compatible host
+      model: 'gpt-5', // A model available on the compatible host
     });
     console.log(chatCompletion.choices[0].message.content);
   } catch (error) {
