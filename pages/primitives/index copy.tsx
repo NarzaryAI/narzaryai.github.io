@@ -16,7 +16,6 @@ import { StatsSection } from "@components/marketing/StatsSection";
 import { Box, Separator } from "@radix-ui/themes";
 import { PrimitivesHeader } from "@components/PrimitivesHeader";
 import { PrimitivesMobileMenu } from "@components/PrimitivesMobileMenu";
-import { SolutionsHeader } from "@components/seekgpt/SolutionsHeader";
 
 export default function PrimitivesHome() {
 	return (
@@ -32,9 +31,9 @@ export default function PrimitivesHome() {
 				<PrimitivesHeader ghost />
 			</Box>
 			<FancyBackground>
-				<SolutionsHeader />
+				<PrimitivesHero />
 			</FancyBackground>
-			
+			<CaseStudiesSection />
 			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
 				<Separator size="2" />
 			</Container>

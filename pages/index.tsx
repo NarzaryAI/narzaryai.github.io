@@ -56,19 +56,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase >
-								<Theme
-									className="radix-themes-default-fonts"
-									hasBackground={false}
-								>
-									<Box p={{ sm: '2', lg: '9', md: '4'}} m={{ sm: '2', lg: '10', md: '4' }}>
-									<SecondMainContent />
-									</Box>
-
-									
-									
-								</Theme>
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 							
 							
 						</ThemesHeroLayout.Root>
@@ -399,7 +389,10 @@ const SecondMainContent = () => (
 				</Flex>
 				<Box display={{ lg: "none" }}>
 					<SerifHeading mb="3">
-						Open Source Library Compatible
+						Open Source <br/>
+						<Text as="span" color="gray">
+							Compatible
+						</Text>
 					</SerifHeading>
 				</Box>
 				<Box display={{ initial: "none", lg: "block" }}>
@@ -413,7 +406,7 @@ const SecondMainContent = () => (
 						}
 					>
 						Open Source <br/>
-						<Text as="span" color="purple">
+						<Text as="span" color="gray">
 							Compatible
 						</Text>
 					</SerifHeading>
@@ -445,7 +438,7 @@ const SecondMainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="https://platform.seekgpt.org/api-keys"
+						href="#"
 						passHref
 						legacyBehavior
 					>
@@ -481,7 +474,7 @@ const SecondMainContent = () => (
 							highContrast
 							style={{ flexGrow: 1 }}
 						>
-							<a>
+							<a target="_blank" rel="noopener noreferrer">
 								<GridIcon width="18" height="18" style={{ marginTop: 1 }} />
 								Chat with SeekGPT
 							</a>
@@ -549,12 +542,10 @@ print(response['choices'][0]['message']['content'])
 
 const secondCodeExample = `
 import OpenAI from 'openai';
-
 const openai = new OpenAI({
   apiKey: "your_api_key", // Your API key for the compatible host
   baseURL: "https://api.seekgpt.org/v1", // The base URL of the compatible host
 });
-
 async function aiChat() {
   try {
     const chatCompletion = await openai.chat.completions.create({
@@ -566,7 +557,6 @@ async function aiChat() {
     console.error('Error calling compatible host:', error);
   }
 }
-
 aiChat();
 
 `.trim();
