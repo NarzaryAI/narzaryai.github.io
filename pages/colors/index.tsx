@@ -32,7 +32,10 @@ import Head from "next/head";
 import styles from "./index.module.css";
 import { ColorUsageRange } from "@components/ColorUsageRange";
 import { ColorStepLabel } from "@components/ColorStepLabel";
-
+import { RadixLogo } from "@components/RadixLogo";
+import { BoxLink } from "@components/BoxLink";
+import { AccessibleIcon } from "@radix-ui/themes";
+import {NarzaryAILogo} from "@components/NarzaryAILogo"
 export default function ColorsHome() {
 	return (
 		<MobileMenuProvider>
@@ -65,27 +68,28 @@ export default function ColorsHome() {
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">
 				<TitleAndMetaTags
-					title="Radix Colors"
-					description="An open-source color system for designing beautiful, accessible websites and apps."
+					title="About SeekGPT by NarzaryAI"
+					description="ur vision is to establish SeekGPT as a globally recognized, open, and ethically grounded Artificial General Intelligence (AGI) foundational model, driven by India's diverse talent and cultural values, contributing to the advancement of humanity."
 					image="seekgpt.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>
 						<SerifHeading mb="3" style={{ maxWidth: 720 }}>
-							A gorgeous, accessible color system for user interfaces
+							SeekGPT by NarzaryAI
+							
 						</SerifHeading>
-
+						
 						<Box style={{ maxWidth: 500 }}>
 							<Text size="5" as="p" mb="6" color="gray">
-								Comprehensive color system for designing beautiful, accessible
-								websites and apps.
+								An open, and ethically grounded Artificial General Intelligence (AGI) foundational model.
 							</Text>
 						</Box>
+						
 
 						<Flex gap="4">
 							<ColorsMarketingButton asChild size={{ initial: "3", xs: "4" }}>
 								<NextLink href="/colors/docs/overview/installation">
-									Go to docs
+									About Company
 									<svg
 										width="14"
 										height="14"
@@ -106,127 +110,20 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
-								<NextLink href="/colors/custom">Custom palette</NextLink>
+								<NextLink href="/colors/custom">Team Members</NextLink>
 							</Button>
+						</Flex>
+						<Flex gap="4" p="8" align={"end"}>
+							<Box style={{ maxWidth: 500 }}>
+							<Text size="5" as="p" mb="6" color="gray">
+								<NarzaryAILogo/>
+							</Text>
+						</Box>
+							
 						</Flex>
 					</Container>
 				</Section>
 			</Box>
-
-			<ScrollArea mb="-4">
-				<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} mb="4">
-					<Container style={{ whiteSpace: "nowrap", minWidth: 880 }}>
-						<div className={styles.ColorsHomeGrid}>
-							<Box />
-							<ColorUsageRange gridColumn="2 / 4">Backgrounds</ColorUsageRange>
-							<ColorUsageRange gridColumn="4 / 7">
-								Interactive components
-							</ColorUsageRange>
-							<ColorUsageRange gridColumn="7 / 10">
-								Borders and separators
-							</ColorUsageRange>
-							<ColorUsageRange gridColumn="10 / 12">
-								Solid colors
-							</ColorUsageRange>
-							<ColorUsageRange gridColumn="12 / 14">
-								Accessible text
-							</ColorUsageRange>
-
-							<Box />
-							<ColorStepLabel>1</ColorStepLabel>
-							<ColorStepLabel>2</ColorStepLabel>
-							<ColorStepLabel>3</ColorStepLabel>
-							<ColorStepLabel>4</ColorStepLabel>
-							<ColorStepLabel>5</ColorStepLabel>
-							<ColorStepLabel>6</ColorStepLabel>
-							<ColorStepLabel>7</ColorStepLabel>
-							<ColorStepLabel>8</ColorStepLabel>
-							<ColorStepLabel>9</ColorStepLabel>
-							<ColorStepLabel>10</ColorStepLabel>
-							<ColorStepLabel>11</ColorStepLabel>
-							<ColorStepLabel>12</ColorStepLabel>
-
-							{(
-								[
-									"gray",
-									"mauve",
-									"slate",
-									"sage",
-									"olive",
-									"sand",
-									"tomato",
-									"red",
-									"ruby",
-									"crimson",
-									"pink",
-									"plum",
-									"purple",
-									"violet",
-									"iris",
-									"indigo",
-									"blue",
-									"cyan",
-									"teal",
-									"jade",
-									"green",
-									"grass",
-									"bronze",
-									"gold",
-									"brown",
-									"orange",
-									"amber",
-									"yellow",
-									"lime",
-									"mint",
-									"sky",
-								] as const
-							).map((scale) => (
-								<React.Fragment key={scale}>
-									<Text color="gray" size="2">
-										{scale.charAt(0).toUpperCase() + scale.slice(1)}
-									</Text>
-									{Array.from({ length: 12 }, (_, i) => i + 1).map((step) => (
-										<Swatch
-											key={step}
-											scale={scale}
-											step={step.toString() as "1"}
-										/>
-									))}
-								</React.Fragment>
-							))}
-						</div>
-
-						<Box height="32px" />
-
-						<div className={styles.ColorsHomeGrid}>
-							<Box />
-							<ColorUsageRange gridColumn="2 / -1">
-								Shadows, highlights, and overlays
-							</ColorUsageRange>
-
-							<Box />
-							{Array.from({ length: 12 }, (_, i) => i + 1).map((step) => (
-								<ColorStepLabel key={step}>{step}</ColorStepLabel>
-							))}
-
-							{(["black", "white"] as const).map((scale) => (
-								<React.Fragment key={scale}>
-									<Text color="gray" size="2">
-										{scale.charAt(0).toUpperCase() + scale.slice(1)}
-									</Text>
-									{Array.from({ length: 12 }, (_, i) => i + 1).map((step) => (
-										<Swatch
-											key={step}
-											scale={scale}
-											step={step.toString() as "1"}
-										/>
-									))}
-								</React.Fragment>
-							))}
-						</div>
-					</Container>
-				</Box>
-			</ScrollArea>
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
 				<Section size={{ initial: "2", md: "4" }}>
@@ -322,3 +219,5 @@ export default function ColorsHome() {
 		</MobileMenuProvider>
 	);
 }
+
+
