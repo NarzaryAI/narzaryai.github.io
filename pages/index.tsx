@@ -85,17 +85,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase>
-								<Theme
-									className="radix-themes-default-fonts"
-									hasBackground={false}
-								>
-									<SecondMainContent />
-									
-								</Theme>
-							
-								
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -115,16 +107,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase>
-								<Theme
-									className="radix-themes-default-fonts"
-									accentColor="gray"
-									grayColor="gray"
-									hasBackground={false}
-								>
-									<SecondMainContent />
-								</Theme>
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -149,15 +134,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase>
-								<Theme
-									className="radix-themes-default-fonts"
-									accentColor="gray"
-									hasBackground={false}
-								>
-									<SecondMainContent />
-								</Theme>
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -178,14 +157,9 @@ export default function ThemesHome() {
 							</ThemesHeroLayout.Main>
 							
 
-							<ThemesHeroLayout.Showcase>
-								<Theme
-									className="radix-themes-default-fonts"
-									hasBackground={false}
-								>
-									<SecondMainContent/>
-								</Theme>
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -210,14 +184,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase>
-								<Theme
-									className="radix-themes-default-fonts"
-									hasBackground={false}
-								>
-									<SecondMainContent/>
-								</Theme>
-							</ThemesHeroLayout.Showcase>
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
 						</ThemesHeroLayout.Root>
 					</Theme>
 				</MagicCurtain.Item>
@@ -235,12 +204,12 @@ export default function ThemesHome() {
 }
 
 const previewImages = [
-	"https://workos.imgix.net/images/2f5a1e4b-39c5-4604-b278-a219f9898159.png?auto=format&fit=clip&q=80&w=496",
-	"https://workos.imgix.net/images/5516f53e-0b29-4fc2-92d8-74566aa91976.png?auto=format&fit=clip&q=80&w=496",
-	"https://workos.imgix.net/images/59b77353-32f4-4176-ac36-8299ed7c1236.png?auto=format&fit=clip&q=80&w=496",
-	"https://workos.imgix.net/images/bc735904-1193-48a0-bcc6-37c9b73312fa.png?auto=format&fit=clip&q=80&w=496",
-	"https://workos.imgix.net/images/bde22677-6a86-495a-baf9-7328e8f52401.png?auto=format&fit=clip&q=80&w=496",
-	"https://workos.imgix.net/images/f6c9aea7-8bcc-458a-8531-3b36458dc031.png?auto=format&fit=clip&q=80&w=496",
+	"/preview/first.png",
+	"/preview/second.png",
+	"/preview/third.png",
+	"/preview/fourth.png",
+	"/preview/fifth.png",
+	"/preview/six.png",
 ];
 
 const previewImagesDarkMode = [
