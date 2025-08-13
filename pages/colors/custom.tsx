@@ -77,6 +77,7 @@ import { copy } from "../../utils/clipboard";
 import { CustomSwatch } from "@components/CustomSwatch";
 import { ColorUsageRange } from "@components/ColorUsageRange";
 import { ColorStepLabel } from "@components/ColorStepLabel";
+import { Footer } from "@components/Footer";
 
 export default function Page() {
 	const { resolvedTheme, setTheme } = useTheme();
@@ -214,8 +215,8 @@ export default function Page() {
 				<ColorsMobileMenu />
 
 				<TitleAndMetaTags
-					title="Create a custom palette – Radix Colors"
-					description="An open-source color system for designing beautiful, accessible websites and apps."
+					title="SeekGPT by NarzaryAI Team Members"
+					description="SeekGPT comprises of several young and experienced team members and students."
 					image="seekgpt.png"
 				/>
 
@@ -229,12 +230,12 @@ export default function Page() {
 								<Link asChild size="2" color="gray" ml="-2">
 									<NextLink href="/colors">
 										<ArrowLeftIcon />
-										Radix Colors
+										About Company
 									</NextLink>
 								</Link>
 							</Flex>
 							<Heading as="h1" align="center" size="8">
-								Create a custom palette
+								Team Members
 							</Heading>
 
 							<SegmentedControl.Root
@@ -258,165 +259,7 @@ export default function Page() {
 							</SegmentedControl.Root>
 						</Flex>
 
-						<Box mb="9">
-							<Grid
-								columns={{ initial: "1fr", sm: "180px 180px 180px auto" }}
-								maxWidth={{ initial: "400px", sm: "none" }}
-								mx="auto"
-								gap="4"
-								justify="center"
-								align="end"
-							>
-								<Flex direction="column">
-									<Flex mb="1">
-										<Text as="label" htmlFor="accent" size="1" color="gray">
-											Accent
-										</Text>
-									</Flex>
-									<ColorField
-										id="accent"
-										value={accentValue}
-										onValueChange={setAccentValue}
-									/>
-								</Flex>
-
-								<Flex direction="column">
-									<Flex justify="between" mb="1">
-										<Text as="label" htmlFor="gray" size="1" color="gray">
-											Gray
-										</Text>
-									</Flex>
-									<ColorField
-										id="gray"
-										value={grayValue}
-										onValueChange={setGrayValue}
-									/>
-								</Flex>
-
-								<Flex direction="column">
-									<Flex mb="1">
-										<Text as="label" htmlFor="bg" size="1" color="gray">
-											Background
-										</Text>
-									</Flex>
-									<ColorField
-										id="bg"
-										value={bgValue}
-										onValueChange={setBgValue}
-									/>
-								</Flex>
-
-								<Flex
-									gap="3"
-									align={{ sm: "center" }}
-									direction={{ initial: "column", sm: "row" }}
-									mt={{ initial: "2", sm: "0" }}
-								>
-									<DropdownMenu.Root>
-										<DropdownMenu.Trigger>
-											<Button highContrast={!!copied}>
-												<Flex
-													as="span"
-													align="center"
-													gap="2"
-													style={{ visibility: copied ? "hidden" : undefined }}
-												>
-													Copy
-													<DropdownMenu.TriggerIcon />
-												</Flex>
-												{copied && <Box position="absolute">Copied</Box>}
-											</Button>
-										</DropdownMenu.Trigger>
-										<DropdownMenu.Content>
-											<DropdownMenu.Sub>
-												<DropdownMenu.SubTrigger>
-													<Flex align="center" gap="2">
-														<Box asChild ml="-1">
-															<CopyIcon />
-														</Box>
-														Copy CSS code
-													</Flex>
-												</DropdownMenu.SubTrigger>
-
-												<DropdownMenu.SubContent>
-													<DropdownMenu.Item
-														onSelect={async () => {
-															const css = getColorScaleCss({
-																isDarkMode: resolvedTheme === "dark",
-																name: getColorName(accentValue),
-																contrast: result.accentContrast,
-																scale: result.accentScale,
-																scaleWideGamut: result.accentScaleWideGamut,
-																scaleAlpha: result.accentScaleAlpha,
-																scaleAlphaWideGamut:
-																	result.accentScaleAlphaWideGamut,
-																surface: result.accentSurface,
-																surfaceWideGamut: result.accentSurfaceWideGamut,
-															});
-
-															await copy(css);
-															setCopiedMessage("accents");
-														}}
-													>
-														Copy accent scale
-													</DropdownMenu.Item>
-
-													<DropdownMenu.Item
-														onSelect={() => {
-															const css = getColorScaleCss({
-																isDarkMode: resolvedTheme === "dark",
-																name: "gray",
-																contrast: "#FFFFFF",
-																scale: result.grayScale,
-																scaleWideGamut: result.grayScaleWideGamut,
-																scaleAlpha: result.grayScaleAlpha,
-																scaleAlphaWideGamut:
-																	result.grayScaleAlphaWideGamut,
-																surface: result.graySurface,
-																surfaceWideGamut: result.graySurfaceWideGamut,
-															});
-
-															copy(css);
-															setCopiedMessage("grays");
-														}}
-													>
-														Copy gray scale
-													</DropdownMenu.Item>
-
-													<DropdownMenu.Item
-														onSelect={() => {
-															const css = getBackgroundColorCss({
-																isDarkMode: resolvedTheme === "dark",
-																background: result.background,
-															});
-
-															copy(css);
-															setCopiedMessage("background");
-														}}
-													>
-														Copy background color
-													</DropdownMenu.Item>
-												</DropdownMenu.SubContent>
-											</DropdownMenu.Sub>
-											<DropdownMenu.Item
-												onSelect={() => {
-													const svg = getSvg(result);
-													copy(svg);
-													setCopiedMessage("SVG");
-												}}
-											>
-												<Flex align="center" gap="2">
-													<Box asChild ml="-1">
-														<FigmaLogoIcon />
-													</Box>
-													Copy SVG object
-												</Flex>
-											</DropdownMenu.Item>
-										</DropdownMenu.Content>
-									</DropdownMenu.Root>
-								</Flex>
-							</Grid>
-						</Box>
+						
 
 						<Grid
 							mb="9"
@@ -431,31 +274,31 @@ export default function Page() {
 								display={{ initial: "none", sm: "flex" }}
 								gridColumn="1 / 3"
 							>
-								Backgrounds
+								Research and Development
 							</ColorUsageRange>
 							<ColorUsageRange
 								display={{ initial: "none", sm: "flex" }}
 								gridColumn="3 / 6"
 							>
-								Interactive components
+								Engineering and Technology
 							</ColorUsageRange>
 							<ColorUsageRange
 								display={{ initial: "none", sm: "flex" }}
 								gridColumn="6 / 9"
 							>
-								Borders and separators
+								Students and Pioneers
 							</ColorUsageRange>
 							<ColorUsageRange
 								display={{ initial: "none", sm: "flex" }}
 								gridColumn="9 / 11"
 							>
-								Solid colors
+								Management
 							</ColorUsageRange>
 							<ColorUsageRange
 								display={{ initial: "none", sm: "flex" }}
 								gridColumn="11 / 13"
 							>
-								Accessible text
+								Supporting Staff
 							</ColorUsageRange>
 
 							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
@@ -523,538 +366,18 @@ export default function Page() {
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
-							<Preview />
+							
 						</Theme>
 					</Container>
 				</Section>
+				<Container>
+					<Footer/>
+				</Container>
 			</Theme>
 		</MobileMenuProvider>
 	);
 }
 
-export const Preview = ({
-	children,
-	...props
-}: React.ComponentPropsWithoutRef<typeof Grid>) => {
-	const [state, setState] = React.useState({
-		todo: [
-			{ id: "a", completed: false },
-			{ id: "b", completed: false },
-			{ id: "c", completed: false },
-			{ id: "d", completed: true },
-			{ id: "e", completed: true },
-		],
-	});
-
-	return (
-		<Grid
-			justify="center"
-			columns={{ initial: "1fr", sm: "320px 320px", lg: "320px 1fr 320px" }}
-			gap="6"
-			{...props}
-		>
-			<Flex gap="5" direction="column" width="100%" maxWidth="400px" mx="auto">
-				<Flex gap="2">
-					<Box flexGrow="1" flexShrink="0">
-						<TextField.Root placeholder="Search" type="text" name="_">
-							<TextField.Slot>
-								<MagnifyingGlassIcon />
-							</TextField.Slot>
-						</TextField.Root>
-					</Box>
-					<Button size="2">Submit</Button>
-				</Flex>
-
-				<Callout.Root>
-					<Callout.Icon>
-						<InfoCircledIcon />
-					</Callout.Icon>
-					<Callout.Text>Please upgrade to the new version.</Callout.Text>
-				</Callout.Root>
-
-				<LayersRoot type="single">
-					<LayersItem value="1">
-						<Flex align="center" justify="center" width="4" height="4">
-							<BoxIcon />
-						</Flex>
-						<Text size="1">Box</Text>
-					</LayersItem>
-					<LayersItem value="2">
-						<Flex align="center" justify="center" width="4" height="4">
-							<GridIcon />
-						</Flex>
-						<Text size="1">Grid</Text>
-					</LayersItem>
-					<LayersItem data-indent="1" value="3">
-						<Flex align="center" justify="center" width="4" height="4">
-							<ImageIcon />
-						</Flex>
-						<Text size="1">Image</Text>
-					</LayersItem>
-					<LayersItem data-indent="1" value="4">
-						<Flex align="center" justify="center" width="4" height="4">
-							<ImageIcon />
-						</Flex>
-						<Text size="1">Image</Text>
-					</LayersItem>
-					<LayersItem data-indent="1" value="5">
-						<Flex align="center" justify="center" width="4" height="4">
-							<TextIcon />
-						</Flex>
-						<Text size="1">Text</Text>
-					</LayersItem>
-				</LayersRoot>
-
-				<Flex
-					align="center"
-					justify={{ initial: "center", sm: "between" }}
-					gap="4"
-				>
-					<Badge radius="full" variant="soft">
-						Fully-featured
-					</Badge>
-					<Badge radius="full" variant="surface">
-						Built with Radix
-					</Badge>
-					<Badge radius="full" variant="outline">
-						Open source
-					</Badge>
-				</Flex>
-
-				<Flex
-					align="center"
-					justify={{ initial: "center", sm: "between" }}
-					gap={{ initial: "4", sm: "0" }}
-				>
-					<IconButton variant="classic">
-						<Flex align="center" justify="center" width="4" height="4">
-							<StarIcon />
-						</Flex>
-					</IconButton>
-					<IconButton variant="solid">
-						<Flex align="center" justify="center" width="4" height="4">
-							<BookmarkIcon />
-						</Flex>
-					</IconButton>
-					<IconButton variant="soft">
-						<Flex align="center" justify="center" width="4" height="4">
-							<AccessibilityIcon />
-						</Flex>
-					</IconButton>
-					<IconButton variant="surface">
-						<Flex align="center" justify="center" width="4" height="4">
-							<HeartIcon />
-						</Flex>
-					</IconButton>
-					<IconButton variant="outline">
-						<Flex align="center" justify="center" width="4" height="4">
-							<Share2Icon />
-						</Flex>
-					</IconButton>
-					<Switch size="1" ml="2" />
-					<Switch size="1" defaultChecked />
-				</Flex>
-
-				<Flex direction="column" gap="4">
-					<Card asChild variant="classic" size="2">
-						<a href="#" onClick={(e) => e.preventDefault()}>
-							<Flex align="center" gap="3">
-								<Avatar
-									size="4"
-									src={getPeopleForColor("gray")[0].image}
-									fallback="V"
-								/>
-								<Box>
-									<Text as="div" weight="medium" size="3">
-										Emily Adams
-									</Text>
-
-									<Text as="div" color="gray" size="2">
-										emily.adams@example.com
-									</Text>
-								</Box>
-							</Flex>
-						</a>
-					</Card>
-
-					<Card asChild variant="surface" size="2">
-						<a href="#" onClick={(e) => e.preventDefault()}>
-							<Flex align="center" gap="3">
-								<Avatar
-									size="4"
-									src={getPeopleForColor("gray")[0].image}
-									fallback="V"
-								/>
-								<Box>
-									<Text as="div" weight="medium" size="3">
-										Emily Adams
-									</Text>
-
-									<Text as="div" color="gray" size="2">
-										emily.adams@example.com
-									</Text>
-								</Box>
-							</Flex>
-						</a>
-					</Card>
-				</Flex>
-			</Flex>
-
-			<Flex gap="6" direction="column" width="100%" maxWidth="400px" mx="auto">
-				<Flex mt="-2" mx="auto">
-					<Tabs.Root defaultValue="colors" activationMode="manual">
-						<Tabs.List size="2">
-							<Tabs.Trigger value="themes">Themes</Tabs.Trigger>
-							<Tabs.Trigger value="primitives">Primitives</Tabs.Trigger>
-							<Tabs.Trigger value="icons">Icons</Tabs.Trigger>
-							<Tabs.Trigger value="colors">Colors</Tabs.Trigger>
-						</Tabs.List>
-					</Tabs.Root>
-				</Flex>
-
-				<Flex gap="4" direction="column" mx="auto">
-					<Flex gap="3">
-						<Avatar
-							radius="full"
-							variant="solid"
-							src={getPeopleForColor("gray")[6].image}
-							fallback="V"
-						/>
-						<Avatar
-							radius="full"
-							variant="solid"
-							src={getPeopleForColor("gray")[2].image}
-							fallback="V"
-						/>
-						<Avatar radius="full" variant="solid" fallback="V" />
-						<Avatar radius="full" variant="solid" fallback="BG" />
-						<Avatar
-							radius="full"
-							variant="solid"
-							fallback={<AvatarIconFallback />}
-						/>
-						<Avatar
-							radius="full"
-							variant="solid"
-							fallback={<AvatarIconFallback />}
-							highContrast
-						/>
-					</Flex>
-
-					<Flex gap="3">
-						<Avatar
-							radius="full"
-							variant="soft"
-							src={getPeopleForColor("gray")[0].image}
-							fallback="V"
-						/>
-						<Avatar
-							radius="full"
-							variant="soft"
-							src={getPeopleForColor("gray")[1].image}
-							fallback="V"
-						/>
-						<Avatar radius="full" variant="soft" fallback="V" />
-						<Avatar radius="full" variant="soft" fallback="BG" />
-						<Avatar
-							radius="full"
-							variant="soft"
-							fallback={<AvatarIconFallback />}
-						/>
-						<Avatar
-							radius="full"
-							variant="soft"
-							fallback={<AvatarIconFallback />}
-							highContrast
-						/>
-					</Flex>
-				</Flex>
-
-				<Separator size="4" />
-
-				<Flex gap="4" direction="column">
-					<Text size="2">
-						<LinksExample />
-					</Text>
-
-					<Text size="2" color="gray">
-						<LinksExample highContrast />
-					</Text>
-				</Flex>
-
-				<Box
-					p="4"
-					style={{
-						borderRadius: "var(--radius-4)",
-						backgroundColor: "var(--gray-a2)",
-					}}
-				>
-					<ToDoList
-						items={state.todo}
-						onItemsChange={(items) => setState({ ...state, todo: items })}
-					/>
-				</Box>
-			</Flex>
-
-			<Flex
-				gap="5"
-				direction="column"
-				gridColumn={{ initial: "1 / -1", lg: "2 / 3" }}
-				gridRow={{ lg: "1" }}
-			>
-				<Flex gap="4" display={{ initial: "none", lg: "flex" }}>
-					<Flex
-						align="center"
-						gap="3"
-						px="2"
-						style={{
-							boxShadow: "inset 0 0 0 1px var(--gray-a6)",
-							borderRadius: "var(--radius-3)",
-						}}
-					>
-						<Tooltip content="Add element">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<PlusIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-
-						<Separator size="1" orientation="vertical" />
-
-						<Tooltip content="Frame">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<FrameIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Rectangle">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<BoxIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Components">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<Component1Icon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Tokens">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<TokensIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-
-						<Separator size="1" orientation="vertical" />
-
-						<Tooltip content="Text">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<TextIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Typography">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<FontFamilyIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Fill with AI">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<LightningBoltIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-
-						<Separator size="1" orientation="vertical" />
-
-						<Tooltip content="Scissors">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<ScissorsIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-						<Tooltip content="Archive">
-							<IconButton variant="ghost" highContrast color="gray">
-								<Flex width="4" height="4" align="center" justify="center">
-									<CrumpledPaperIcon />
-								</Flex>
-							</IconButton>
-						</Tooltip>
-					</Flex>
-
-					<DropdownMenu.Root>
-						<DropdownMenu.Trigger>
-							<Box flexGrow="1" asChild>
-								<Button size="2" variant="surface" color="gray" highContrast>
-									Actions
-									<DropdownMenu.TriggerIcon />
-								</Button>
-							</Box>
-						</DropdownMenu.Trigger>
-						<DropdownMenu.Content>
-							<DropdownMenu.Group>
-								<DropdownMenu.Item shortcut="⌘ C">Copy</DropdownMenu.Item>
-								<DropdownMenu.Item shortcut="⌘ V">Paste</DropdownMenu.Item>
-								<DropdownMenu.Item shortcut="⇧ ⌘ R">
-									Paste to replace
-								</DropdownMenu.Item>
-							</DropdownMenu.Group>
-							<DropdownMenu.Separator />
-							<DropdownMenu.Sub>
-								<DropdownMenu.SubTrigger>Layers</DropdownMenu.SubTrigger>
-								<DropdownMenu.SubContent>
-									<DropdownMenu.Item shortcut="⇧ ⌘ ]">
-										Move to top
-									</DropdownMenu.Item>
-									<DropdownMenu.Item shortcut="⌘ ]">Move up</DropdownMenu.Item>
-									<DropdownMenu.Item shortcut="⌘ [">
-										Move down
-									</DropdownMenu.Item>
-									<DropdownMenu.Item shortcut="⇧ ⌘ [">
-										Move to bottom
-									</DropdownMenu.Item>
-								</DropdownMenu.SubContent>
-							</DropdownMenu.Sub>
-							<DropdownMenu.Sub>
-								<DropdownMenu.SubTrigger>
-									Boolean groups
-								</DropdownMenu.SubTrigger>
-								<DropdownMenu.SubContent>
-									<DropdownMenu.Item>Union</DropdownMenu.Item>
-									<DropdownMenu.Item>Subtract</DropdownMenu.Item>
-									<DropdownMenu.Item>Intersect</DropdownMenu.Item>
-									<DropdownMenu.Separator />
-									<DropdownMenu.Item shortcut="⌘ E">Merge</DropdownMenu.Item>
-								</DropdownMenu.SubContent>
-							</DropdownMenu.Sub>
-						</DropdownMenu.Content>
-					</DropdownMenu.Root>
-				</Flex>
-
-				<Flex direction="column">
-					<Flex
-						direction="column"
-						position="relative"
-						mx={{ initial: "-5", xs: "-6", sm: "0" }}
-						px={{ initial: "6", sm: "8" }}
-						py={{ initial: "6", sm: "7" }}
-					>
-						<Flex
-							align="center"
-							justify="center"
-							position="absolute"
-							inset="0"
-							overflow="hidden"
-							style={{ background: "var(--gray-2)" }}
-						>
-							<ThemesPanelBackgroundImage
-								id="1"
-								style={{ width: "240%", marginLeft: "70%" }}
-							/>
-						</Flex>
-
-						<Box position="relative">
-							<Heading align="center" as="h3" size="6" mb="4">
-								Sign up
-							</Heading>
-
-							<Box maxWidth="400px" mx="auto">
-								<Card size="4">
-									<Flex direction="column" mb="5">
-										<Flex>
-											<Text
-												htmlFor="example-name"
-												as="label"
-												size="2"
-												weight="medium"
-												mb="1"
-												trim="start"
-											>
-												Full name
-											</Text>
-										</Flex>
-										<TextField.Root
-											id="example-name"
-											placeholder="Enter your name"
-										/>
-									</Flex>
-
-									<Flex direction="column" mb="5">
-										<Flex>
-											<Text
-												htmlFor="example-email"
-												as="label"
-												size="2"
-												weight="medium"
-												mb="1"
-											>
-												Email
-											</Text>
-										</Flex>
-										<TextField.Root
-											id="example-email"
-											placeholder="Enter your email address"
-										/>
-									</Flex>
-
-									<Flex direction="column" mb="5">
-										<Flex>
-											<Text
-												htmlFor="example-password"
-												as="label"
-												size="2"
-												weight="medium"
-												mb="1"
-											>
-												Password
-											</Text>
-										</Flex>
-										<TextField.Root
-											id="example-password"
-											placeholder="Enter your password"
-										/>
-									</Flex>
-
-									<Grid
-										mt="5"
-										gap="4"
-										style={
-											{ "--cursor-button": "pointer" } as React.CSSProperties
-										}
-									>
-										<Button>Create account</Button>
-										<Flex align="center" gap="3">
-											<Separator size="4" />
-											<Text color="gray" size="1">
-												OR
-											</Text>
-											<Separator size="4" />
-										</Flex>
-										<Button color="gray" variant="surface" highContrast>
-											<GitHubLogoIcon />
-											Continue with GitHub
-										</Button>
-									</Grid>
-								</Card>
-							</Box>
-						</Box>
-					</Flex>
-				</Flex>
-			</Flex>
-		</Grid>
-	);
-};
 
 interface ToDoItem {
 	id: string;
