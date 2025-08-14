@@ -25,6 +25,7 @@ import { ArrowRightIcon, GridIcon } from "@radix-ui/react-icons";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { CodeBlock } from "@components/CodeBlock";
 import { DecorativeBox } from "@components/ThemesDocsAssets";
+import { WaitlistSection } from "@components/seekgpt/WaitlistSection";
 
 export default function ThemesHome() {
 	const { resolvedTheme } = useTheme();
@@ -57,7 +58,7 @@ export default function ThemesHome() {
 							</ThemesHeroLayout.Main>
 
 							<ThemesHeroLayout.Main >
-								<SecondMainContent />
+								<WaitlistSection />
 							</ThemesHeroLayout.Main>
 							
 							
@@ -344,6 +345,7 @@ const MainContent = () => (
 		</Section>
 	</Box>
 );
+
 
 const SecondMainContent = () => (
 	<Box>
