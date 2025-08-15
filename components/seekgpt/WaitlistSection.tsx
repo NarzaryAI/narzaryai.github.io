@@ -20,7 +20,7 @@ export const WaitlistSection = () => {
 							Let us Grow Together. Join the waitlist to be the first to know when SeekGPT is available.
 						</Text>
 					</Box>
-					<NextLink href="https://seekgpt.bharatai.net" passHref legacyBehavior>
+					<NextLink href="https://waitlist.seekgpt.org" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
