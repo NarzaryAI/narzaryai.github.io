@@ -101,11 +101,20 @@ function Pages({ Component, pageProps }: AppProps) {
 			</Theme>
 		);
 	}
-
+	if (router.pathname.startsWith("/developer/docs")) {
+		return (
+			<Theme accentColor="teal" className="radix-themes-custom-fonts">
+				<DeveloperDocsPage>
+					<Favicon />
+					<Component {...pageProps} />
+				</DeveloperDocsPage>
+			</Theme>
+		);
+	}
 	if (router.pathname.startsWith("/developer")) {
 		return (
 			<Theme
-				accentColor="teal"
+				accentColor="indigo"
 				grayColor="slate"
 				className="radix-themes-custom-fonts"
 			>
@@ -114,16 +123,7 @@ function Pages({ Component, pageProps }: AppProps) {
 			</Theme>
 		);
 	}
-	if (router.pathname.startsWith("/developer/docs")) {
-		return (
-			<Theme accentColor="indigo" className="radix-themes-custom-fonts">
-				<DeveloperDocsPage>
-					<Favicon />
-					<Component {...pageProps} />
-				</DeveloperDocsPage>
-			</Theme>
-		);
-	}
+	
 
 	if (router.pathname.startsWith("/blog")) {
 		return (
