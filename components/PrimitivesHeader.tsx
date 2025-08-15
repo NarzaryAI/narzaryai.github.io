@@ -18,8 +18,8 @@ export const PrimitivesHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/primitives/case-studies"
-				highContrast={router.pathname.includes("/primitives/case-studies")}
+				href="/products/case-studies"
+				highContrast={router.pathname.includes("/products/case-studies")}
 			>
 				Case studies
 			</Link>

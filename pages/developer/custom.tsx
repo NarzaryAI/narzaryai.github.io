@@ -1,7 +1,7 @@
 import Color from "colorjs.io";
 import NextLink from "next/link";
-import { ColorsHeader } from "@components/ColorsHeader";
-import { ColorsMobileMenu } from "@components/ColorsMobileMenu";
+import { DeveloperHeader } from "@components/DeveloperHeader";
+import { DeveloperMobileMenu } from "@components/DeveloperMobileMenu";
 import { MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import {
@@ -211,8 +211,8 @@ export default function Page() {
 					}}
 				/>
 
-				<ColorsHeader ghost />
-				<ColorsMobileMenu />
+				<DeveloperHeader ghost />
+				<DeveloperMobileMenu />
 
 				<TitleAndMetaTags
 					title="SeekGPT by NarzaryAI Team Members"
@@ -228,14 +228,14 @@ export default function Page() {
 						<Flex direction="column" align="center" mb="7">
 							<Flex asChild align="center" gap="1" mb="3">
 								<Link asChild size="2" color="gray" ml="-2">
-									<NextLink href="/colors">
+									<NextLink href="/developer">
 										<ArrowLeftIcon />
-										About Company
+										Developer
 									</NextLink>
 								</Link>
 							</Flex>
 							<Heading as="h1" align="center" size="8">
-								Team Members
+								Support Teams
 							</Heading>
 
 							<SegmentedControl.Root

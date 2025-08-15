@@ -2,7 +2,7 @@ import { Link } from "@radix-ui/themes";
 import { Header, HeaderProps } from "./Header";
 import { useRouter } from "next/router";
 
-export const ColorsHeader = (props: HeaderProps) => {
+export const DeveloperHeader = (props: HeaderProps) => {
 	const router = useRouter();
 
 	return (
@@ -10,8 +10,8 @@ export const ColorsHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/company/docs"
-				highContrast={router.pathname.includes("/company/docs")}
+				href="/developer/docs"
+				highContrast={router.pathname.includes("/developer/docs")}
 			>
 				Documentation
 			</Link>

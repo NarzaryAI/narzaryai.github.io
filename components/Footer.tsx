@@ -89,7 +89,7 @@ export const Footer = () => {
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/icons" passHref legacyBehavior>
-									<Link color="gray">Mobile Apps</Link>
+									<Link color="gray">Pricing</Link>
 								</NextLink>
 							</Text>
 						</li>

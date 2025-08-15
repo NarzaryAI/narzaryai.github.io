@@ -5,6 +5,7 @@ import { Theme } from "@radix-ui/themes";
 import { ThemeProvider } from "@components/ThemeProvider";
 import { PrimitivesDocsPage } from "@components/PrimitivesDocsPage";
 import { ColorsDocsPage } from "@components/ColorsDocsPage";
+import { DeveloperDocsPage } from "@components/DeveloperDocsPage";
 import { handleUrlChange } from "@utils/analytics";
 import { CssLibPreferenceProvider } from "@components/CssLibPreference";
 import { ThemesDocsPage } from "@components/ThemesDocsPage";
@@ -116,10 +117,10 @@ function Pages({ Component, pageProps }: AppProps) {
 	if (router.pathname.startsWith("/developer/docs")) {
 		return (
 			<Theme accentColor="indigo" className="radix-themes-custom-fonts">
-				<ThemesDocsPage>
+				<DeveloperDocsPage>
 					<Favicon />
 					<Component {...pageProps} />
-				</ThemesDocsPage>
+				</DeveloperDocsPage>
 			</Theme>
 		);
 	}
