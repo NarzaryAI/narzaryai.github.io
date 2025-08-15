@@ -8,13 +8,13 @@ import { MobileMenuProvider } from "./MobileMenu";
 import { SideNav } from "./SideNav";
 import { DocsPageWrapper } from "./DocsPageWrapper";
 import { EditPageLink } from "./EditPageLink";
-import { ColorsMobileMenu } from "./ColorsMobileMenu";
+import { DeveloperMobileMenu } from "./DeveloperMobileMenu";
 
 export function DeveloperDocsPage({ children }: { children: React.ReactNode }) {
 	return (
 		<MobileMenuProvider>
 			<ColorsHeader />
-			<ColorsMobileMenu />
+			<DeveloperMobileMenu />
 
 			<Flex>
 				<SideNav>

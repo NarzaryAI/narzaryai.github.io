@@ -22,7 +22,7 @@ export default function ColorsGettingStartedDoc({ frontmatter, code }: Doc) {
 	return (
 		<>
 			<TitleAndMetaTags
-				title={`${frontmatter.metaTitle} – SeekGPT Developer`}
+				title={`${frontmatter.metaTitle} – Radix Colors`}
 				description={frontmatter.metaDescription}
 				image="seekgpt.png"
 			/>
