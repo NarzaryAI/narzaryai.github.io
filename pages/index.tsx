@@ -34,7 +34,7 @@ export default function ThemesHome() {
 	return (
 		<MobileMenuProvider>
 			<TitleAndMetaTags
-				title="SeekGPT | NarzaryAI"
+				title="SeekGPT by NarzaryAI"
 				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model."
 				image="seekgpt.png"
 			/>
@@ -291,7 +291,7 @@ const MainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="/research/docs/overview/getting-started"
+						href="/developer"
 						passHref
 						legacyBehavior
 					>

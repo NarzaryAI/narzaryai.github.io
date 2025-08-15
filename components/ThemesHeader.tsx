@@ -7,14 +7,7 @@ export const ThemesHeader = (props: HeaderProps) => {
 
 	return (
 		<Header gitHubLink="https://github.com/radix-ui/themes" {...props}>
-			<Link
-				size="2"
-				color="gray"
-				href="/research/docs/overview/getting-started"
-				highContrast={router.pathname.includes("/research/docs")}
-			>
-				Documentation
-			</Link>
+			
 			<Link
 				size="2"
 				color="gray"

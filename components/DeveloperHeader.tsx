@@ -7,14 +7,7 @@ export const DeveloperHeader = (props: HeaderProps) => {
 
 	return (
 		<Header gitHubLink="https://github.com/seekgpt" {...props}>
-			<Link
-				size="2"
-				color="gray"
-				href="/developer/docs"
-				highContrast={router.pathname.includes("/developer/docs")}
-			>
-				Documentation
-			</Link>
+			
 			<Link
 				size="2"
 				color="gray"

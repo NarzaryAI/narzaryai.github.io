@@ -55,34 +55,34 @@ export const Footer = () => {
 				</Flex>
 				<Box>
 					<Heading as="h6" size="3">
-						Products
+						Highlights
 					</Heading>
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/" passHref legacyBehavior>
-									<Link color="gray">Models</Link>
+									<Link color="gray">SeekGPT</Link>
+								</NextLink>
+							</Text>
+						</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/research" passHref legacyBehavior>
+									<Link color="gray">Research and Developments</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/products" passHref legacyBehavior>
-									<Link color="gray">Transformers Lab</Link>
+									<Link color="gray">Products and Models</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/company" passHref legacyBehavior>
-									<Link color="gray">AI Agents</Link>
-								</NextLink>
-							</Text>
-						</li>
-						<li>
-							<Text as="p" size="2" mt="3">
-								<NextLink href="https://chat.seekgpt.org" passHref legacyBehavior>
-									<Link color="gray">Web based Chat</Link>
+								<NextLink href="/developer" passHref legacyBehavior>
+									<Link color="gray">Developer Docs</Link>
 								</NextLink>
 							</Text>
 						</li>
@@ -90,6 +90,13 @@ export const Footer = () => {
 							<Text as="p" size="2" mt="3">
 								<NextLink href="/icons" passHref legacyBehavior>
 									<Link color="gray">Pricing</Link>
+								</NextLink>
+							</Text>
+						</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/company" passHref legacyBehavior>
+									<Link color="gray">Company</Link>
 								</NextLink>
 							</Text>
 						</li>

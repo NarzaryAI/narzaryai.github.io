@@ -115,9 +115,8 @@ export const Header = ({ children, gitHubLink, ghost }: HeaderProps) => {
 
 						<div className={styles.HeaderProductLinksContainer}>
 							<HeaderProductLink
-								href="/"
+								href="/research/docs/overview/getting-started"
 								active={
-									router.pathname === "/" ||
 									router.pathname.startsWith("/research") 
 								}
 							>

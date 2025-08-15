@@ -7,14 +7,7 @@ export const ColorsHeader = (props: HeaderProps) => {
 
 	return (
 		<Header gitHubLink="https://github.com/seekgpt" {...props}>
-			<Link
-				size="2"
-				color="gray"
-				href="/company/docs"
-				highContrast={router.pathname.includes("/company/docs")}
-			>
-				Documentation
-			</Link>
+			
 			<Link
 				size="2"
 				color="gray"
