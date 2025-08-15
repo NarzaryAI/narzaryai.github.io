@@ -114,7 +114,7 @@ function Pages({ Component, pageProps }: AppProps) {
 	if (router.pathname.startsWith("/developer")) {
 		return (
 			<Theme
-				accentColor="indigo"
+				accentColor="teal"
 				grayColor="slate"
 				className="radix-themes-custom-fonts"
 			>
