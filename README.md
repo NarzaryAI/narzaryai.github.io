@@ -1,4 +1,4 @@
-<a href="https://radix-ui.com" >
+<a href="https://seekgpt.org" >
   <img alt="Radix UI hero image" src="https://repository-images.githubusercontent.com/316012819/b7b19180-3f85-11eb-884c-1e19ce2f493a">
 </a>
 
@@ -12,7 +12,7 @@ Components, colors, icons, templates, and an extensive design system. Free and o
 
 ## Documentation
 
-For full documentation, visit [radix-ui.com](https://radix-ui.com).
+For full documentation, visit [seekgpt.org](https://seekgpt.org).
 
 ## Contributing
 

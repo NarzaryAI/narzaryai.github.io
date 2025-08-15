@@ -16,7 +16,7 @@ import "./syntax-highlighting.css";
 function Pages({ Component, pageProps }: AppProps) {
 	const router = useRouter();
 
-	if (router.pathname.startsWith("/primitives/docs")) {
+	if (router.pathname.startsWith("/products/docs")) {
 		return (
 			<Theme
 				accentColor="blue"
@@ -31,7 +31,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/primitives")) {
+	if (router.pathname.startsWith("/products")) {
 		return (
 			<Theme
 				accentColor="blue"
@@ -44,7 +44,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/colors/docs")) {
+	if (router.pathname.startsWith("/company/docs")) {
 		return (
 			<Theme
 				accentColor="pink"
@@ -59,7 +59,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/colors")) {
+	if (router.pathname.startsWith("/company")) {
 		return (
 			<Theme
 				accentColor="pink"
@@ -72,7 +72,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/themes/docs")) {
+	if (router.pathname.startsWith("/research/docs")) {
 		return (
 			<Theme accentColor="indigo" className="radix-themes-custom-fonts">
 				<ThemesDocsPage>
@@ -83,7 +83,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/themes/playground")) {
+	if (router.pathname.startsWith("/research/playground")) {
 		return (
 			<Theme accentColor="indigo">
 				<Favicon />
@@ -92,7 +92,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/themes")) {
+	if (router.pathname.startsWith("/research")) {
 		return (
 			<Theme accentColor="indigo" className="radix-themes-custom-fonts">
 				<Favicon />
@@ -101,7 +101,7 @@ function Pages({ Component, pageProps }: AppProps) {
 		);
 	}
 
-	if (router.pathname.startsWith("/icons")) {
+	if (router.pathname.startsWith("/developer")) {
 		return (
 			<Theme
 				accentColor="teal"
@@ -110,6 +110,16 @@ function Pages({ Component, pageProps }: AppProps) {
 			>
 				<Favicon />
 				<Component {...pageProps} />
+			</Theme>
+		);
+	}
+	if (router.pathname.startsWith("/developer/docs")) {
+		return (
+			<Theme accentColor="indigo" className="radix-themes-custom-fonts">
+				<ThemesDocsPage>
+					<Favicon />
+					<Component {...pageProps} />
+				</ThemesDocsPage>
 			</Theme>
 		);
 	}

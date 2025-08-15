@@ -29,11 +29,11 @@ export const PrimitivesMobileMenu = () => {
 									pages: [
 										{
 											title: "Homepage",
-											slug: "primitives",
+											slug: "products",
 										},
 										{
 											title: "Case studies",
-											slug: "primitives/case-studies",
+											slug: "products/case-studies",
 										},
 										{
 											title: "Blog",
@@ -47,7 +47,7 @@ export const PrimitivesMobileMenu = () => {
 									pages: [
 										{
 											title: "GitHub",
-											slug: "https://github.com/radix-ui/primitives",
+											slug: "https://github.com/seekgpt",
 											icon: <GitHubLogoIcon />,
 										},
 									],

@@ -10,16 +10,16 @@ export const ThemesHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/themes/docs/overview/getting-started"
-				highContrast={router.pathname.includes("/themes/docs")}
+				href="/research/docs/overview/getting-started"
+				highContrast={router.pathname.includes("/research/docs")}
 			>
 				Documentation
 			</Link>
 			<Link
 				size="2"
 				color="gray"
-				href="/themes/playground"
-				highContrast={router.pathname.includes("/themes/playground")}
+				href="/research/playground"
+				highContrast={router.pathname.includes("/research/playground")}
 			>
 				Playground
 			</Link>

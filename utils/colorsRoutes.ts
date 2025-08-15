@@ -4,27 +4,27 @@ export const colorsRoutes = [
 		pages: [
 			{
 				title: "Installation",
-				slug: "colors/docs/overview/installation",
+				slug: "company/docs/overview/installation",
 				draft: false,
 			},
 			{
 				title: "Usage",
-				slug: "colors/docs/overview/usage",
+				slug: "company/docs/overview/usage",
 				draft: false,
 			},
 			{
 				title: "Aliasing",
-				slug: "colors/docs/overview/aliasing",
+				slug: "company/docs/overview/aliasing",
 				draft: false,
 			},
 			{
 				title: "Custom palettes",
-				slug: "colors/docs/overview/custom-palettes",
+				slug: "company/docs/overview/custom-palettes",
 				draft: false,
 			},
 			{
 				title: "Releases",
-				slug: "colors/docs/overview/releases",
+				slug: "company/docs/overview/releases",
 				draft: false,
 			},
 		],
@@ -35,17 +35,17 @@ export const colorsRoutes = [
 		pages: [
 			{
 				title: "Scales",
-				slug: "colors/docs/palette-composition/scales",
+				slug: "company/docs/palette-composition/scales",
 				draft: false,
 			},
 			{
 				title: "Composing a palette",
-				slug: "colors/docs/palette-composition/composing-a-palette",
+				slug: "company/docs/palette-composition/composing-a-palette",
 				draft: false,
 			},
 			{
 				title: "Understanding the scale",
-				slug: "colors/docs/palette-composition/understanding-the-scale",
+				slug: "company/docs/palette-composition/understanding-the-scale",
 				draft: false,
 			},
 		],

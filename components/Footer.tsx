@@ -17,7 +17,7 @@ import styles from "./Footer.module.css";
 
 export const Footer = () => {
 	const router = useRouter();
-	const isColors = router.pathname.includes("/colors");
+	const isColors = router.pathname.includes("/company");
 
 	return (
 		<Grid asChild pb="9" gapX="7" gapY="3" className={styles.Footer}>
@@ -67,14 +67,14 @@ export const Footer = () => {
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/primitives" passHref legacyBehavior>
+								<NextLink href="/products" passHref legacyBehavior>
 									<Link color="gray">Transformers Lab</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/colors" passHref legacyBehavior>
+								<NextLink href="/company" passHref legacyBehavior>
 									<Link color="gray">AI Agents</Link>
 								</NextLink>
 							</Text>
@@ -104,7 +104,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/primitives/docs/overview/introduction"
+										href="/products/docs/overview/introduction"
 										passHref
 										legacyBehavior
 									>
@@ -115,7 +115,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/primitives/docs/guides/styling"
+										href="/products/docs/guides/styling"
 										passHref
 										legacyBehavior
 									>
@@ -126,7 +126,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/primitives/docs/overview/accessibility"
+										href="/products/docs/overview/accessibility"
 										passHref
 										legacyBehavior
 									>
@@ -137,7 +137,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/primitives/docs/overview/releases"
+										href="/products/docs/overview/releases"
 										passHref
 										legacyBehavior
 									>
@@ -157,7 +157,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/colors/docs/overview/installation"
+										href="/company/docs/overview/installation"
 										passHref
 										legacyBehavior
 									>
@@ -168,7 +168,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/colors/docs/palette-composition/scales"
+										href="/company/docs/palette-composition/scales"
 										passHref
 										legacyBehavior
 									>
@@ -179,7 +179,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/colors/docs/palette-composition/composing-a-palette"
+										href="/company/docs/palette-composition/composing-a-palette"
 										passHref
 										legacyBehavior
 									>
@@ -190,7 +190,7 @@ export const Footer = () => {
 							<li>
 								<Text as="p" size="2" mt="3">
 									<NextLink
-										href="/colors/docs/palette-composition/understanding-the-scale"
+										href="/company/docs/palette-composition/understanding-the-scale"
 										passHref
 										legacyBehavior
 									>

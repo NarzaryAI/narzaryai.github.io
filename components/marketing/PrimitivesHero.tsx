@@ -301,7 +301,7 @@ export const PrimitivesHero = () => {
 							high-quality web apps and design systems.
 						</Text>
 					</Box>
-					<NextLink href="/primitives/docs/overview/introduction" passHref legacyBehavior>
+					<NextLink href="/products/docs/overview/introduction" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -591,7 +591,7 @@ export const PrimitivesHero = () => {
 														See more components in the docs
 													</Text>
 													<NextLink
-														href="/primitives/docs/overview/getting-started"
+														href="/products/docs/overview/getting-started"
 														passHref
 														legacyBehavior
 													>

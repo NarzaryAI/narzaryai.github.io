@@ -131,21 +131,21 @@ const uniqueDescriptions: UniqueDescriptions = {
 			<>
 				The color scheme of the theme (typcially referred to as light and dark
 				mode). See the{" "}
-				<Link href="/themes/docs/theme/dark-mode">dark mode guide</Link> for
+				<Link href="/research/docs/theme/dark-mode">dark mode guide</Link> for
 				more details.
 			</>
 		),
 		accentColor: (
 			<>
 				The dominant color of the theme, see the{" "}
-				<Link href="/themes/docs/theme/color">color guide</Link> for more
+				<Link href="/research/docs/theme/color">color guide</Link> for more
 				details.
 			</>
 		),
 		grayColor: (
 			<>
 				The grayscale of the theme, see the{" "}
-				<Link href="/themes/docs/theme/color">color guide</Link> for more
+				<Link href="/research/docs/theme/color">color guide</Link> for more
 				details.
 			</>
 		),
@@ -154,7 +154,7 @@ const uniqueDescriptions: UniqueDescriptions = {
 		scaling: (
 			<>
 				The linear scaling applied to the theme. See the{" "}
-				<Link href="/themes/docs/theme/spacing#scaling">scaling guide</Link> for
+				<Link href="/research/docs/theme/spacing#scaling">scaling guide</Link> for
 				more details.
 			</>
 		),
@@ -168,21 +168,21 @@ const commonDescriptions: CommonDescriptions = {
 	variant: (
 		<>
 			The visual variant to apply, see{" "}
-			<Link href="/themes/docs/theme/overview#variants">theme overview</Link>{" "}
+			<Link href="/research/docs/theme/overview#variants">theme overview</Link>{" "}
 			for more details.
 		</>
 	),
 	color: (
 		<>
 			Overrides the accent color inherited from the Theme. See the{" "}
-			<Link href="/themes/docs/theme/color">color guide</Link> for more details.
+			<Link href="/research/docs/theme/color">color guide</Link> for more details.
 		</>
 	),
 	highContrast: "Uses a higher contrast color for the component.",
 	radius: (
 		<>
 			Overrides the radius inherited from the theme. See the{" "}
-			<Link href="/themes/docs/theme/radius">radius guide</Link> for more
+			<Link href="/research/docs/theme/radius">radius guide</Link> for more
 			details.
 		</>
 	),
@@ -201,7 +201,7 @@ const commonDescriptions: CommonDescriptions = {
 			<br />
 			<br />
 			Read our{" "}
-			<Link href="/primitives/docs/guides/composition">Composition</Link> guide
+			<Link href="/products/docs/guides/composition">Composition</Link> guide
 			for more details.
 		</>
 	),

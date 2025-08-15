@@ -29,7 +29,7 @@ const NavigationMenuDemo = () => {
 											<path d="M17 8C19.2091 8 21 6.20914 21 4C21 1.79086 19.2091 0 17 0C14.7909 0 13 1.79086 13 4C13 6.20914 14.7909 8 17 8Z"></path>
 										</svg>
 										<div className={styles.CalloutHeading}>
-											Radix Primitives
+											SeekGPT Primitives
 										</div>
 										<p className={styles.CalloutText}>
 											Unstyled, accessible components for React.
@@ -41,7 +41,7 @@ const NavigationMenuDemo = () => {
 							<ListItem href="https://stitches.dev/" title="Stitches">
 								CSS-in-JS with best-in-class developer experience.
 							</ListItem>
-							<ListItem href="/colors" title="Colors">
+							<ListItem href="/company" title="Company">
 								Beautiful, thought-out palettes with auto dark mode.
 							</ListItem>
 							<ListItem href="https://icons.radix-ui.com/" title="Icons">
@@ -59,35 +59,35 @@ const NavigationMenuDemo = () => {
 						<ul className={`${styles.List} two`}>
 							<ListItem
 								title="Introduction"
-								href="/primitives/docs/overview/introduction"
+								href="/products/docs/overview/introduction"
 							>
 								Build high-quality, accessible design systems and web apps.
 							</ListItem>
 							<ListItem
 								title="Getting started"
-								href="/primitives/docs/overview/getting-started"
+								href="/products/docs/overview/getting-started"
 							>
 								A quick tutorial to get you up and running with Radix
 								Primitives.
 							</ListItem>
-							<ListItem title="Styling" href="/primitives/docs/guides/styling">
+							<ListItem title="Styling" href="/products/docs/guides/styling">
 								Unstyled and compatible with any styling solution.
 							</ListItem>
 							<ListItem
 								title="Animation"
-								href="/primitives/docs/guides/animation"
+								href="/products/docs/guides/animation"
 							>
 								Use CSS keyframes or any animation library of your choice.
 							</ListItem>
 							<ListItem
 								title="Accessibility"
-								href="/primitives/docs/overview/accessibility"
+								href="/products/docs/overview/accessibility"
 							>
 								Tested in a range of browsers and assistive technologies.
 							</ListItem>
 							<ListItem
 								title="Releases"
-								href="/primitives/docs/overview/releases"
+								href="/products/docs/overview/releases"
 							>
 								Radix Primitives releases and their changelogs.
 							</ListItem>
@@ -98,7 +98,7 @@ const NavigationMenuDemo = () => {
 				<NavigationMenu.Item>
 					<NavigationMenu.Link
 						className={styles.Link}
-						href="https://github.com/radix-ui"
+						href="https://github.com/seekgpt"
 					>
 						Github
 					</NavigationMenu.Link>

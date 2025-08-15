@@ -28,7 +28,7 @@ export const BlogMobileMenu = () => (
 							pages: [
 								{
 									title: "GitHub",
-									slug: "https://github.com/radix-ui/themes",
+									slug: "https://github.com/seekgpt/research",
 									icon: <GitHubLogoIcon />,
 								},
 							],

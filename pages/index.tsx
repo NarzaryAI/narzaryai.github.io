@@ -57,9 +57,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Main >
+							<ThemesHeroLayout.Showcase >
 								<WaitlistSection />
-							</ThemesHeroLayout.Main>
+							</ThemesHeroLayout.Showcase>
 							
 							
 						</ThemesHeroLayout.Root>
@@ -291,7 +291,7 @@ const MainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="/themes/docs/overview/getting-started"
+						href="/research/docs/overview/getting-started"
 						passHref
 						legacyBehavior
 					>
@@ -317,7 +317,7 @@ const MainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="/themes/playground" passHref legacyBehavior>
+					<NextLink href="/research/playground" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}

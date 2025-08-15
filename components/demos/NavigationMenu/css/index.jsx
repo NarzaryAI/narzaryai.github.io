@@ -39,10 +39,10 @@ const NavigationMenuDemo = () => {
 							<ListItem href="https://stitches.dev/" title="Stitches">
 								CSS-in-JS with best-in-class developer experience.
 							</ListItem>
-							<ListItem href="/colors" title="Colors">
+							<ListItem href="/company" title="About Company">
 								Beautiful, thought-out palettes with auto dark mode.
 							</ListItem>
-							<ListItem href="https://icons.radix-ui.com/" title="Icons">
+							<ListItem href="https://icons.seekgpt.org/" title="Icons">
 								A crisp set of 15x15 icons, balanced and consistent.
 							</ListItem>
 						</ul>
@@ -57,35 +57,35 @@ const NavigationMenuDemo = () => {
 						<ul className="List two">
 							<ListItem
 								title="Introduction"
-								href="/primitives/docs/overview/introduction"
+								href="/products/docs/overview/introduction"
 							>
 								Build high-quality, accessible design systems and web apps.
 							</ListItem>
 							<ListItem
 								title="Getting started"
-								href="/primitives/docs/overview/getting-started"
+								href="/products/docs/overview/getting-started"
 							>
 								A quick tutorial to get you up and running with Radix
 								Primitives.
 							</ListItem>
-							<ListItem title="Styling" href="/primitives/docs/guides/styling">
+							<ListItem title="Styling" href="/products/docs/guides/styling">
 								Unstyled and compatible with any styling solution.
 							</ListItem>
 							<ListItem
 								title="Animation"
-								href="/primitives/docs/guides/animation"
+								href="/products/docs/guides/animation"
 							>
 								Use CSS keyframes or any animation library of your choice.
 							</ListItem>
 							<ListItem
 								title="Accessibility"
-								href="/primitives/docs/overview/accessibility"
+								href="/products/docs/overview/accessibility"
 							>
 								Tested in a range of browsers and assistive technologies.
 							</ListItem>
 							<ListItem
 								title="Releases"
-								href="/primitives/docs/overview/releases"
+								href="/products/docs/overview/releases"
 							>
 								Radix Primitives releases and their changelogs.
 							</ListItem>

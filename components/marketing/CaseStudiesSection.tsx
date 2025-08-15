@@ -33,7 +33,7 @@ export const CaseStudiesSection = () => {
 					<NextLink
 						passHref
 						legacyBehavior
-						href="/primitives/case-studies/nodejs"
+						href="/products/case-studies/nodejs"
 					>
 						<Card asChild size="3">
 							<a>
@@ -68,7 +68,7 @@ export const CaseStudiesSection = () => {
 					<NextLink
 						passHref
 						legacyBehavior
-						href="/primitives/case-studies/vercel"
+						href="/products/case-studies/vercel"
 					>
 						<Card asChild size="3">
 							<a>
@@ -100,7 +100,7 @@ export const CaseStudiesSection = () => {
 					</NextLink>
 				</Grid>
 
-				<NextLink href="/primitives/case-studies" passHref legacyBehavior>
+				<NextLink href="/products/case-studies" passHref legacyBehavior>
 					<Link
 						size="2"
 						color="gray"
@@ -133,7 +133,7 @@ export const CaseStudiesSection = () => {
 						gap="6"
 					>
 						<NextLink
-							href="/primitives/case-studies/basedash"
+							href="/products/case-studies/basedash"
 							passHref
 							legacyBehavior
 						>
@@ -145,7 +145,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/basement-studio"
+							href="/products/case-studies/basement-studio"
 							passHref
 							legacyBehavior
 						>
@@ -157,7 +157,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/codesandbox"
+							href="/products/case-studies/codesandbox"
 							passHref
 							legacyBehavior
 						>
@@ -169,7 +169,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/linear"
+							href="/products/case-studies/linear"
 							passHref
 							legacyBehavior
 						>
@@ -181,7 +181,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/liveblocks"
+							href="/products/case-studies/liveblocks"
 							passHref
 							legacyBehavior
 						>
@@ -193,7 +193,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/supabase"
+							href="/products/case-studies/supabase"
 							passHref
 							legacyBehavior
 						>
@@ -205,7 +205,7 @@ export const CaseStudiesSection = () => {
 						</NextLink>
 
 						<NextLink
-							href="/primitives/case-studies/university-of-amsterdam"
+							href="/products/case-studies/university-of-amsterdam"
 							passHref
 							legacyBehavior
 						>

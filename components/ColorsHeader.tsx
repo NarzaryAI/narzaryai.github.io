@@ -6,20 +6,20 @@ export const ColorsHeader = (props: HeaderProps) => {
 	const router = useRouter();
 
 	return (
-		<Header gitHubLink="https://github.com/radix-ui/colors" {...props}>
+		<Header gitHubLink="https://github.com/seekgpt" {...props}>
 			<Link
 				size="2"
 				color="gray"
-				href="/colors/docs"
-				highContrast={router.pathname.includes("/colors/docs")}
+				href="/company/docs"
+				highContrast={router.pathname.includes("/company/docs")}
 			>
 				Documentation
 			</Link>
 			<Link
 				size="2"
 				color="gray"
-				href="/colors/custom"
-				highContrast={router.pathname.includes("/colors/custom")}
+				href="/company/custom"
+				highContrast={router.pathname.includes("/company/custom")}
 			>
 				Custom palette
 			</Link>

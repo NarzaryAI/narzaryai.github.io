@@ -33,7 +33,7 @@ export const NarzaryAILogo = () => (
 				width: 1,
 				height: 24,
 			}}
-		/>
+		></div>
 
 		<BoxLink href="https://narzary.com" target="_blank">
 			<AccessibleIcon label="Made by NarzaryAI">
