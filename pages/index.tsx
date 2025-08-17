@@ -501,8 +501,8 @@ const codeExample = `
 from seekgpt import SeekGPT
 client = SeekGPT(
     api_base="https://api.seekgpt.org/v1",
-    api_key="your-api-key",
-    default_model="deepseek-chat" 
+    api_key="nsk_7302d0fc2623cd5c4dbbb29ed54a4f03", # Working demo key
+    default_model="seekgpt-mini", # The model available on the compatible host
 )
 response = client.chat(
     messages=[{"role": "user", "content": "Hello OpenAI!"}]
