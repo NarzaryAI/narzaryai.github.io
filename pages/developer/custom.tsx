@@ -340,7 +340,7 @@ export default function Page() {
 
 							{peopleData.map((person, i) => (
 								<CustomSwatch
-									key={person.id}
+									key={person.id.toString()}
 									scale="gray"
 									step={person.id.toString()}
 									cssVariable={`var(--gray-${i + 1})`}
@@ -356,7 +356,7 @@ export default function Page() {
 
 							{peopleData.map((person, i) => (
 								<CustomSwatch
-									key={person.id}
+									key={person.id.toString()}
 									scale="gray"
 									step={person.id.toString()}
 									cssVariable={`var(--gray-${i + 1})`}
