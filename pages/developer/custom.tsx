@@ -342,7 +342,7 @@ export default function Page() {
 								<CustomSwatch
 									key={person.id}
 									scale="gray"
-									step={(i + 1).toString()}
+									step={person.id.toString()}
 									cssVariable={`var(--gray-${i + 1})`}
 									hex={result.grayScale[i]?.toUpperCase()}
 									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
@@ -358,7 +358,7 @@ export default function Page() {
 								<CustomSwatch
 									key={person.id}
 									scale="gray"
-									step={(i + 1).toString()}
+									step={person.id.toString()}
 									cssVariable={`var(--gray-${i + 1})`}
 									hex={result.grayScale[i]?.toUpperCase()}
 									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
