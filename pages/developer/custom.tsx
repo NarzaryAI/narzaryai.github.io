@@ -338,29 +338,35 @@ export default function Page() {
 								12
 							</ColorStepLabel>
 
-							{Array.from({ length: 12 }, (_, i) => i + 1).map((step, i) => (
+							{peopleData.map((person, i) => (
 								<CustomSwatch
-									key={step}
-									scale={accent === "custom" ? "accent" : accent}
-									step={step.toString()}
-									cssVariable={`var(--${accent}-${step})`}
-									hex={result.accentScale[i].toUpperCase()}
-									hexA={result.accentScaleAlpha[i].toUpperCase()}
-									p3={result.accentScaleWideGamut[i]}
-									p3A={result.accentScaleAlphaWideGamut[i]}
+									key={person.id}
+									scale="gray"
+									step={(i + 1).toString()}
+									cssVariable={`var(--gray-${i + 1})`}
+									hex={result.grayScale[i]?.toUpperCase()}
+									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
+									p3={result.grayScaleWideGamut[i]}
+									p3A={result.grayScaleAlphaWideGamut[i]}
+									avatar={person.avatar}
+									name={person.name}
+									role={person.role}
 								/>
 							))}
 
-							{Array.from({ length: 12 }, (_, i) => i + 1).map((step, i) => (
+							{peopleData.map((person, i) => (
 								<CustomSwatch
-									key={step}
+									key={person.id}
 									scale="gray"
-									step={step.toString()}
-									cssVariable={`var(--gray-${step})`}
-									hex={result.grayScale[i].toUpperCase()}
-									hexA={result.grayScaleAlpha[i].toUpperCase()}
+									step={(i + 1).toString()}
+									cssVariable={`var(--gray-${i + 1})`}
+									hex={result.grayScale[i]?.toUpperCase()}
+									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
 									p3={result.grayScaleWideGamut[i]}
 									p3A={result.grayScaleAlphaWideGamut[i]}
+									avatar={person.avatar}
+									name={person.name}
+									role={person.role}
 								/>
 							))}
 						</Grid>
@@ -389,6 +395,20 @@ interface ToDoList {
 	onItemsChange: (items: ToDoItem[]) => void;
 }
 
+const peopleData = [
+	{ id: 1, name: "Sanjib Narzary", role: "Research and Development", avatar: "https://www.cit.ac.in/uploads/users/images/1755229478.jpg" },
+	{ id: 2, name: "Rahul Singh", role: "Research and Development", avatar: "/avatars/rahul.png" },
+	{ id: 3, name: "Priya Das", role: "Engineering and Technology", avatar: "/avatars/priya.png" },
+	{ id: 4, name: "Amitabh Roy", role: "Engineering and Technology", avatar: "/avatars/amitabh.png" },
+	{ id: 5, name: "Sneha Patil", role: "Students and Pioneers", avatar: "/avatars/sneha.png" },
+	{ id: 6, name: "Vikram Joshi", role: "Students and Pioneers", avatar: "/avatars/vikram.png" },
+	{ id: 7, name: "Rituparna Barman", role: "Management", avatar: "/avatars/rituparna.png" },
+	{ id: 8, name: "Manoj Kumar", role: "Management", avatar: "/avatars/manoj.png" },
+	{ id: 9, name: "Suman Deka", role: "Supporting Staff", avatar: "/avatars/suman.png" },
+	{ id: 10, name: "Geeta Devi", role: "Supporting Staff", avatar: "/avatars/geeta.png" },
+	{ id: 11, name: "Arjun Nath", role: "Supporting Staff", avatar: "/avatars/arjun.png" },
+	{ id: 12, name: "Meera Jain", role: "Supporting Staff", avatar: "/avatars/meera.png" },
+];
 const ToDoList = ({ items, onItemsChange }: ToDoList) => {
 	return (
 		<Flex gap="2" direction="column">

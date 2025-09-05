@@ -19,8 +19,9 @@ import {
 import styles from "./CustomSwatch.module.css";
 import { classNames } from "@utils/classNames";
 import { useTheme } from "next-themes";
-import { Cross2Icon, InfoCircledIcon } from "@radix-ui/react-icons";
+import { Cross2Icon, FaceIcon, InfoCircledIcon } from "@radix-ui/react-icons";
 import { copy } from "../utils/clipboard";
+import { Avatar } from "radix-ui";
 
 const brightColors = ["amber", "yellow", "lime", "mint", "sky"];
 
@@ -32,6 +33,10 @@ interface CustomSwatchProps extends React.ComponentPropsWithoutRef<"button"> {
 	hexA: string;
 	p3: string;
 	p3A: string;
+	avatar: string;
+	name: string;
+	role: string;
+
 }
 
 export const CustomSwatch = ({
@@ -42,6 +47,9 @@ export const CustomSwatch = ({
 	hexA,
 	p3,
 	p3A,
+	avatar,
+	name,
+	role,
 	style,
 	...props
 }: CustomSwatchProps) => {
@@ -65,6 +73,8 @@ export const CustomSwatch = ({
 						)}
 						{...props}
 					>
+						
+						
 						<span style={{ backgroundColor: cssVariable, ...style }}>
 							<VisuallyHidden>
 								{scale} {step}
@@ -91,12 +101,17 @@ export const CustomSwatch = ({
 									width: "100%",
 									height: "100%",
 									backgroundColor: cssVariable,
+									backgroundImage: `url(${avatar})`,
+									backgroundSize: "cover",
+									backgroundPosition: "center",
+									borderRadius: 6,
 								}}
 							/>
+							
 						</Box>
 
 						<Heading as="h3" size="3" trim="both" my="4">
-							{friendlyColorName}
+							{name}
 						</Heading>
 
 						<Grid
@@ -106,25 +121,11 @@ export const CustomSwatch = ({
 							gapX="5"
 						>
 							<Text color="gray" size="2">
-								Usage
+								Role
 							</Text>
 							<Box mb={{ initial: "3", xs: "0" }}>
 								<Text size="2">
-									{["1", "2"].includes(step) && "Backgrounds"}
-									{["3", "4", "5"].includes(step) && "Interactive components"}
-									{["6", "7"].includes(step) && "Borders and separators"}
-									{["8"].includes(step) &&
-										isGray &&
-										"Borders, focus rings, disabled text"}
-									{["8"].includes(step) && !isGray && "Borders, focus rings"}
-									{["9", "10"].includes(step) &&
-										isGray &&
-										"Solid backgrounds, disabled text"}
-									{["9", "10"].includes(step) &&
-										!isGray &&
-										"Solid backgrounds, buttons"}
-									{["11"].includes(step) && "Secondary text, links"}
-									{["12"].includes(step) && "High-contrast text"}
+									{role}
 								</Text>
 							</Box>
 
