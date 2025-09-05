@@ -3,8 +3,8 @@ export const colorsRoutes = [
 		label: "Overview",
 		pages: [
 			{
-				title: "Installation",
-				slug: "company/docs/overview/installation",
+				title: "About Us",
+				slug: "company/docs/overview/about-us",
 				draft: false,
 			},
 			{

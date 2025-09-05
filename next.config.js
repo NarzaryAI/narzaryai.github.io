@@ -22,7 +22,7 @@ module.exports = {
 			},
 			{
 				source: "/company/docs",
-				destination: "/company/docs/overview/installation",
+				destination: "/company/docs/overview/about-us",
 				permanent: true,
 			},
 			{

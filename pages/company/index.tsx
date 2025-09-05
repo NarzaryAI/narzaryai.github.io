@@ -88,7 +88,7 @@ export default function ColorsHome() {
 
 						<Flex gap="4">
 							<ColorsMarketingButton asChild size={{ initial: "3", xs: "4" }}>
-								<NextLink href="/company/docs/overview/installation">
+								<NextLink href="/company/docs/overview/about-us">
 									About Company
 									<svg
 										width="14"

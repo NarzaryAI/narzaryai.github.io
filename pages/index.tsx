@@ -34,7 +34,7 @@ export default function ThemesHome() {
 	return (
 		<MobileMenuProvider>
 			<TitleAndMetaTags
-				title="SeekGPT by NarzaryAI"
+				title="SeekGPT - An open source LLM and AI Agent Platform"
 				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model."
 				image="seekgpt.png"
 			/>
@@ -57,9 +57,9 @@ export default function ThemesHome() {
 								<MainContent />
 							</ThemesHeroLayout.Main>
 
-							<ThemesHeroLayout.Showcase >
+							<ThemesHeroLayout.Main >
 								<WaitlistSection />
-							</ThemesHeroLayout.Showcase>
+							</ThemesHeroLayout.Main>
 							
 							
 						</ThemesHeroLayout.Root>
