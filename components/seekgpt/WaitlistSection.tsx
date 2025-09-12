@@ -20,7 +20,7 @@ export const WaitlistSection = () => {
 							Manage your API keys, track usage, and explore the SeekGPT ecosystem.
 						</Text>
 					</Box>
-					<NextLink href="https://si.seekgpt.org" passHref legacyBehavior>
+					<NextLink href="https://ai.seekgpt.org" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
