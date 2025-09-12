@@ -291,7 +291,7 @@ const MainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="/developer"
+						href="https://ai.seekgpt.org"
 						passHref
 						legacyBehavior
 					>
@@ -409,7 +409,7 @@ const SecondMainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="#"
+						href="https://ai.seekgpt.org/console/token"
 						passHref
 						legacyBehavior
 					>
@@ -419,8 +419,7 @@ const SecondMainContent = () => (
 							color="gray"
 							highContrast
 							style={{ flexGrow: 1 }}
-							disabled
-							title="This feature is not available yet"
+							title="Get API Key"
 						>
 							<a>
 								Get API Key
@@ -437,7 +436,7 @@ const SecondMainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="https://chat.seekgpt.org" passHref legacyBehavior>
+					<NextLink href="https://ai.seekgpt.org" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -447,7 +446,7 @@ const SecondMainContent = () => (
 						>
 							<a target="_blank" rel="noopener noreferrer">
 								<GridIcon width="18" height="18" style={{ marginTop: 1 }} />
-								Chat with SeekGPT
+								Explore SeekGPT AI Platform
 							</a>
 						</Button>
 					</NextLink>
@@ -500,9 +499,9 @@ const redBackgroundImageStyle = {
 const codeExample = `
 from seekgpt import SeekGPT
 client = SeekGPT(
-    api_base="https://api.seekgpt.org/v1",
-    api_key="nsk_7302d0fc2623cd5c4dbbb29ed54a4f03", # Working demo key change with yours
-    default_model="seekgpt-mini", # The model available on the compatible host
+    api_base="https://ai.seekgpt.org/v1",
+    api_key="sk-7302d0fc2623cd5c4dbbb29ed54a4f03", # Your API SeekGPT key 
+    default_model="gpt-5", # The model available on the compatible host
 )
 response = client.chat(
     messages=[{"role": "user", "content": "Hello OpenAI!"}]
@@ -515,7 +514,7 @@ const secondCodeExample = `
 import OpenAI from 'openai';
 const openai = new OpenAI({
   apiKey: "your_api_key", // Your API key for the compatible host
-  baseURL: "https://api.seekgpt.org/v1", // The base URL of the compatible host
+  baseURL: "https://ai.seekgpt.org/v1", // The base URL of the compatible host
 });
 async function aiChat() {
   try {

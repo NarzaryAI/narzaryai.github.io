@@ -22,7 +22,7 @@ export default function ColorsGettingStartedDoc({ frontmatter, code }: Doc) {
 	return (
 		<>
 			<TitleAndMetaTags
-				title={`${frontmatter.metaTitle} – SeekGPT Developer`}
+				title={`${frontmatter.metaTitle} – SeekGPT | NarzaryAI`}
 				description={frontmatter.metaDescription}
 				image="seekgpt.png"
 			/>
@@ -41,11 +41,11 @@ export default function ColorsGettingStartedDoc({ frontmatter, code }: Doc) {
 }
 
 export async function getStaticPaths() {
-	const frontmatters = getAllFrontmatter("developer/docs/overview");
+	const frontmatters = getAllFrontmatter("company/docs/overview");
 
 	return {
 		paths: frontmatters.map((frontmatter) => ({
-			params: { slug: frontmatter.slug.replace("developer/docs/overview/", "") },
+			params: { slug: frontmatter.slug.replace("company/docs/overview/", "") },
 		})),
 		fallback: false,
 	};
@@ -55,7 +55,7 @@ export async function getStaticProps(
 	context: GetStaticPropsContext<{ slug: string }>,
 ) {
 	const { frontmatter, code } = await getMdxBySlug(
-		"developer/docs/overview/",
+		"company/docs/overview/",
 		context.params!.slug,
 	);
 	return { props: { frontmatter, code } };

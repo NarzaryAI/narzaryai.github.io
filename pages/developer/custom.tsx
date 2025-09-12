@@ -1,7 +1,7 @@
 import Color from "colorjs.io";
 import NextLink from "next/link";
-import { DeveloperHeader } from "@components/DeveloperHeader";
-import { DeveloperMobileMenu } from "@components/DeveloperMobileMenu";
+import { ColorsHeader } from "@components/ColorsHeader";
+import { ColorsMobileMenu } from "@components/ColorsMobileMenu";
 import { MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import {
@@ -211,8 +211,8 @@ export default function Page() {
 					}}
 				/>
 
-				<DeveloperHeader ghost />
-				<DeveloperMobileMenu />
+				<ColorsHeader ghost />
+				<ColorsMobileMenu />
 
 				<TitleAndMetaTags
 					title="SeekGPT by NarzaryAI Team Members"
@@ -228,14 +228,14 @@ export default function Page() {
 						<Flex direction="column" align="center" mb="7">
 							<Flex asChild align="center" gap="1" mb="3">
 								<Link asChild size="2" color="gray" ml="-2">
-									<NextLink href="/developer">
+									<NextLink href="/colors">
 										<ArrowLeftIcon />
-										Developer
+										About Company
 									</NextLink>
 								</Link>
 							</Flex>
 							<Heading as="h1" align="center" size="8">
-								Support Teams
+								Team Members
 							</Heading>
 
 							<SegmentedControl.Root
@@ -339,36 +339,36 @@ export default function Page() {
 							</ColorStepLabel>
 
 							{peopleData.map((person, i) => (
-								<CustomSwatch
-									key={person.id.toString()}
-									scale="gray"
-									step={person.id.toString()}
-									cssVariable={`var(--gray-${i + 1})`}
-									hex={result.grayScale[i]?.toUpperCase()}
-									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
-									p3={result.grayScaleWideGamut[i]}
-									p3A={result.grayScaleAlphaWideGamut[i]}
-									avatar={person.avatar}
-									name={person.name}
-									role={person.role}
-								/>
-							))}
+															<CustomSwatch
+																key={person.id.toString()}
+																scale="gray"
+																step={person.id.toString()}
+																cssVariable={`var(--gray-${i + 1})`}
+																hex={result.grayScale[i]?.toUpperCase()}
+																hexA={result.grayScaleAlpha[i]?.toUpperCase()}
+																p3={result.grayScaleWideGamut[i]}
+																p3A={result.grayScaleAlphaWideGamut[i]}
+																avatar={person.avatar}
+																name={person.name}
+																role={person.role}
+															/>
+														))}
 
 							{peopleData.map((person, i) => (
-								<CustomSwatch
-									key={person.id.toString()}
-									scale="gray"
-									step={person.id.toString()}
-									cssVariable={`var(--gray-${i + 1})`}
-									hex={result.grayScale[i]?.toUpperCase()}
-									hexA={result.grayScaleAlpha[i]?.toUpperCase()}
-									p3={result.grayScaleWideGamut[i]}
-									p3A={result.grayScaleAlphaWideGamut[i]}
-									avatar={person.avatar}
-									name={person.name}
-									role={person.role}
-								/>
-							))}
+															<CustomSwatch
+																key={person.id.toString()}
+																scale="gray"
+																step={person.id.toString()}
+																cssVariable={`var(--gray-${i + 1})`}
+																hex={result.grayScale[i]?.toUpperCase()}
+																hexA={result.grayScaleAlpha[i]?.toUpperCase()}
+																p3={result.grayScaleWideGamut[i]}
+																p3A={result.grayScaleAlphaWideGamut[i]}
+																avatar={person.avatar}
+																name={person.name}
+																role={person.role}
+															/>
+														))}
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
@@ -409,6 +409,7 @@ const peopleData = [
 	{ id: 11, name: "Arjun Nath", role: "Supporting Staff", avatar: "/avatars/arjun.png" },
 	{ id: 12, name: "Meera Jain", role: "Supporting Staff", avatar: "/avatars/meera.png" },
 ];
+
 const ToDoList = ({ items, onItemsChange }: ToDoList) => {
 	return (
 		<Flex gap="2" direction="column">

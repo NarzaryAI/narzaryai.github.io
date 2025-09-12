@@ -21,7 +21,7 @@ export const SolutionsHeader = () => {
 							high-quality web apps and design systems.
 						</Text>
 					</Box>
-					<NextLink href="/products/docs/overview/introduction" passHref legacyBehavior>
+					<NextLink href="https://ai.seekgpt.org" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}

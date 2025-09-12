@@ -14,13 +14,13 @@ export const WaitlistSection = () => {
 				<Box mb="6">
 					<Box mb="5">
 						<SerifHeading mb="3" style={{ maxWidth: 560 }}>
-							SeekGPT early access
+							SeekGPT AI Platform
 						</SerifHeading>
 						<Text size="5" as="p" mb="6" color="gray" style={{ maxWidth: 520 }}>
-							Let us Grow Together. Join the waitlist to be the first to know when SeekGPT is available.
+							Manage your API keys, track usage, and explore the SeekGPT ecosystem.
 						</Text>
 					</Box>
-					<NextLink href="https://waitlist.seekgpt.org" passHref legacyBehavior>
+					<NextLink href="https://si.seekgpt.org" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -28,7 +28,7 @@ export const WaitlistSection = () => {
 							highContrast
 						>
 							<a target="_blank">
-								Join Waitlist
+								SeekGPT AI Platform
 								<svg
 									width="14"
 									height="14"

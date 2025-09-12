@@ -68,14 +68,14 @@ export default function ColorsHome() {
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">
 				<TitleAndMetaTags
-					title="Developers | SeekGPT by NarzaryAI"
-					description="Our vision is to establish SeekGPT as a globally recognized, open, and ethically grounded Artificial General Intelligence (AGI) foundational model, driven by India's diverse talent and cultural values, contributing to the advancement of humanity."
+					title="About SeekGPT by NarzaryAI"
+					description="ur vision is to establish SeekGPT as a globally recognized, open, and ethically grounded Artificial General Intelligence (AGI) foundational model, driven by India's diverse talent and cultural values, contributing to the advancement of humanity."
 					image="seekgpt.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>
 						<SerifHeading mb="3" style={{ maxWidth: 720 }}>
-							SeekGPT Developers
+							SeekGPT by NarzaryAI
 							
 						</SerifHeading>
 						
@@ -88,7 +88,7 @@ export default function ColorsHome() {
 
 						<Flex gap="4">
 							<ColorsMarketingButton asChild size={{ initial: "3", xs: "4" }}>
-								<NextLink href="/developer/docs/overview/installation">
+								<NextLink href="/developer/docs/overview/about-us">
 									Developer Documentations
 									<svg
 										width="14"
@@ -110,7 +110,7 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
-								<NextLink href="/developer/custom">Supporting Members</NextLink>
+								<NextLink href="/developer/custom">Team Members</NextLink>
 							</Button>
 						</Flex>
 						<Flex gap="4" p="8" align={"end"}>
