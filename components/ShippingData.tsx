@@ -46,19 +46,19 @@ const ShippingData: React.FC = () => {
             </Section>
 
             <Card variant="surface" mb="6" style={{ background: "#F5F0E8" }}>
-                <Box p="4" align="center">
+                <Box p="4" style={{ textAlign: "center" }}>
                     <Heading size="5" mb="2">100% Digital. Instant Access.</Heading>
                     <Text as="p" size="3" color="gray">As a provider of purely digital API services, we don't ship any physical products. All our services are delivered electronically and immediately, ensuring you can start building without delay.</Text>
                     <Flex gap="5" justify="center" align="center" mt="4">
-                        <Box align="center">
+                        <Box style={{ textAlign: "center" }}>
                             <Text size="6">☁️</Text>
                             <Text as="p" size="1" mt="1">API Service</Text>
                         </Box>
-                        <Box align="center">
+                        <Box style={{ textAlign: "center" }}>
                             <Text size="6">⚡</Text>
                             <Text as="p" size="1" mt="1">Instant Delivery</Text>
                         </Box>
-                        <Box align="center">
+                        <Box style={{ textAlign: "center" }}>
                             <Text size="6">🚚🚫</Text>
                             <Text as="p" size="1" mt="1">No Physical Shipping</Text>
                         </Box>
@@ -86,7 +86,7 @@ const ShippingData: React.FC = () => {
                         </React.Fragment>
                     ))}
                 </Flex>
-                <Card mt="4" p="4">
+                <Card style={{ marginTop: "1rem", padding: "1rem" }}>
                     {steps[activeStep].content}
                 </Card>
             </Section>
@@ -95,17 +95,17 @@ const ShippingData: React.FC = () => {
                 <Heading size="5" align="center" mb="2">Key Policy Points</Heading>
                 <Text as="p" align="center" size="3" color="gray" mb="4">This section provides a quick overview of our policies regarding service uptime, costs, and availability.</Text>
                 <Grid columns={{ initial: "1", md: "3" }} gap="4">
-                    <Card variant="classic" p="4" align="center">
+                    <Card variant="classic" style={{ textAlign: "center", padding: "1rem" }}>
                         <Text size="6" mb="2">🕒</Text>
                         <Heading size="4" mb="1">Service Availability</Heading>
                         <Text as="p" size="2" color="gray">Our API services are designed for 24/7/365 availability. We provide advance notice for any scheduled maintenance that may cause significant interruption.</Text>
                     </Card>
-                    <Card variant="classic" p="4" align="center">
+                    <Card variant="classic" style={{ textAlign: "center", padding: "1rem" }}>
                         <Text size="6" mb="2">💸</Text>
                         <Heading size="4" mb="1">"Shipping" Costs</Heading>
                         <Text as="p" size="2" color="gray">There are <strong>zero shipping, handling, or delivery fees</strong>. The price you see for our service plans is the total price, plus any applicable taxes.</Text>
                     </Card>
-                    <Card variant="classic" p="4" align="center">
+                    <Card variant="classic" style={{ textAlign: "center", padding: "1rem" }}>
                         <Text size="6" mb="2">🌍</Text>
                         <Heading size="4" mb="1">Geographic Availability</Heading>
                         <Text as="p" size="2" color="gray">Our services are available globally via the internet, with the exception of regions restricted by international law or our service policies.</Text>
@@ -126,11 +126,11 @@ const ShippingData: React.FC = () => {
                                 <Accordion.Content asChild>
                                     <Box p="4" style={{ borderTop: "1px solid #e5e7eb" }}>
                                         <Text as="p" mb="2">If you have completed the registration process but cannot access your service, please try these steps:</Text>
-                                        <Box as="ol" style={{ listStyleType: "decimal", paddingLeft: 20 }} mb="2">
+                                        <ol style={{ listStyleType: "decimal", paddingLeft: 20, marginBottom: 8 }}>
                                             <li><Text as="span">Check the spam or junk folder of your registered email account for the confirmation email.</Text></li>
                                             <li><Text as="span">Ensure there were no typos in the email address you provided during sign-up.</Text></li>
                                             <li><Text as="span">Log out and log back into your account dashboard to refresh the session.</Text></li>
-                                        </Box>
+                                        </ol>
                                         <Text as="p" mt="2">If you continue to experience issues, please contact our support team for assistance.</Text>
                                     </Box>
                                 </Accordion.Content>
@@ -138,7 +138,7 @@ const ShippingData: React.FC = () => {
                         </Accordion.Root>
             </Section>
 
-            <Section mt="8" align="center">
+            <Section mt="8" style={{ textAlign: "center" }}>
                 <Heading size="4" mb="2">Contact Us</Heading>
                 <Text as="p" mb="2">For any questions or issues regarding the delivery or access of your service, please contact our customer support team:</Text>
                 <Link href="mailto:seekgpt.org@gmail.com" size="3" weight="bold" color="bronze" underline="always">

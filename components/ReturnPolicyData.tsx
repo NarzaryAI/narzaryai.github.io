@@ -38,10 +38,10 @@ const ReturnPolicyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">5. Exceptions</Heading>
       <Text as="p" mb="2">We may issue refunds on a case-by-case basis under the following exceptional circumstances:</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span"><strong>Major Service Downtime:</strong> If our service is unavailable or unusable for a significant, prolonged period due to an unscheduled outage on our end, you may be eligible for a partial refund or service credit. This does not include scheduled maintenance or issues originating from third-party LLM providers.</Text></li>
         <li><Text as="span"><strong>Billing Errors:</strong> If you have been charged incorrectly due to a technical billing error on our part (e.g., a double charge), we will issue a full refund for the erroneous amount.</Text></li>
-      </Box>
+      </ul>
       <Text as="p" mb="2">Eligibility for refunds in these cases will be determined at our sole discretion after a thorough investigation.</Text>
     </Section>
     <Section mb="6">
@@ -50,11 +50,11 @@ const ReturnPolicyData: React.FC = () => (
       <Text as="p" mb="2">Send an email to <Link href="mailto:seekgpt.org@gmail.com">seekgpt.org@gmail.com</Link>.</Text>
       <Text as="p" mb="2">Use the subject line: <strong>"Refund Request"</strong>.</Text>
       <Text as="p" mb="2">In the body of the email, please include:</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span">The email address associated with your SeekGPT.org account.</Text></li>
         <li><Text as="span">The transaction ID or invoice number.</Text></li>
         <li><Text as="span">A clear and concise reason for your refund request.</Text></li>
-      </Box>
+      </ul>
       <Text as="p" mb="2">Our team will review your request and typically respond within 3-5 business days.</Text>
     </Section>
     <Section mb="6">

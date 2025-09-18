@@ -21,51 +21,51 @@ const PrivacyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">2. Information We Collect</Heading>
       <Text as="p" mb="2">We may collect information about you in a variety of ways. The information we may collect via the Service includes:</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">Account Information:</Text> When you register for an account to receive an API key, we collect information such as your name, email address, company name (optional), and a hashed password.</li>
         <li><Text as="span" weight="bold">Billing Information:</Text> To process payments for using our Service, we collect billing details, which may include your name, address, and payment card information. This information is securely collected and processed by our third-party payment processor (e.g., Stripe, PayPal) and is not stored on our servers.</li>
         <li><Text as="span" weight="bold">Communications:</Text> If you contact us directly for support or other inquiries, we may receive additional information about you such as your name, email address, the contents of the message, and/or attachments you may send us.</li>
         <li><Text as="span" weight="bold">API Request Logs:</Text> When you make a call to our API, we automatically log metadata about the request. This includes your IP address, the API key used, the timestamp of the request, the specific LLM endpoint called, the number of input and output tokens, error codes, and request latency.</li>
         <li><Text as="span" weight="bold">Cookies and Web Beacons:</Text> We may use cookies, web beacons, and other tracking technologies on our website to help customize the site and improve your experience. This is primarily for authentication, session management, and analytics.</li>
         <li><Text as="span" weight="bold">Prompts and Responses:</Text> To provide the Service, we process the content you send to our API (your "Prompts") and the content we receive back from the third-party LLMs ("Responses").</li>
-      </Box>
+      </ul>
     </Section>
     <Section mb="6">
       <Heading size="5" mb="2">3. How We Use Your Information</Heading>
       <Text as="p" mb="2">Having accurate information permits us to provide you with a smooth, efficient, and customized experience. Specifically, we use information collected about you via the Service to:</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">Provide, Operate, and Maintain our Service:</Text> Route your Prompts to the designated third-party LLMs and return the Responses to you.</li>
         <li><Text as="span" weight="bold">Manage Your Account:</Text> Create and manage your account, process transactions, and send you related information, including purchase confirmations and invoices.</li>
         <li><Text as="span" weight="bold">Improve and Analyze our Service:</Text> Monitor and analyze usage and trends to improve the functionality and user experience of our Service. We use aggregated and anonymized Usage Data for this purpose.</li>
         <li><Text as="span" weight="bold">Security and Fraud Prevention:</Text> Use your information to detect and prevent fraudulent transactions, abuse, and other harmful activities, and to ensure the security of our platform.</li>
         <li><Text as="span" weight="bold">Communicate with You:</Text> Respond to your comments and questions, provide customer service, and send you technical notices, updates, security alerts, and administrative messages.</li>
         <li><Text as="span" weight="bold">Comply with Law:</Text> Comply with legal obligations, court orders, or other binding legal processes.</li>
-      </Box>
+      </ul>
       <Text as="p" weight="bold" mb="2">Our Handling of API Content (Prompts and Responses):</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li>Your API Content is your confidential information. Our use of it is limited:</li>
         <li>We <Text as="span" weight="bold">DO NOT</Text> use your Prompts or Responses to train our own models or any third-party models.</li>
         <li>We may temporarily log API Content for a period of up to thirty (30) days for the sole purposes of debugging, monitoring for abuse, and ensuring the quality of our Service. Access to this data is strictly limited to authorized personnel. After this period, it is permanently deleted from our logs.</li>
-      </Box>
+      </ul>
     </Section>
     <Section mb="6">
       <Heading size="5" mb="2">4. How We Share Your Information</Heading>
       <Text as="p" mb="2">We do not sell your personal information. We may share information we have collected about you in certain situations.</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">With Third-Party LLM Providers:</Text> The core function of our Service is to act as a gateway. When you make an API call, we transmit your Prompt to the third-party LLM provider you have selected (e.g., OpenAI, Anthropic, Google, etc.). The handling of your Prompt by these providers is governed by their respective privacy policies and terms of service. We encourage you to review them carefully.</li>
         <li><Text as="span" weight="bold">With Service Providers:</Text> We may share your information with third-party vendors, consultants, and other service providers who perform services for us or on our behalf, such as payment processing (e.g., Stripe), cloud infrastructure hosting (e.g., AWS, Google Cloud), and analytics.</li>
         <li><Text as="span" weight="bold">For Legal Reasons and to Protect Rights:</Text> We may disclose your information if we are required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, (ii) protect and defend the rights or property of SeekGPT.org, (iii) prevent or investigate possible wrongdoing in connection with the Service, or (iv) protect the personal safety of users of the Service or the public.</li>
         <li><Text as="span" weight="bold">Business Transfers:</Text> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
-      </Box>
+      </ul>
     </Section>
     <Section mb="6">
       <Heading size="5" mb="2">5. Data Retention</Heading>
       <Text as="p" mb="2">We will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy.</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">Account Information:</Text> We retain your account information for as long as your account is active and for a reasonable period thereafter as necessary to comply with our legal obligations.</li>
         <li><Text as="span" weight="bold">Usage Data:</Text> We may retain usage data for longer periods for internal analysis purposes, security, or to improve the functionality of our Service.</li>
         <li><Text as="span" weight="bold">API Content:</Text> As stated above, API Content is retained in temporary logs for a maximum of 30 days before being deleted.</li>
-      </Box>
+      </ul>
     </Section>
     <Section mb="6">
       <Heading size="5" mb="2">6. Security of Your Information</Heading>
@@ -74,12 +74,12 @@ const PrivacyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">7. Your Data Protection Rights</Heading>
       <Text as="p" mb="2">Depending on your location, you may have the following rights regarding your personal information:</Text>
-      <Box as="ul" style={{ paddingLeft: 20 }} mb="2">
+      <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">The right to access:</Text> You have the right to request copies of your personal data.</li>
         <li><Text as="span" weight="bold">The right to rectification:</Text> You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.</li>
         <li><Text as="span" weight="bold">The right to erasure:</Text> You have the right to request that we erase your personal data, under certain conditions.</li>
         <li><Text as="span" weight="bold">The right to object to processing:</Text> You have the right to object to our processing of your personal data, under certain conditions.</li>
-      </Box>
+      </ul>
       <Text as="p" mb="2">To exercise these rights, please contact us at the email address provided below. You can typically access and update your account information directly through your account settings dashboard.</Text>
     </Section>
     <Section mb="6">
