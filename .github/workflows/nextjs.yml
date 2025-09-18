@@ -73,10 +73,10 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: |
-            if [ -e pnpm-lock.yaml ]; then
+            if [ -e package-lock.json ]; then
+            npm install --frozen-lockfile
+            elif [ -e pnpm-lock.yaml ]; then
             pnpm install --frozen-lockfile
-            elif [ -e package-lock.json ]; then
-            npm ci
             else
             npm i
             fi
