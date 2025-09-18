@@ -52,6 +52,34 @@ export const Footer = () => {
 							.
 						</Heading>
 					</Box>
+					<Box mt="5">
+						<Heading as="h6" size="3">
+							Legal
+						</Heading>
+						<ul>
+							<li>
+								<Text as="p" size="2" mt="3">
+									<NextLink href="/privacy" passHref legacyBehavior>
+										<Link color="gray">Privacy Policy</Link>
+									</NextLink>
+								</Text>
+							</li>
+							<li>
+								<Text as="p" size="2" mt="3">
+									<NextLink href="/return-refund" passHref legacyBehavior>
+										<Link color="gray">Return &amp; Refund Policy</Link>
+									</NextLink>
+								</Text>
+							</li>
+							<li>
+								<Text as="p" size="2" mt="3">
+									<NextLink href="/shipping" passHref legacyBehavior>
+										<Link color="gray">Shipping Policy</Link>
+									</NextLink>
+								</Text>
+							</li>
+						</ul>
+					</Box>
 				</Flex>
 				<Box>
 					<Heading as="h6" size="3">
