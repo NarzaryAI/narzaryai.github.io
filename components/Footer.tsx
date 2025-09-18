@@ -116,7 +116,7 @@ export const Footer = () => {
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/icons" passHref legacyBehavior>
+								<NextLink href="https://platform.seekgpt.org/pricing" passHref legacyBehavior>
 									<Link color="gray">Pricing</Link>
 								</NextLink>
 							</Text>
