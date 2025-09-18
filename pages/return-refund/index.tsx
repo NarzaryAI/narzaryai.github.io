@@ -1,11 +1,8 @@
 import { IconsHeader } from "@components/IconsHeader";
 import { MobileMenu, MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
-import { IconsHero } from "@components/icons/IconsHero";
-import { IconsPanel } from "@components/icons/IconsPanel";
 import { iconsRoutes } from "@utils/iconsRoutes";
 import { Box, Container, ScrollArea, Section, Separator } from "@radix-ui/themes";
-import { Menu } from "@components/icons/Menu";
 import { DocsNav } from "@components/DocsNav";
 import { ColorsHeader } from "@components/ColorsHeader";
 
