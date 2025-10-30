@@ -55,6 +55,13 @@ export const Footer = () => {
 								</NextLink>
 							</Text>
 						</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/consultancy/project-management" passHref legacyBehavior>
+									<Link color="gray">Project Management</Link>
+								</NextLink>
+							</Text>
+						</li>
 					</ul>
 				</Box>
 
@@ -63,47 +70,42 @@ export const Footer = () => {
 						IT Services
 					</Heading>
 					<ul>
+						
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/products/docs/overview/introduction"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Introduction</Link>
+								<NextLink href="/it-services/software-development" passHref legacyBehavior>
+									<Link color="gray">Software Development</Link>
 								</NextLink>
 							</Text>
 						</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/products/docs/guides/styling"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Styling</Link>
+								<NextLink href="/it-services/app-development" passHref legacyBehavior>
+									<Link color="gray">App Development</Link>
 								</NextLink>
 							</Text>
 						</li>
+						
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/products/docs/overview/accessibility"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Accessibility</Link>
+								<NextLink href="/it-services/web-hosting" passHref legacyBehavior>
+									<Link color="gray">Web Hosting</Link>
 								</NextLink>
 							</Text>
 						</li>
+					
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/products/docs/overview/releases"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Releases</Link>
+								<NextLink href="/it-services/maintenance" passHref legacyBehavior>
+									<Link color="gray">Maintenance</Link>
+								</NextLink>
+							</Text>
+						</li>
+						
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/it-services/erp-solutions" passHref legacyBehavior>
+									<Link color="gray">ERP Solutions</Link>
 								</NextLink>
 							</Text>
 						</li>
@@ -116,185 +118,134 @@ export const Footer = () => {
 						Civil Engineering Works
 					</Heading>
 					<ul>
+						
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/company/docs/overview/about-us"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">About Us</Link>
+								<NextLink href="/civil/constructions" passHref legacyBehavior>
+									<Link color="gray">Constructions</Link>
 								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/company/docs/palette-composition/scales"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Scales</Link>
+								<NextLink href="/civil/infrastructures" passHref legacyBehavior>
+									<Link color="gray">Infrastructures</Link>
 								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/company/docs/palette-composition/composing-a-palette"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Palette composition</Link>
+								<NextLink href="/civil/buildings-houses" passHref legacyBehavior>
+									<Link color="gray">Buildings / Houses</Link>
 								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink
-									href="/company/docs/palette-composition/understanding-the-scale"
-									passHref
-									legacyBehavior
-								>
-									<Link color="gray">Understanding the scale</Link>
+								<NextLink href="/consultancy/roads-bridges-buildings" passHref legacyBehavior>
+									<Link color="gray">Roads &amp; Bridges</Link>
 								</NextLink>
 							</Text>
-						</li>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/civil/planning-design" passHref legacyBehavior>
+									<Link color="gray">Planning &amp; Design</Link>
+								</NextLink>
+							</Text>
+							</li>
 					</ul>
 				</Box>
 
 				<Box>
 					<Heading as="h6" size="3">
-						Planning & Design
+						Planning &amp; Design
 					</Heading>
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://github.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									GitHub
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/planning/architectures" passHref legacyBehavior>
+									<Link color="gray">Architectures</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://fb.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Facebook
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/planning/residential-commercial" passHref legacyBehavior>
+									<Link color="gray">Residential / Commercial</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://twitter.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Twitter
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/planning/town-city-planning" passHref legacyBehavior>
+									<Link color="gray">Town / City Plannings</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://huggingface.co/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Huggingface
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/planning/interior-exterior-design" passHref legacyBehavior>
+									<Link color="gray">Interior / Exterior Design</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/planning/space-planning" passHref legacyBehavior>
+									<Link color="gray">Space Planning</Link>
+								</NextLink>
+							</Text>
+							</li>
 					</ul>
 				</Box>
 				<Box>
 					<Heading as="h6" size="3">
-						Career & Skill Development
+						Career &amp; Skill Development
 					</Heading>
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://github.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									GitHub
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/careers/job-openings" passHref legacyBehavior>
+									<Link color="gray">Job Openings</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://fb.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Facebook
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/careers/internships" passHref legacyBehavior>
+									<Link color="gray">Internships</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://twitter.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Twitter
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/careers/certifications" passHref legacyBehavior>
+									<Link color="gray">Certifications</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://huggingface.co/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Huggingface
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/careers/workshops-bootcamps" passHref legacyBehavior>
+									<Link color="gray">Workshops &amp; Bootcamps</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/careers/career-counseling" passHref legacyBehavior>
+									<Link color="gray">Career Counseling</Link>
+								</NextLink>
+							</Text>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/careers/mentorship" passHref legacyBehavior>
+									<Link color="gray">Mentorship</Link>
+								</NextLink>
+							</Text>
+							</li>
 					</ul>
 				</Box>
 				<Box>
@@ -304,64 +255,46 @@ export const Footer = () => {
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://github.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									GitHub
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/citizen/itr-filings" passHref legacyBehavior>
+									<Link color="gray">ITR Filings</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://fb.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Facebook
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/citizen/tax-exemption" passHref legacyBehavior>
+									<Link color="gray">Tax Exemption (ST)</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://twitter.com/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Twitter
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/citizen/govt-schemes" passHref legacyBehavior>
+									<Link color="gray">Govt. Schemes</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<Link
-									href="https://huggingface.co/seekgpt"
-									color="gray"
-									target="_blank"
-									style={{ display: "inline-flex", alignItems: "center" }}
-								>
-									Huggingface
-									<Flex asChild ml="2" style={{ color: "var(--gray-8)" }}>
-										<ArrowTopRightIcon />
-									</Flex>
-								</Link>
+								<NextLink href="/citizen/training" passHref legacyBehavior>
+									<Link color="gray">Training</Link>
+								</NextLink>
 							</Text>
-						</li>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/citizen/skill-development" passHref legacyBehavior>
+									<Link color="gray">Skill Development</Link>
+								</NextLink>
+							</Text>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/citizen/other" passHref legacyBehavior>
+									<Link color="gray">Any Other</Link>
+								</NextLink>
+							</Text>
+							</li>
 					</ul>
 				</Box>
 				<Box>
@@ -369,6 +302,20 @@ export const Footer = () => {
 						Company
 					</Heading>
 					<ul>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/company/about" passHref legacyBehavior>
+									<Link color="gray">About Us</Link>
+								</NextLink>
+							</Text>
+							</li>
+						<li>
+							<Text as="p" size="2" mt="3">
+								<NextLink href="/company/careers" passHref legacyBehavior>
+									<Link color="gray">Careers</Link>
+								</NextLink>
+							</Text>
+							</li>
 						<li>
 							<Text as="p" size="2" mt="3">
 								<Link

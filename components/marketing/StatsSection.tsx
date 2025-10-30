@@ -45,7 +45,7 @@ export const StatsSection = () => {
 									marginLeft: "-0.01em",
 								}}
 							>
-								130M
+								40
 								<span
 									style={{
 										fontSize: "70%",
@@ -63,7 +63,7 @@ export const StatsSection = () => {
 							size={{ initial: "2", sm: "3" }}
 							mt={{ initial: "-1", sm: "0" }}
 						>
-							Monthly downloads
+							Projects Delivered
 						</Text>
 					</Box>
 					<Box style={{ backgroundColor: "var(--gray-a5)", width: 1 }} />
@@ -80,7 +80,7 @@ export const StatsSection = () => {
 									marginLeft: "-0.01em",
 								}}
 							>
-								5500
+								12
 								<span
 									style={{
 										fontSize: "70%",
@@ -98,7 +98,7 @@ export const StatsSection = () => {
 							size={{ initial: "2", sm: "3" }}
 							mt={{ initial: "-1", sm: "0" }}
 						>
-							Discord members
+							States
 						</Text>
 					</Box>
 					<Box style={{ backgroundColor: "var(--gray-a5)", width: 1 }} />
@@ -115,7 +115,7 @@ export const StatsSection = () => {
 									marginLeft: "-0.01em",
 								}}
 							>
-								13K
+								40
 								<span
 									style={{
 										fontSize: "70%",
@@ -133,7 +133,7 @@ export const StatsSection = () => {
 							size={{ initial: "2", sm: "3" }}
 							mt={{ initial: "-1", sm: "0" }}
 						>
-							GitHub stars
+							Places
 						</Text>
 					</Box>
 				</Grid>
