@@ -8,6 +8,7 @@ import {
 	Link,
 	Badge,
 	Container,
+	Separator,
 } from "@radix-ui/themes";
 import * as React from "react";
 import NextLink from "next/link";
@@ -26,6 +27,7 @@ import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { CodeBlock } from "@components/CodeBlock";
 import { DecorativeBox } from "@components/ThemesDocsAssets";
 import { WaitlistSection } from "@components/seekgpt/WaitlistSection";
+import { Footer } from "@components/Footer";
 
 export default function ThemesHome() {
 	const { resolvedTheme } = useTheme();
@@ -200,6 +202,12 @@ export default function ThemesHome() {
 					/>
 				</Theme>
 			</MagicCurtain.Root>
+			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
+				<Separator size="2" />
+				<Section size={{ initial: "2", md: "4" }} pb="0">
+					<Footer />
+				</Section>
+			</Container>
 		</MobileMenuProvider>
 	);
 }
