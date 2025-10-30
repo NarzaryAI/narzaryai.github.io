@@ -8,12 +8,12 @@ export const CommunitySection = () => {
 			<Box mb="5">
 				<Flex mb="1">
 					<MarketingCaption mb="1">
-						An active and friendly community
+						We are the developer of SeekGPT! An open-source AI project. Join us!
 					</MarketingCaption>
 					<Text size="3"> 👋</Text>
 				</Flex>
 				<Heading as="h2" size="7" mb="4">
-					Join our fast-growing community
+					Join the SeekGPT community
 				</Heading>
 			</Box>
 
