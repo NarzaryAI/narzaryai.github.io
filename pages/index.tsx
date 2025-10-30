@@ -36,8 +36,8 @@ export default function ThemesHome() {
 	return (
 		<MobileMenuProvider>
 			<TitleAndMetaTags
-				title="SeekGPT - An open source LLM and AI Agent Platform"
-				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model."
+				title="Narzary Engineering & Consultancy Services"
+				description="We provide comprehensive engineering, technology, and design services to individuals, government bodies, corporations, and other entities in India and abroad."
 				image="seekgpt.png"
 			/>
 
@@ -60,11 +60,14 @@ export default function ThemesHome() {
 							</ThemesHeroLayout.Main>
 
 							<ThemesHeroLayout.Main >
-								<WaitlistSection />
+								<SecondMainContent />
 							</ThemesHeroLayout.Main>
 							
 							
 						</ThemesHeroLayout.Root>
+						<Box height="0">
+							<ThemesHeader ghost />
+						</Box>
 					</Theme>
 				</MagicCurtain.Item>
 
@@ -252,9 +255,9 @@ const MainContent = () => (
 				</Flex>
 				<Box display={{ lg: "none" }}>
 					<SerifHeading mb="3">
-						Start building
+						Consultancy Services
 						<br />
-						your app now
+						for your needs
 					</SerifHeading>
 				</Box>
 				<Box display={{ initial: "none", lg: "block" }}>
@@ -267,39 +270,25 @@ const MainContent = () => (
 							} as React.CSSProperties
 						}
 					>
-						Start building
-						<br />
-						your AI app now
+						Consultancy Services
+						
 					</SerifHeading>
 				</Box>
+				
 			</Box>
 
 			<Box style={{ maxWidth: 500 }}>
 				<Text size={{ initial: "4", xs: "5" }}>
 					<Text as="p" mb="5" color="gray">
-						An open, and ethically grounded Artificial General Intelligence (AGI) foundational model.
+						We provide comprehensive engineering, technology, and design services to individuals, government bodies, corporations, and other entities in India and abroad.
 					</Text>
 
-					<Box mb="5">
-						<CodeBlock.Root
-							style={
-								{
-									"--code-block-background": "var(--color-panel-solid)",
-								} as React.CSSProperties
-							}
-						>
-							<CodeBlock.Content>
-								<CodeBlock.Pre>
-									<CodeBlock.Code language="jsx">{codeExample}</CodeBlock.Code>
-								</CodeBlock.Pre>
-							</CodeBlock.Content>
-						</CodeBlock.Root>
-					</Box>
+					
 				</Text>
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="https://ai.seekgpt.org"
+						href="https://narzary.com/consultancy"
 						passHref
 						legacyBehavior
 					>
@@ -311,7 +300,7 @@ const MainContent = () => (
 							style={{ flexGrow: 1 }}
 						>
 							<a>
-								Get started
+								Consultancy
 								<svg
 									width="14"
 									height="14"
@@ -325,7 +314,7 @@ const MainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="/research/playground" passHref legacyBehavior>
+					<NextLink href="/engineering" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -335,7 +324,7 @@ const MainContent = () => (
 						>
 							<a>
 								<GridIcon width="18" height="18" style={{ marginTop: 1 }} />
-								Playground
+								Engineering
 							</a>
 						</Button>
 					</NextLink>
@@ -368,9 +357,10 @@ const SecondMainContent = () => (
 				</Flex>
 				<Box display={{ lg: "none" }}>
 					<SerifHeading mb="3">
-						Open Source <br/>
+						Engineering 
+						<br />
 						<Text as="span" color="gray">
-							Compatible
+							Works
 						</Text>
 					</SerifHeading>
 				</Box>
@@ -384,9 +374,9 @@ const SecondMainContent = () => (
 							} as React.CSSProperties
 						}
 					>
-						Open Source <br/>
+						Engineering <br/>
 						<Text as="span" color="gray">
-							Compatible
+							Works
 						</Text>
 					</SerifHeading>
 				</Box>
@@ -395,29 +385,13 @@ const SecondMainContent = () => (
 			<Box style={{ maxWidth: 500 }}>
 				<Text size={{ initial: "4", xs: "5" }}>
 					<Text as="p" mb="5" color="gray">
-						You can call with existing AI libraries like OpenAI, LangChain, and more.
+						We provide solutions to building construction, infrastructure projects, roads, bridges, and provide services such as project estimation, costing, quantity surveying, project management, and related consultancy
 					</Text>
-
-					<Box mb="5">
-						<CodeBlock.Root
-							style={
-								{
-									"--code-block-background": "var(--color-panel-solid)",
-								} as React.CSSProperties
-							}
-						>
-							<CodeBlock.Content>
-								<CodeBlock.Pre>
-									<CodeBlock.Code language="jsx">{secondCodeExample}</CodeBlock.Code>
-								</CodeBlock.Pre>
-							</CodeBlock.Content>
-						</CodeBlock.Root>
-					</Box>
 				</Text>
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="https://ai.seekgpt.org/console/token"
+						href="/engineering"
 						passHref
 						legacyBehavior
 					>
@@ -427,10 +401,10 @@ const SecondMainContent = () => (
 							color="gray"
 							highContrast
 							style={{ flexGrow: 1 }}
-							title="Get API Key"
+							title="Engineering Services"
 						>
 							<a>
-								Get API Key
+								Engineering
 								<svg
 									width="14"
 									height="14"
@@ -444,7 +418,7 @@ const SecondMainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="https://ai.seekgpt.org" passHref legacyBehavior>
+					<NextLink href="/engineering" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -454,7 +428,7 @@ const SecondMainContent = () => (
 						>
 							<a target="_blank" rel="noopener noreferrer">
 								<GridIcon width="18" height="18" style={{ marginTop: 1 }} />
-								Explore SeekGPT AI Platform
+								Explore more
 							</a>
 						</Button>
 					</NextLink>
@@ -507,7 +481,7 @@ const redBackgroundImageStyle = {
 const codeExample = `
 from seekgpt import SeekGPT
 client = SeekGPT(
-    api_base="https://ai.seekgpt.org/v1",
+    api_base="https://ai.narzary.com/v1",
     api_key="sk-7302d0fc2623cd5c4dbbb29ed54a4f03", # Your API SeekGPT key 
     default_model="gpt-5", # The model available on the compatible host
 )
@@ -522,7 +496,7 @@ const secondCodeExample = `
 import OpenAI from 'openai';
 const openai = new OpenAI({
   apiKey: "your_api_key", // Your API key for the compatible host
-  baseURL: "https://ai.seekgpt.org/v1", // The base URL of the compatible host
+  baseURL: "https://ai.narzary.com/v1", // The base URL of the compatible host
 });
 async function aiChat() {
   try {

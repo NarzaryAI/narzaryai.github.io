@@ -10,7 +10,7 @@ const steps = [
         content: (
             <Box p="4">
                 <Heading size="4" mb="2">Account Registration & Verification</Heading>
-                <Text as="p">To access our services, you must first create an account on SeekGPT.org. Upon successful registration and verification of your email address, your unique API key(s) will be automatically generated and prepared for you.</Text>
+                <Text as="p">To access our services, you must first create an account on narzary.com. Upon successful registration and verification of your email address, your unique API key(s) will be automatically generated and prepared for you.</Text>
             </Box>
         ),
     },
@@ -42,7 +42,7 @@ const ShippingData: React.FC = () => {
         <Container size="3" px={{ initial: "4", sm: "6", md: "7" }} py={{ initial: "5", sm: "7" }}>
             <Section mb="6">
                 <Heading size="6" align="center" mb="2">Service Delivery Explained</Heading>
-                <Text as="p" align="center" size="3" color="gray">How you get instant access to the SeekGPT.org LLM Gateway.</Text>
+                <Text as="p" align="center" size="3" color="gray">How you get instant access to the narzary.com LLM Gateway.</Text>
             </Section>
 
             <Card variant="surface" mb="6" style={{ background: "#F5F0E8" }}>
@@ -141,10 +141,10 @@ const ShippingData: React.FC = () => {
             <Section mt="8" style={{ textAlign: "center" }}>
                 <Heading size="4" mb="2">Contact Us</Heading>
                 <Text as="p" mb="2">For any questions or issues regarding the delivery or access of your service, please contact our customer support team:</Text>
-                <Link href="mailto:seekgpt.org@gmail.com" size="3" weight="bold" color="bronze" underline="always">
-                    seekgpt.org@gmail.com
+                <Link href="mailto:narzary.com@gmail.com" size="3" weight="bold" color="bronze" underline="always">
+                    narzary.com@gmail.com
                 </Link>
-                <Text as="p" mt="6" size="1" color="gray">&copy; 2025 SeekGPT.org. All rights reserved.</Text>
+                <Text as="p" mt="6" size="1" color="gray">&copy; 2025 narzary.com. All rights reserved.</Text>
             </Section>
         </Container>
     );

@@ -14,13 +14,13 @@ export const WaitlistSection = () => {
 				<Box mb="6">
 					<Box mb="5">
 						<SerifHeading mb="3" style={{ maxWidth: 560 }}>
-							SeekGPT AI Platform
+							Engineering Works
 						</SerifHeading>
 						<Text size="5" as="p" mb="6" color="gray" style={{ maxWidth: 520 }}>
-							Manage your API keys, track usage, and explore the SeekGPT ecosystem.
+							We provide solutions to building construction, infrastructure projects, roads, bridges, and provide services such as project estimation, costing, quantity surveying, project management, and related consultancy.
 						</Text>
 					</Box>
-					<NextLink href="https://ai.seekgpt.org" passHref legacyBehavior>
+					<NextLink href="https://narzary.com/engineering" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -28,7 +28,7 @@ export const WaitlistSection = () => {
 							highContrast
 						>
 							<a target="_blank">
-								SeekGPT AI Platform
+								Engineering Works
 								<svg
 									width="14"
 									height="14"

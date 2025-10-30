@@ -42,7 +42,7 @@ const NavigationMenuDemo = () => {
 							<ListItem href="/company" title="About Company">
 								Beautiful, thought-out palettes with auto dark mode.
 							</ListItem>
-							<ListItem href="https://icons.seekgpt.org/" title="Icons">
+							<ListItem href="https://icons.narzary.com/" title="Icons">
 								A crisp set of 15x15 icons, balanced and consistent.
 							</ListItem>
 						</ul>

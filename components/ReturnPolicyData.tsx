@@ -6,13 +6,13 @@ import { Box, Container, Heading, Text, Card, Section, Link } from "@radix-ui/th
 const ReturnPolicyData: React.FC = () => (
   <Container size="3" px={{ initial: "4", sm: "6", md: "7" }} py={{ initial: "5", sm: "7" }}>
     <Section mb="6">
-      <Heading size="6" align="center" mb="2">Return &amp; Refund Policy for SeekGPT.org</Heading>
+      <Heading size="6" align="center" mb="2">Return &amp; Refund Policy for narzary.com</Heading>
       <Text as="p" align="center" size="3" color="gray" mb="2">Effective Date: September 18, 2025</Text>
     </Section>
     <Card variant="surface" mb="6" style={{ background: "#F5F0E8" }}>
       <Box p="4">
         <Heading size="5" mb="2">1. Our Commitment</Heading>
-        <Text as="p" mb="2">Welcome to SeekGPT.org. We are committed to your satisfaction and providing a reliable Large Language Model (LLM) Gateway Service. As we provide a digital, non-tangible, and irrevocable service, this policy outlines the conditions under which a refund may be granted.</Text>
+        <Text as="p" mb="2">Welcome to narzary.com. We are committed to your satisfaction and providing a reliable Large Language Model (LLM) Gateway Service. As we provide a digital, non-tangible, and irrevocable service, this policy outlines the conditions under which a refund may be granted.</Text>
         <Text as="p" mb="2">Please read this policy carefully before making any purchase. By using our services, you agree to this Return &amp; Refund Policy.</Text>
       </Box>
     </Card>
@@ -47,11 +47,11 @@ const ReturnPolicyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">6. How to Request a Refund</Heading>
       <Text as="p" mb="2">To request a refund, you must contact our support team within the specified timeframes mentioned in this policy.</Text>
-      <Text as="p" mb="2">Send an email to <Link href="mailto:seekgpt.org@gmail.com">seekgpt.org@gmail.com</Link>.</Text>
+      <Text as="p" mb="2">Send an email to <Link href="mailto:narzary.com@gmail.com">narzary.com@gmail.com</Link>.</Text>
       <Text as="p" mb="2">Use the subject line: <strong>"Refund Request"</strong>.</Text>
       <Text as="p" mb="2">In the body of the email, please include:</Text>
       <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
-        <li><Text as="span">The email address associated with your SeekGPT.org account.</Text></li>
+        <li><Text as="span">The email address associated with your narzary.com account.</Text></li>
         <li><Text as="span">The transaction ID or invoice number.</Text></li>
         <li><Text as="span">A clear and concise reason for your refund request.</Text></li>
       </ul>
@@ -60,7 +60,7 @@ const ReturnPolicyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">7. Processing Refunds</Heading>
       <Text as="p" mb="2">Once a refund is approved, it will be processed back to the original method of payment within 5-10 business days. Please note that the exact time it takes for the funds to appear in your account may vary depending on your bank or card issuer.</Text>
-      <Text as="p" mb="2">If you have any questions about our Return &amp; Refund Policy, please contact us at <Link href="mailto:seekgpt.org@gmail.com">seekgpt.org@gmail.com</Link>.</Text>
+      <Text as="p" mb="2">If you have any questions about our Return &amp; Refund Policy, please contact us at <Link href="mailto:narzary.com@gmail.com">narzary.com@gmail.com</Link>.</Text>
     </Section>
   </Container>
 );

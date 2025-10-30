@@ -6,15 +6,15 @@ import { Box, Container, Heading, Text, Card, Section, Link } from "@radix-ui/th
 const PrivacyData: React.FC = () => (
   <Container size="3" px={{ initial: "4", sm: "6", md: "7" }} py={{ initial: "5", sm: "7" }}>
     <Section mb="6">
-      <Heading size="6" align="center" mb="2">Privacy Policy for SeekGPT.org | NarzaryAI</Heading>
+      <Heading size="6" align="center" mb="2">Privacy Policy for narzary.com | NarzaryAI</Heading>
       <Text as="p" align="center" size="3" color="gray" mb="2">Effective Date: September 18, 2025</Text>
     </Section>
     <Card variant="surface" mb="6" style={{ background: "#F5F0E8" }}>
       <Box p="4">
         <Heading size="5" mb="2">1. Introduction</Heading>
-        <Text as="p" mb="2">At SeekGPT.org | NarzaryAI, we are committed to protecting your privacy. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information when you use our website and services.</Text>
-        <Text as="p" mb="2">Welcome to SeekGPT.org ("we," "us," or "our"). We provide a Large Language Model (LLM) Gateway Service (the "Service") that allows users ("you," "your") to access various third-party LLMs through a unified Application Programming Interface (API).</Text>
-        <Text as="p" mb="2">This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website SeekGPT.org and use our Service. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our Service.</Text>
+        <Text as="p" mb="2">At narzary.com | NarzaryAI, we are committed to protecting your privacy. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information when you use our website and services.</Text>
+        <Text as="p" mb="2">Welcome to narzary.com ("we," "us," or "our"). We provide a Large Language Model (LLM) Gateway Service (the "Service") that allows users ("you," "your") to access various third-party LLMs through a unified Application Programming Interface (API).</Text>
+        <Text as="p" mb="2">This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website narzary.com and use our Service. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our Service.</Text>
         <Text as="p" mb="2">We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Effective Date" of this Privacy Policy.</Text>
       </Box>
     </Card>
@@ -54,7 +54,7 @@ const PrivacyData: React.FC = () => (
       <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
         <li><Text as="span" weight="bold">With Third-Party LLM Providers:</Text> The core function of our Service is to act as a gateway. When you make an API call, we transmit your Prompt to the third-party LLM provider you have selected (e.g., OpenAI, Anthropic, Google, etc.). The handling of your Prompt by these providers is governed by their respective privacy policies and terms of service. We encourage you to review them carefully.</li>
         <li><Text as="span" weight="bold">With Service Providers:</Text> We may share your information with third-party vendors, consultants, and other service providers who perform services for us or on our behalf, such as payment processing (e.g., Stripe), cloud infrastructure hosting (e.g., AWS, Google Cloud), and analytics.</li>
-        <li><Text as="span" weight="bold">For Legal Reasons and to Protect Rights:</Text> We may disclose your information if we are required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, (ii) protect and defend the rights or property of SeekGPT.org, (iii) prevent or investigate possible wrongdoing in connection with the Service, or (iv) protect the personal safety of users of the Service or the public.</li>
+        <li><Text as="span" weight="bold">For Legal Reasons and to Protect Rights:</Text> We may disclose your information if we are required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, (ii) protect and defend the rights or property of narzary.com, (iii) prevent or investigate possible wrongdoing in connection with the Service, or (iv) protect the personal safety of users of the Service or the public.</li>
         <li><Text as="span" weight="bold">Business Transfers:</Text> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
       </ul>
     </Section>
@@ -89,8 +89,8 @@ const PrivacyData: React.FC = () => (
     <Section mb="6">
       <Heading size="5" mb="2">9. Contact Us</Heading>
       <Text as="p" mb="2">If you have questions or comments about this Privacy Policy, please contact us at:</Text>
-      <Text as="p" weight="bold" mb="2">SeekGPT.org</Text>
-      <Text as="p" mb="2">Email: <Link href="mailto:seekgpt.org@gmail.com">seekgpt.org@gmail.com</Link></Text>
+      <Text as="p" weight="bold" mb="2">narzary.com</Text>
+      <Text as="p" mb="2">Email: <Link href="mailto:narzary.com@gmail.com">narzary.com@gmail.com</Link></Text>
     </Section>
   </Container>
 );

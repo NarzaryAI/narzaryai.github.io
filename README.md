@@ -1,4 +1,4 @@
-<a href="https://seekgpt.org" >
+<a href="https://narzary.com" >
   <img alt="Radix UI hero image" src="https://repository-images.githubusercontent.com/316012819/b7b19180-3f85-11eb-884c-1e19ce2f493a">
 </a>
 
@@ -12,7 +12,7 @@ Components, colors, icons, templates, and an extensive design system. Free and o
 
 ## Documentation
 
-For full documentation, visit [seekgpt.org](https://seekgpt.org).
+For full documentation, visit [narzary.com](https://narzary.com).
 
 ## Contributing
 
