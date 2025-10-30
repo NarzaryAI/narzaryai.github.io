@@ -109,18 +109,16 @@ export const DeveloperExperienceSection = () => {
 			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
 				<Grid gap={{ initial: "5", md: "8" }} columns={{ sm: "auto 1fr" }}>
 					<Box style={{ maxWidth: 430 }}>
-						<MarketingCaption mb="1">
-							Developer experience to love
-						</MarketingCaption>
+						<MarketingCaption mb="1">Developer & operations</MarketingCaption>
 						<Heading as="h2" size="7" mb="4">
-							Develop with an open, thought‑out API
+							Build, integrate and deploy with confidence
 						</Heading>
 
 						<Text as="p" mb="5" style={{ maxWidth: 500 }}>
-							One of our main goals is to provide the best possible developer
-							experience. Radix Primitives provides a fully-typed API. All
-							components share a similar API, creating a consistent and
-							predictable experience.
+							Our APIs, SDKs and deployment patterns are designed for
+							engineering teams working on infrastructure projects. Clear
+							contracts, examples and repeatable deployment recipes reduce
+							friction between field teams and platform engineers.
 						</Text>
 
 						<HiddenScroll
@@ -151,10 +149,10 @@ export const DeveloperExperienceSection = () => {
 
 								<Box>
 									<Heading as="h3" size="3">
-										Unstyled
+										API-first
 									</Heading>
 									<Text as="p" size="3" color="gray">
-										No need to override styles, no specificity wars.
+										Clear, versioned APIs and SDKs for stable integrations.
 									</Text>
 								</Box>
 
@@ -172,10 +170,10 @@ export const DeveloperExperienceSection = () => {
 
 								<Box>
 									<Heading as="h3" size="3">
-										Composable
+										Well documented
 									</Heading>
 									<Text as="p" size="3" color="gray">
-										Granular access to each component part.
+										Examples, recipes and sample projects to get you started.
 									</Text>
 								</Box>
 
@@ -193,10 +191,10 @@ export const DeveloperExperienceSection = () => {
 
 								<Box>
 									<Heading as="h3" size="3">
-										Customizable
+										Extendable
 									</Heading>
 									<Text as="p" size="3" color="gray">
-										Configure behavior, control focus, add event listeners.
+										Hooks and extension points for custom business logic.
 									</Text>
 								</Box>
 
@@ -214,10 +212,11 @@ export const DeveloperExperienceSection = () => {
 
 								<Box>
 									<Heading as="h3" size="3">
-										Consistent
+										Production-ready
 									</Heading>
 									<Text as="p" size="3" color="gray">
-										Components with similar functionality share similar API.
+										Patterns and guidance for hardened deployments and
+										monitoring.
 									</Text>
 								</Box>
 								<Box />

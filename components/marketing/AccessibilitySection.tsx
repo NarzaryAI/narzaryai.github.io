@@ -390,11 +390,9 @@ export const AccessibilitySection = () => {
 				mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}
 			>
 				<Box mb="5">
-					<MarketingCaption mb="1">
-						Supports assistive technology
-					</MarketingCaption>
+					<MarketingCaption mb="1">Accessibility & inclusion</MarketingCaption>
 					<Heading as="h2" size="7">
-						Accessibility out of the box
+						Inclusive design for public projects
 					</Heading>
 				</Box>
 
@@ -543,12 +541,12 @@ export const AccessibilitySection = () => {
 							role="presentation"
 						>
 							<Grid rows="auto 1fr" flexGrow="1">
-								<Flex align="center" gap="1" my="2" mx="3">
-									<Text color="gray" size="2">
-										Radix component
-									</Text>
-									<CodeIcon color="var(--gray-a11)" />
-								</Flex>
+									<Flex align="center" gap="1" my="2" mx="3">
+										<Text color="gray" size="2">
+											Example application
+										</Text>
+										<CodeIcon color="var(--gray-a11)" />
+									</Flex>
 
 								<Flex align="center" justify="center" pb="3">
 									{currentSequence !== "rtl" && (
@@ -578,11 +576,11 @@ export const AccessibilitySection = () => {
 							<CheckCircledIcon width="30" height="30" />
 						</Box>
 						<Heading as="h3" size="3" mb="1">
-							WAI-ARIA compliant
+							Accessibility-first design
 						</Heading>
 						<Text size="3" as="p" color="gray">
-							Radix Primitives follow the WAI-ARIA guidelines, implementing
-							correct semantics and behaviors for our components.
+							We design forms, labels and flows with accessibility in mind
+							so public-facing projects are usable by everyone.
 						</Text>
 					</Card>
 
@@ -596,11 +594,11 @@ export const AccessibilitySection = () => {
 							<KeyboardIcon width="30" height="30" />
 						</Box>
 						<Heading as="h3" size="3" mb="1">
-							Keyboard navigation
+							Keyboard & assistive support
 						</Heading>
 						<Text size="3" as="p" color="gray">
-							Primitives provide full keyboard support for components where
-							users expect to use a keyboard or other input devices.
+							Interfaces support keyboard users and screen readers for
+							broad accessibility coverage in field and office workflows.
 						</Text>
 					</Card>
 
@@ -614,11 +612,11 @@ export const AccessibilitySection = () => {
 							<InputIcon width="30" height="30" />
 						</Box>
 						<Heading as="h3" size="3" mb="1">
-							Focus management
+							Sensible focus & form flows
 						</Heading>
 						<Text size="3" as="p" color="gray">
-							Out of the box, Primitives provide sensible focus management
-							defaults, which can be further customized in your code.
+							Clear focus order and form interactions make data capture
+							faster and reduce input errors on mobile devices.
 						</Text>
 					</Card>
 
@@ -632,11 +630,11 @@ export const AccessibilitySection = () => {
 							<EyeClosedIcon width="30" height="30" />
 						</Box>
 						<Heading as="h3" size="3" mb="1">
-							Screen reader tested
+							Field-proven testing
 						</Heading>
 						<Text size="3" as="p" color="gray">
-							We test Primitives with common assistive technologies, looking out
-							for practical issues that people may experience.
+							We test flows using assistive tech and real-world scenarios to
+							ensure the application works in practice for diverse users.
 						</Text>
 					</Card>
 				</Grid>

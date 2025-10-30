@@ -13,15 +13,14 @@ export const SolutionsHeader = () => {
 			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
 				<Box mb="6">
 					<Box mb="5">
-						<SerifHeading mb="3" style={{ maxWidth: 560 }}>
-							Core building blocks for your design system
+						<SerifHeading mb="3" style={{ maxWidth: 760 }}>
+							IT Services and Solutions for Modern Businesses
 						</SerifHeading>
-						<Text size="5" as="p" mb="6" color="gray" style={{ maxWidth: 520 }}>
-							Unstyled, accessible, open source React primitives for
-							high-quality web apps and design systems.
+						<Text size="5" as="p" mb="6" color="gray" style={{ maxWidth: 720 }}>
+							Comprehensive IT services to support your business needs, including software development, system integration, cloud solutions, GIS, cybersecurity, and ongoing maintenance.
 						</Text>
 					</Box>
-					<NextLink href="https://ai.narzary.com" passHref legacyBehavior>
+					<NextLink href="/it-services/get-started" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}

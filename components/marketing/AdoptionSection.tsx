@@ -16,34 +16,13 @@ export const AdoptionSection = () => {
 		<Section size={{ initial: "2", md: "4" }}>
 			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
 				<Box mb="8">
-					<MarketingCaption mb="1">
-						Transition to Radix Primitives
-					</MarketingCaption>
+					<MarketingCaption mb="1">Trusted partners</MarketingCaption>
 					<Heading as="h2" size="7" mb="5">
-						Adoption made easy
+						Proven in government and field projects
 					</Heading>
-					<NextLink href="/products/docs" passHref legacyBehavior>
-						<Button
-							asChild
-							size={{ initial: "3", xs: "4" }}
-							color="gray"
-							highContrast
-						>
-							<a>
-								Go to docs
-								<svg
-									width="14"
-									height="14"
-									viewBox="0 0 12 12"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="currentcolor"
-									style={{ opacity: 1, marginRight: -3 }}
-								>
-									<path d="M6.39205 11.6023L5.36932 10.5909L8.92045 7.03977H0V5.5625H8.92045L5.36932 2.01705L6.39205 1L11.6932 6.30114L6.39205 11.6023Z" />
-								</svg>
-							</a>
-						</Button>
-					</NextLink>
+					<Button asChild size={{ initial: "3", xs: "4" }} color="gray" highContrast>
+						<NextLink href="/consultancy/estimation-and-costing">Get an estimate</NextLink>
+					</Button>
 				</Box>
 
 				<Grid
@@ -52,25 +31,23 @@ export const AdoptionSection = () => {
 				>
 					<Box>
 						<Heading as="h3" size="4" mb="2">
-							Incremental adoption
+							Proven deployment patterns
 						</Heading>
 						<Text as="p" size="3" mr={{ sm: "5", md: "7", lg: "9" }}>
-							Each component is its own independently versioned package, so new
-							components can be added alongside your existing code. No need to
-							disrupt feature work with a huge rewrite{"\u2060"}—you can start
-							small and add more components one by one.
+							We deliver solutions used by municipalities and contractors —
+							small pilots ramp into district- or state-wide deployments with
+							documented operations and data governance practices.
 						</Text>
 					</Box>
 
 					<Box>
 						<Heading as="h3" size="4" mb="2">
-							Detailed docs and TypeScript support
+							Training, docs and handover
 						</Heading>
 						<Text as="p" size="3" mr={{ sm: "5", md: "7", lg: "9" }}>
-							Radix documentation contains real-world examples, extensive API
-							references, accessibility details, and full TypeScript support.
-							All components share a similar API, creating a consistent
-							developer experience. You will love working with Radix Primitives.
+							We provide implementation guides, operator training and handover
+							materials so your teams can run and maintain systems after
+							deployment.
 						</Text>
 					</Box>
 				</Grid>

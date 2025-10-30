@@ -28,14 +28,15 @@ export const ComponentHighlightsSection = () => {
 					mb="6"
 					pb={{ lg: "9" }}
 				>
-					<MarketingCaption mb="1">Case in point</MarketingCaption>
+					<MarketingCaption mb="1">Field example</MarketingCaption>
 					<Heading align="center" as="h2" size="7" mb="3">
-						So, you think you can{" "}
-						<span style={{ whiteSpace: "nowrap" }}>build a dropdown?</span>
+						Real workflows, real impact
 					</Heading>
-					<Text align="center" as="p" size="3" style={{ maxWidth: 340 }}>
-						We agonise over API design, performance, and accessibility so you
-						don't need to.
+					<Text align="center" as="p" size="3" style={{ maxWidth: 420 }}>
+						How data moves from the field to decisions matters. Here’s an
+						example of a mobile inspection workflow, and the platform traits
+						we deliver: reliable offline capture, secure sync, and fast
+						analytics.
 					</Text>
 				</Flex>
 
@@ -128,13 +129,13 @@ export const ComponentHighlightsSection = () => {
 							>
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
-									<Heading as="h3" size="3">
-										Full keyboard navigation
-									</Heading>
+											<Heading as="h3" size="3">
+												Reliable data ingestion
+											</Heading>
 								</Flex>
-								<Text as="p" color="gray" size="3" ml="6">
-									Navigate the menu using arrow keys, Escape, and Enter hotkeys,
-									or even via typeahead.
+									<Text as="p" color="gray" size="3" ml="6">
+									Ingest field reports, photos and sensor telemetry even when
+									connectivity is intermittent; sync reliably when online.
 								</Text>
 							</Box>
 
@@ -150,12 +151,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Modal and non-modal modes
+										Offline-first mobile apps
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Configure whether the dropdown menu allows or blocks outside
-									interactions.
+									Mobile clients work offline, queue changes locally and
+									reconcile conflicts safely during sync.
 								</Text>
 							</Box>
 
@@ -171,12 +172,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Supports submenus
+										Secure APIs & integrations
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Nest another level of fully functional submenus inside the
-									dropdown menu.
+									Well-defined APIs and connectors enable integration with
+									GIS, ERP and reporting systems.
 								</Text>
 							</Box>
 
@@ -192,12 +193,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Supports assistive technology
+										Monitoring & alerts
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Implements correct semantics and behaviors, so it's accessible
-									to people using assistive technology.
+									Built-in observability, logging and alerting so teams get
+									notified about critical incidents and data regressions.
 								</Text>
 							</Box>
 
@@ -213,12 +214,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1" mr="-1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Collision and origin-aware animations
+										Scale and resilience
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Create open and close animations that take the dropdown menu’s
-									actual position into account.
+									Architected for scale: services and data storage that grow
+									with your project and keep costs predictable.
 								</Text>
 							</Box>
 
@@ -234,12 +235,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Control alignment and collisions
+										GIS & mapping support
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Position the menu anywhere relative to the trigger, taking
-									collisions with the screen into account.
+									Native support for geospatial data and tile maps used in
+									planning and asset management workflows.
 								</Text>
 							</Box>
 
@@ -255,12 +256,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Fully managed focus
+										Secure access controls
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Granularly control focus behavior when user closes the
-									dropdown menu or focuses an outside element.
+									Fine-grained role and permission models for users and
+									service accounts across projects.
 								</Text>
 							</Box>
 
@@ -276,12 +277,12 @@ export const ComponentHighlightsSection = () => {
 								<Flex gap="2" align="start" mb="1">
 									<Checkmark />
 									<Heading as="h3" size="3">
-										Supports checkable items
+										Extensible integrations
 									</Heading>
 								</Flex>
 								<Text as="p" color="gray" size="3" ml="6">
-									Items can be used to perform actions, as well as act as
-									checkbox or radiobutton controls.
+									Plugin points and webhooks let you trigger downstream
+									workflows and automate reporting.
 								</Text>
 							</Box>
 
