@@ -110,7 +110,7 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
-								<NextLink href="/company/custom">Team Members</NextLink>
+								<NextLink href="/company/team">Team Members</NextLink>
 							</Button>
 						</Flex>
 						<Flex gap="4" p="8" align={"end"}>

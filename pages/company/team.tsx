@@ -62,7 +62,7 @@ import {
 	Tooltip,
 } from "@radix-ui/themes";
 import * as React from "react";
-import styles from "./custom.module.css";
+import styles from "./team.module.css";
 import { getPeopleForColor } from "@utils/people";
 import { ThemesPanelBackgroundImage } from "@components/ThemesPanelBackgroundImage";
 import { AvatarIconFallback } from "@components/AvatarIconFallback";
@@ -228,7 +228,7 @@ export default function Page() {
 						<Flex direction="column" align="center" mb="7">
 							<Flex asChild align="center" gap="1" mb="3">
 								<Link asChild size="2" color="gray" ml="-2">
-									<NextLink href="/colors">
+									<NextLink href="/company/docs/overview/about-us">
 										<ArrowLeftIcon />
 										About Company
 									</NextLink>
@@ -261,114 +261,67 @@ export default function Page() {
 
 						
 
-						<Grid
-							mb="9"
-							flow={{ initial: "column", sm: "row" }}
-							columns={{ initial: "2", sm: "12" }}
-							rows={{ initial: "12", sm: "auto" }}
-							gap={{ initial: "2px", md: "1" }}
-							mx={{ initial: "-5", xs: "-6", sm: "0" }}
-							px={{ initial: "2px", sm: "0" }}
-						>
-							<ColorUsageRange
-								display={{ initial: "none", sm: "flex" }}
-								gridColumn="1 / 3"
-							>
-								Research and Development
-							</ColorUsageRange>
-							<ColorUsageRange
-								display={{ initial: "none", sm: "flex" }}
-								gridColumn="3 / 6"
-							>
-								Engineering and Technology
-							</ColorUsageRange>
-							<ColorUsageRange
-								display={{ initial: "none", sm: "flex" }}
-								gridColumn="6 / 9"
-							>
-								Students and Pioneers
-							</ColorUsageRange>
-							<ColorUsageRange
-								display={{ initial: "none", sm: "flex" }}
-								gridColumn="9 / 11"
-							>
-								Management
-							</ColorUsageRange>
-							<ColorUsageRange
-								display={{ initial: "none", sm: "flex" }}
-								gridColumn="11 / 13"
-							>
-								Supporting Staff
-							</ColorUsageRange>
+						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
 
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								1
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								2
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								3
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								4
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								5
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								6
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								7
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								8
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								9
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								10
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								11
-							</ColorStepLabel>
-							<ColorStepLabel display={{ initial: "none", sm: "flex" }}>
-								12
-							</ColorStepLabel>
+									<Box>
+										<Heading as="h2" size="5">
+											Kanishka Brahma
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Director & CEO
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Graduate in Electronics and Communication Engineering
+										</Text>
+									</Box>
+									
+								</Flex>
 
-							{peopleData.map((person, i) => (
-															<CustomSwatch
-																key={person.id.toString()}
-																scale="gray"
-																step={person.id.toString()}
-																cssVariable={`var(--gray-${i + 1})`}
-																hex={result.grayScale[i]?.toUpperCase()}
-																hexA={result.grayScaleAlpha[i]?.toUpperCase()}
-																p3={result.grayScaleWideGamut[i]}
-																p3A={result.grayScaleAlphaWideGamut[i]}
-																avatar={person.avatar}
-																name={person.name}
-																role={person.role}
-															/>
-														))}
+								<Separator my="3" />
 
-							{peopleData.map((person, i) => (
-															<CustomSwatch
-																key={person.id.toString()}
-																scale="gray"
-																step={person.id.toString()}
-																cssVariable={`var(--gray-${i + 1})`}
-																hex={result.grayScale[i]?.toUpperCase()}
-																hexA={result.grayScaleAlpha[i]?.toUpperCase()}
-																p3={result.grayScaleWideGamut[i]}
-																p3A={result.grayScaleAlphaWideGamut[i]}
-																avatar={person.avatar}
-																name={person.name}
-																role={person.role}
-															/>
-														))}
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge tone="accent">Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Monikha Brahma
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Director & VP of Sales
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Covering the area of IT, Civil & Citizen Services.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge tone="accent">Leadership</Badge>
+								</Flex>
+							</Card>
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
@@ -396,6 +349,7 @@ interface ToDoList {
 }
 
 const peopleData = [
+	{ id: 0, name: "Kanishka Brahma", role: "Director & CEO", description: "Graduate in Electronics and Communication Engineering", avatar: "/avatars/kanishka.png" },
 	{ id: 1, name: "Sanjib Narzary", role: "Research and Development", avatar: "https://www.cit.ac.in/uploads/users/images/1755229478.jpg" },
 	{ id: 2, name: "Rahul Singh", role: "Research and Development", avatar: "/avatars/rahul.png" },
 	{ id: 3, name: "Priya Das", role: "Engineering and Technology", avatar: "/avatars/priya.png" },

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Flex } from "@radix-ui/themes";
+import { Box, Container, Flex, Section, Separator } from "@radix-ui/themes";
 import { DocsPagination } from "@components/DocsPagination";
 import { allColorsRoutes, colorsRoutes } from "@utils/colorsRoutes";
 import { ColorsHeader } from "./ColorsHeader";
@@ -9,6 +9,7 @@ import { SideNav } from "./SideNav";
 import { DocsPageWrapper } from "./DocsPageWrapper";
 import { EditPageLink } from "./EditPageLink";
 import { ColorsMobileMenu } from "./ColorsMobileMenu";
+import { Footer } from "./Footer";
 
 export function ColorsDocsPage({ children }: { children: React.ReactNode }) {
 	return (
@@ -29,6 +30,7 @@ export function ColorsDocsPage({ children }: { children: React.ReactNode }) {
 					<EditPageLink />
 				</DocsPageWrapper>
 			</Flex>
+			
 		</MobileMenuProvider>
 	);
 }

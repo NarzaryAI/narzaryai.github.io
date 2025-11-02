@@ -8,46 +8,62 @@ export const colorsRoutes = [
 				draft: false,
 			},
 			{
-				title: "Usage",
-				slug: "company/docs/overview/usage",
+				title: "Consultancy Services",
+				slug: "company/docs/overview/consultancy",
 				draft: false,
 			},
 			{
-				title: "Aliasing",
-				slug: "company/docs/overview/aliasing",
+				title: "Information Technology Services",
+				slug: "company/docs/overview/information-technology",
 				draft: false,
 			},
 			{
-				title: "Custom palettes",
-				slug: "company/docs/overview/custom-palettes",
+				title: "Civil Engineering Services",
+				slug: "company/docs/overview/civil-engineering",
 				draft: false,
 			},
 			{
-				title: "Releases",
-				slug: "company/docs/overview/releases",
+				title: "Planning & Design Services",
+				slug: "company/docs/overview/planning-and-design",
+				draft: false,
+			},
+			{
+				title: "Citizen Services",
+				slug: "company/docs/overview/citizen-services",
 				draft: false,
 			},
 		],
 	},
 
 	{
-		label: "Palette composition",
+		label: "Opportunities",
 		pages: [
 			{
-				title: "Scales",
-				slug: "company/docs/palette-composition/scales",
+				title: "Careers",
+				slug: "company/docs/opportunities/careers",
 				draft: false,
 			},
 			{
-				title: "Composing a palette",
-				slug: "company/docs/palette-composition/composing-a-palette",
+				title: "Internships",
+				slug: "company/docs/opportunities/internships",
 				draft: false,
 			},
 			{
-				title: "Understanding the scale",
-				slug: "company/docs/palette-composition/understanding-the-scale",
+				title: "Referrals",
+				slug: "company/docs/opportunities/referrals",
 				draft: false,
 			},
+		],
+	},
+	{
+		label: "Contacts",
+		pages: [
+			{
+				title: "Contact Us",
+				slug: "company/docs/contacts/contacts",
+				draft: false,
+			},
+			
 		],
 	},
 ];

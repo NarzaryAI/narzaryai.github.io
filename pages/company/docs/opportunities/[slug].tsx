@@ -62,12 +62,12 @@ export default function ColorsPaletteCompostionDoc({ frontmatter, code }: Doc) {
 }
 
 export async function getStaticPaths() {
-	const frontmatters = getAllFrontmatter("company/docs/palette-composition");
+	const frontmatters = getAllFrontmatter("company/docs/opportunities");
 
 	return {
 		paths: frontmatters.map((frontmatter) => ({
 			params: {
-				slug: frontmatter.slug.replace("company/docs/palette-composition/", ""),
+				slug: frontmatter.slug.replace("company/docs/opportunities/", ""),
 			},
 		})),
 		fallback: false,
@@ -78,7 +78,7 @@ export async function getStaticProps(
 	context: GetStaticPropsContext<{ slug: string }>,
 ) {
 	const { frontmatter, code } = await getMdxBySlug(
-		"company/docs/palette-composition/",
+		"company/docs/opportunities/",
 		context.params!.slug,
 	);
 	return { props: { frontmatter, code } };
