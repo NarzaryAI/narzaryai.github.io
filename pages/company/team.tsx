@@ -215,8 +215,8 @@ export default function Page() {
 				<ColorsMobileMenu />
 
 				<TitleAndMetaTags
-					title="SeekGPT by NarzaryAI Team Members"
-					description="SeekGPT comprises of several young and experienced team members and students."
+					title="Team Members | Narzary Engineering & Consultancy Pvt. Ltd."
+					description="Team members of Narzary Engineering & Consultancy Pvt. Ltd."
 					image="seekgpt.png"
 				/>
 
@@ -309,6 +309,96 @@ export default function Page() {
 										<br />
 										<Text size="2" color="gray" mt="2">
 											Covering the area of IT, Civil & Citizen Services.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Julina Basumatary
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Sales Executive
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Covering the area of Citizen Services.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Biswajit Narzary
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Public Relations 
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Covering the area of Citizen Services & Contractors.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Hungkhar Brahma
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Public Relations 
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Covering the area of Citizen Services & Referrals.
 										</Text>
 									</Box>
 								</Flex>
