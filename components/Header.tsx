@@ -92,7 +92,7 @@ export const Header = ({ children, gitHubLink, ghost }: HeaderProps) => {
 							{mobileMenu.open ? (
 								<NextLink href="/" passHref legacyBehavior>
 									<BoxLink>
-										<AccessibleIcon label="Radix Homepage">
+										<AccessibleIcon label="Narzary Homepage">
 											<RadixLogoIcon />
 										</AccessibleIcon>
 									</BoxLink>
@@ -116,18 +116,18 @@ export const Header = ({ children, gitHubLink, ghost }: HeaderProps) => {
 
 						<div className={styles.HeaderProductLinksContainer}>
 							<HeaderProductLink
-								href="/research/docs/overview/getting-started"
+								href="/consultancy"
 								active={
-									router.pathname.startsWith("/research") 
+									router.pathname.startsWith("/consultancy") 
 								}
 							>
-								Research 
+								Consultancy 
 							</HeaderProductLink>
 							<HeaderProductLink
-								href="/products"
-								active={router.pathname.startsWith("/products")}
+								href="/it-services"
+								active={router.pathname.startsWith("/it-services")}
 							>
-								Products
+								IT Services
 							</HeaderProductLink>
 							<HeaderProductLink
 								href="/civil"
