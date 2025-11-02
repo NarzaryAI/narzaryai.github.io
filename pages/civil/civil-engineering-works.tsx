@@ -9,6 +9,7 @@ import { StatsSection } from "@components/marketing/StatsSection";
 import { FancyBackground } from "@components/marketing/FancyBackground";
 import { PrimitivesHeader } from "@components/PrimitivesHeader";
 import { PrimitivesMobileMenu } from "@components/PrimitivesMobileMenu";
+import { SerifHeading } from "@components/SerifHeading";
 
 export default function CivilEngineeringWorksPage() {
   return (
@@ -29,15 +30,18 @@ export default function CivilEngineeringWorksPage() {
         {/* lightweight hero layout */}
         <Section size={{ initial: "2", md: "4" }}>
           <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-            <Box mb="6">
-              <Heading as="h1" size="6" mb="3">
-                Civil Engineering Works
-              </Heading>
-              <Text size="5" as="p" mb="6" color="gray" style={{ maxWidth: 760 }}>
+            <SerifHeading mb="3" style={{ maxWidth: 720 }}>
+              Civil Engineering Works
+            </SerifHeading>
+
+            <Box style={{ maxWidth: 800 }}>
+              <Text size="5" as="p" mb="6" color="gray">
                 End-to-end civil engineering services: estimation & costing, DPR
                 preparation, detailed design, construction supervision and maintenance for
                 roads, bridges, buildings and infrastructure projects.
               </Text>
+            </Box>
+            <Box mb="6">
               <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request an estimate</Link>
               </NextLink>

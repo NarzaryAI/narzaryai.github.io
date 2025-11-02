@@ -3,6 +3,7 @@ import { Container, Section, Box, Separator, Heading, Text } from "@radix-ui/the
 import { Footer } from "@components/Footer";
 import { MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
+import { SerifHeading } from "@components/SerifHeading";
 
 export default function BuildingsHousesPage() {
   return (
@@ -14,10 +15,16 @@ export default function BuildingsHousesPage() {
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-          <Heading as="h1" size="6" mb="4">Buildings / Houses</Heading>
-          <Text size="4" as="p" mb="6" color="gray">
-            We design and construct residential, commercial, and institutional buildings. Our services include architectural design, structural engineering, interior works, and project management from concept to handover.
-          </Text>
+          <SerifHeading mb="3" style={{ maxWidth: 720 }}>
+            Buildings / Houses
+          </SerifHeading>
+
+          <Box style={{ maxWidth: 800 }}>
+            <Text size="5" as="p" mb="6" color="gray">
+              We design and construct residential, commercial, and institutional buildings. Our services include architectural design, structural engineering, interior works, and project management from concept to handover.
+            </Text>
+          </Box>
+          
           <Heading as="h3" size="5" mb="2">Building services</Heading>
           <ul style={{ marginTop: 12, paddingLeft: 20 }}>
             <li><Text size="2">Architectural and structural design</Text></li>
