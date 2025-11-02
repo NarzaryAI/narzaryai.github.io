@@ -11,32 +11,32 @@ import { SerifHeading } from "@components/SerifHeading";
 export default function InfrastructuresPage() {
   return (
     <MobileMenuProvider>
-        <ColorsMobileMenu />
+      <ColorsMobileMenu />
 
-			<Head>
-				<style>
-					{`
+      <Head>
+        <style>
+          {`
             :is(.dark, .dark-theme) :is(body, .radix-themes) {
               --color-background: #0b0b0b;
               --color-panel-solid: var(--gray-1);
             }
           `}
-				</style>
-			</Head>
+        </style>
+      </Head>
 
-			<Box
-				style={{
-					position: "absolute",
-					left: 0,
-					right: 0,
-					height: 480,
-					opacity: 0.6,
-					background:
-						"linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
-				}}
-			/>
+      <Box
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          height: 480,
+          opacity: 0.6,
+          background:
+            "linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
+        }}
+      />
 
-			<ColorsHeader ghost />
+      <ColorsHeader ghost />
       <TitleAndMetaTags
         title="Infrastructures | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Planning, design, and delivery of infrastructure projects: water, drainage, roads, utilities."
@@ -44,16 +44,16 @@ export default function InfrastructuresPage() {
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-            <SerifHeading mb="3" style={{ maxWidth: 720 }}>
-                                        Infrastructures
-                                    </SerifHeading>
-            
-                                    <Box style={{ maxWidth: 800 }}>
-                                        <Text size="5" as="p" mb="6" color="gray">
-                                            We provide end-to-end infrastructure solutions: water supply, drainage, roads, utilities, and site development. Our team handles planning, design, execution, and compliance for public and private sector projects.
-                                        </Text>
-                                    </Box>
-          
+          <SerifHeading mb="3" style={{ maxWidth: 720 }}>
+            Infrastructures
+          </SerifHeading>
+
+          <Box style={{ maxWidth: 800 }}>
+            <Text size="5" as="p" mb="6" color="gray">
+              We provide end-to-end infrastructure solutions: water supply, drainage, roads, utilities, and site development. Our team handles planning, design, execution, and compliance for public and private sector projects.
+            </Text>
+          </Box>
+
           <Heading as="h3" size="5" mb="2">Infrastructure services</Heading>
           <ul style={{ marginTop: 12, paddingLeft: 20 }}>
             <li><Text size="2">Water supply and drainage systems</Text></li>

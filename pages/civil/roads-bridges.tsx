@@ -6,36 +6,37 @@ import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { ColorsHeader } from "@components/ColorsHeader";
 import Head from "next/head";
 import { ColorsMobileMenu } from "@components/ColorsMobileMenu";
+import { SerifHeading } from "@components/SerifHeading";
 
 export default function RoadsBridgesPage() {
   return (
     <MobileMenuProvider>
-        <ColorsMobileMenu />
+      <ColorsMobileMenu />
 
-			<Head>
-				<style>
-					{`
+      <Head>
+        <style>
+          {`
             :is(.dark, .dark-theme) :is(body, .radix-themes) {
               --color-background: #0b0b0b;
               --color-panel-solid: var(--gray-1);
             }
           `}
-				</style>
-			</Head>
+        </style>
+      </Head>
 
-			<Box
-				style={{
-					position: "absolute",
-					left: 0,
-					right: 0,
-					height: 480,
-					opacity: 0.6,
-					background:
-						"linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
-				}}
-			/>
+      <Box
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          height: 480,
+          opacity: 0.6,
+          background:
+            "linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
+        }}
+      />
 
-			<ColorsHeader ghost />
+      <ColorsHeader ghost />
       <TitleAndMetaTags
         title="Roads & Bridges | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Design, construction, and maintenance of roads, highways, and bridges."
@@ -43,10 +44,16 @@ export default function RoadsBridgesPage() {
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-          <Heading as="h1" size="6" mb="4">Roads & Bridges</Heading>
-          <Text size="4" as="p" mb="6" color="gray">
-            We provide design, construction, and maintenance for roads, highways, and bridges. Our expertise covers alignment, structural design, materials, and lifecycle management for public infrastructure.
-          </Text>
+          <SerifHeading mb="3" style={{ maxWidth: 720 }}>
+            Roads & Bridges
+          </SerifHeading>
+
+          <Box style={{ maxWidth: 800 }}>
+            <Text size="5" as="p" mb="6" color="gray">
+              We provide design, construction, and maintenance for roads, highways, and bridges. Our expertise covers alignment, structural design, materials, and lifecycle management for public infrastructure.
+            </Text>
+          </Box>
+
           <Heading as="h3" size="5" mb="2">Roads & bridges services</Heading>
           <ul style={{ marginTop: 12, paddingLeft: 20 }}>
             <li><Text size="2">Alignment and geometric design</Text></li>
