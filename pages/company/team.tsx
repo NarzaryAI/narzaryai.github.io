@@ -289,7 +289,7 @@ export default function Page() {
 									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
 										View profile
 									</Link>
-									<Badge tone="accent">Leadership</Badge>
+									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
 							<Card>
@@ -319,7 +319,7 @@ export default function Page() {
 									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
 										View profile
 									</Link>
-									<Badge tone="accent">Leadership</Badge>
+									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
 						</Grid>
