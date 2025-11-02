@@ -29,7 +29,7 @@ export const Footer = () => {
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/consultancy/estimation" passHref legacyBehavior>
+								<NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
 									<Link color="gray">Estimation & Costing</Link>
 								</NextLink>
 							</Text>
