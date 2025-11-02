@@ -288,7 +288,7 @@ const MainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="https://narzary.com/consultancy"
+						href="/consultancy"
 						passHref
 						legacyBehavior
 					>
@@ -314,7 +314,7 @@ const MainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="/engineering" passHref legacyBehavior>
+					<NextLink href="/civil" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}
@@ -391,7 +391,7 @@ const SecondMainContent = () => (
 
 				<Flex gap="4" direction={{ initial: "column", xs: "row" }}>
 					<NextLink
-						href="/engineering"
+						href="/civil"
 						passHref
 						legacyBehavior
 					>
@@ -418,7 +418,7 @@ const SecondMainContent = () => (
 							</a>
 						</Button>
 					</NextLink>
-					<NextLink href="/engineering" passHref legacyBehavior>
+					<NextLink href="/it-services" passHref legacyBehavior>
 						<Button
 							asChild
 							size={{ initial: "3", xs: "4" }}

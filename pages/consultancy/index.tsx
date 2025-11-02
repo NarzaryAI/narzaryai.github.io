@@ -110,7 +110,7 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
-								<NextLink href="/consultancy/dpr-preparation">DPR Preparation</NextLink>
+								<NextLink href="/consultancy/dpr-preparations">DPR Preparation</NextLink>
 							</Button>
 							<Button
 								highContrast
@@ -141,7 +141,7 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
-								<NextLink href="/consultancy/planning-and-designs">Planning &amp; Designs</NextLink>
+								<NextLink href="/civil/planning-design">Planning &amp; Designs</NextLink>
 							</Button>
 						</Flex>
 					</Container>
