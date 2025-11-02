@@ -46,7 +46,7 @@ export default function WebHostingPage() {
               systems resilient and procurement-friendly.
             </Text>
             <Text size="2">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request hosting estimate</Link>
               </NextLink>
             </Text>

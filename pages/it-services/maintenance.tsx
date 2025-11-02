@@ -45,7 +45,7 @@ export default function MaintenancePage() {
               monitoring and a clear roadmap process so systems remain secure and useful.
             </Text>
             <Text size="2">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request support estimate</Link>
               </NextLink>
             </Text>

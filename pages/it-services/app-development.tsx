@@ -45,7 +45,7 @@ export default function AppDevelopmentPage() {
               integrations with GIS and backend systems. We prioritise usability in low-connectivity environments.
             </Text>
             <Text size="2">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request an estimate</Link>
               </NextLink>
             </Text>

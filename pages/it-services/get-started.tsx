@@ -40,7 +40,7 @@ export default function GetStartedPage() {
               A short, predictable process to move from idea to procurement-ready deliverables.
             </Text>
             <Box mb="5">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Button asChild size={{ initial: "3", xs: "4" }} color="gray" highContrast>
                   <a>Request an estimate</a>
                 </Button>

@@ -49,7 +49,7 @@ export default function SoftwareDevelopmentPage() {
               easy to operate and maintain.
             </Text>
             <Text size="2">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request an estimate</Link>
               </NextLink>
             </Text>

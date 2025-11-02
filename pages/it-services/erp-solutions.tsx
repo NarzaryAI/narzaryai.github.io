@@ -46,7 +46,7 @@ export default function ERPSolutionsPage() {
               procurement and audit processes.
             </Text>
             <Text size="2">
-              <NextLink href="/consultancy/estimation" passHref legacyBehavior>
+              <NextLink href="/consultancy/estimation-and-costing" passHref legacyBehavior>
                 <Link color="gray">Request an ERP estimate</Link>
               </NextLink>
             </Text>
