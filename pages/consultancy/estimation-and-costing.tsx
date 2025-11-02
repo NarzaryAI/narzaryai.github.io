@@ -25,7 +25,7 @@ const EstimationPage: React.FC = () => {
     const [estimate, setEstimate] = useState<number | null>(null);
 
     const handleCalculate = () => {
-        const pv = Number(projectValue) || 0;
+        const pv = Number(projectValue) || 1000000;
         let percent = 0.025;
         if (projectType === "medium") percent = 0.05;
         if (projectType === "large") percent = 0.10;
