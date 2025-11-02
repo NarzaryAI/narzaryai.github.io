@@ -244,7 +244,7 @@ const MainContent = () => (
 				<Flex align="center" gap="2" mb="6">
 					<Badge asChild size="3" radius="full">
 						<NextLink href="/blog/seekgpt-blueprint">
-							Read about SeekGPT Blueprint 1.0
+							We are the developer of AI SeekGPT
 							<ArrowRightIcon
 								width="15"
 								height="15"
