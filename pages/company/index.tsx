@@ -79,7 +79,7 @@ export default function ColorsHome() {
 							
 						</SerifHeading>
 						
-						<Box style={{ maxWidth: 500 }}>
+						<Box style={{ maxWidth: 780 }}>
 							<Text size="5" as="p" mb="6" color="gray">
 								Narzary Engineering & Consultancy Pvt. Ltd. is a leading provider of
 								engineering and consultancy services. Our mission is to deliver
