@@ -258,10 +258,9 @@ export default function Page() {
 								</SegmentedControl.Item>
 							</SegmentedControl.Root>
 						</Flex>
-
-						
-
-						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
+						<Grid columns={{ initial: "1", sm: "1", md: "3" }} gap="5" mb="3" align={"center"} justify="center">
+							<Box>
+								</Box>
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
@@ -292,6 +291,14 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+							<Box>
+
+							</Box>
+						</Grid>
+						<Grid columns={{ initial: "1", sm: "1", md: "3" }} gap="5" mb="7" align={"center"} justify="center">
+							<Box>
+
+							</Box>
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
@@ -322,6 +329,13 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+							<Box>
+
+							</Box>
+						</Grid>
+
+						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
+							
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
