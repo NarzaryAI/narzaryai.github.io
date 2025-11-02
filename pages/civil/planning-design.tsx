@@ -6,36 +6,37 @@ import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
 import { ColorsHeader } from "@components/ColorsHeader";
 import { ColorsMobileMenu } from "@components/ColorsMobileMenu";
 import Head from "next/head";
+import { SerifHeading } from "@components/SerifHeading";
 
 export default function PlanningDesignPage() {
   return (
     <MobileMenuProvider>
-        <ColorsMobileMenu />
-        
-                    <Head>
-                        <style>
-                            {`
+      <ColorsMobileMenu />
+
+      <Head>
+        <style>
+          {`
                     :is(.dark, .dark-theme) :is(body, .radix-themes) {
                       --color-background: #0b0b0b;
                       --color-panel-solid: var(--gray-1);
                     }
                   `}
-                        </style>
-                    </Head>
-        
-                    <Box
-                        style={{
-                            position: "absolute",
-                            left: 0,
-                            right: 0,
-                            height: 480,
-                            opacity: 0.6,
-                            background:
-                                "linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
-                        }}
-                    />
-        
-                    <ColorsHeader ghost />
+        </style>
+      </Head>
+
+      <Box
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          height: 480,
+          opacity: 0.6,
+          background:
+            "linear-gradient(to bottom, var(--crimson-4), var(--amber-2), transparent)",
+        }}
+      />
+
+      <ColorsHeader ghost />
       <TitleAndMetaTags
         title="Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Urban, site, and infrastructure planning; architectural and engineering design."
@@ -43,10 +44,17 @@ export default function PlanningDesignPage() {
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-          <Heading as="h1" size="6" mb="4">Planning & Design</Heading>
-          <Text size="4" as="p" mb="6" color="gray">
-            We offer planning and design services for urban, site, and infrastructure projects. Our team provides architectural, engineering, and master planning solutions tailored to client needs and regulatory requirements.
-          </Text>
+          <SerifHeading mb="3" style={{ maxWidth: 720 }}>
+            Planning & Design
+          </SerifHeading>
+
+          <Box style={{ maxWidth: 800 }}>
+            <Text size="5" as="p" mb="6" color="gray">
+              We offer planning and design services for urban, site, and infrastructure projects. Our team provides architectural, engineering, and master planning solutions tailored to client needs and regulatory requirements.
+            </Text>
+          </Box>
+
+
           <Heading as="h3" size="5" mb="2">Planning & design services</Heading>
           <ul style={{ marginTop: 12, paddingLeft: 20 }}>
             <li><Text size="2">Urban and site master planning</Text></li>
