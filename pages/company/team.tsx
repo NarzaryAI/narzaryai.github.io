@@ -277,7 +277,7 @@ export default function Page() {
 										</Text>
 										<br />
 										<Text size="2" color="gray" mt="2">
-											Graduate in Electronics and Communication Engineering
+											Covers all the operations of the company.
 										</Text>
 									</Box>
 									
