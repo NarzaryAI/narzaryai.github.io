@@ -68,20 +68,25 @@ export default function ColorsHome() {
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">
 				<TitleAndMetaTags
-					title="About SeekGPT by NarzaryAI"
-					description="ur vision is to establish SeekGPT as a globally recognized, open, and ethically grounded Artificial General Intelligence (AGI) foundational model, driven by India's diverse talent and cultural values, contributing to the advancement of humanity."
+					title="About Company | Narzary Engineering & Consultancy Pvt. Ltd."
+					description="Learn more about Narzary Engineering & Consultancy Pvt. Ltd., our mission, vision, and the team behind our innovative solutions."
 					image="seekgpt.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>
 						<SerifHeading mb="3" style={{ maxWidth: 720 }}>
-							SeekGPT by NarzaryAI
+							About Narzary Engineering & Consultancy Pvt. Ltd.
 							
 						</SerifHeading>
 						
 						<Box style={{ maxWidth: 500 }}>
 							<Text size="5" as="p" mb="6" color="gray">
-								An open, and ethically grounded Artificial General Intelligence (AGI) foundational model.
+								Narzary Engineering & Consultancy Pvt. Ltd. is a leading provider of
+								engineering and consultancy services. Our mission is to deliver
+								innovative solutions that drive progress and create lasting value
+								for our clients. With a team of experienced professionals, we
+								specialize in a wide range of services including civil engineering,
+								structural design, IT solutions, and project management.
 							</Text>
 						</Box>
 						
