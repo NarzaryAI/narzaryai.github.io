@@ -261,7 +261,7 @@ const RadixByWorkOSLogoLink = () => (
 			}}
 		/>
 
-		<BoxLink href="https://narzary.com" target="_blank">
+		<BoxLink href="/" target="_blank">
 			<AccessibleIcon label="Made by NarzaryAI">
 				<RadixLogo />
 

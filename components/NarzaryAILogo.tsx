@@ -35,7 +35,7 @@ export const NarzaryAILogo = () => (
 			}}
 		></div>
 
-		<BoxLink href="https://narzary.com" target="_blank">
+		<BoxLink href="/" target="_blank">
 			<AccessibleIcon label="Made by NarzaryAI">
 				<svg width="100" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g clip-path="url(#clip0_5_2)">
