@@ -228,7 +228,7 @@ export default function Page() {
 						<Flex direction="column" align="center" mb="7">
 							<Flex asChild align="center" gap="1" mb="3">
 								<Link asChild size="2" color="gray" ml="-2">
-									<NextLink href="/company/docs/overview/about-us">
+									<NextLink href="/company">
 										<ArrowLeftIcon />
 										About Company
 									</NextLink>
