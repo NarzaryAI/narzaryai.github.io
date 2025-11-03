@@ -11,10 +11,10 @@ export const DeveloperHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/icons"
-				highContrast={router.pathname.includes("/icons")}
+				href="/consultancy"
+				highContrast={router.pathname.includes("/consultancy")}
 			>
-				Pricing
+				Consultancy
 			</Link>
 		</Header>
 	);

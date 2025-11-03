@@ -277,7 +277,7 @@ export const ExampleThemesDashboard = ({
 
 				<Card size="4">
 					<Heading as="h3" size="6" trim="start" mb="2">
-						Pricing
+						Consultancy
 					</Heading>
 
 					<Text as="p" size="2" mb="5" color="gray">
