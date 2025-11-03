@@ -334,7 +334,7 @@ export default function Page() {
 										</Text>
 										<br />
 										<Text size="2" color="gray" mt="2">
-											Covers all the training and skill development initiatives of the company.
+											Covers training and skill development initiatives of the company.
 										</Text>
 									</Box>
 									
