@@ -35,7 +35,7 @@ import { ColorStepLabel } from "@components/ColorStepLabel";
 import { RadixLogo } from "@components/RadixLogo";
 import { BoxLink } from "@components/BoxLink";
 import { AccessibleIcon } from "@radix-ui/themes";
-import {NarzaryAILogo} from "@components/NarzaryAILogo"
+import { NarzaryAILogo } from "@components/NarzaryAILogo"
 export default function ColorsHome() {
 	return (
 		<MobileMenuProvider>
@@ -76,20 +76,20 @@ export default function ColorsHome() {
 					<Container>
 						<SerifHeading mb="3" style={{ maxWidth: 720 }}>
 							Consultancy Services
-							
+
 						</SerifHeading>
-						
+
 						<Box style={{ maxWidth: 800 }}>
 							<Text size="5" as="p" mb="6" color="gray">
 								We provide comprehensive engineering, technology, and design services to individuals, government bodies, corporations, and other entities in India and abroad.
 							</Text>
 						</Box>
-						
+
 
 						<Flex gap="4">
 							<ColorsMarketingButton asChild size={{ initial: "3", xs: "4" }}>
 								<NextLink href="/consultancy/estimation-and-costing">
-									Estimation & Costing 
+									Estimation & Costing
 									<svg
 										width="14"
 										height="14"
@@ -112,17 +112,9 @@ export default function ColorsHome() {
 							>
 								<NextLink href="/consultancy/dpr-preparations">DPR Preparation</NextLink>
 							</Button>
-							<Button
-								highContrast
-								variant="soft"
-								color="gray"
-								size={{ initial: "3", xs: "4" }}
-								asChild
-							>
-								<NextLink href="/consultancy/roads-bridges-buildings">Roads, Bridges & Buildings</NextLink>
-							</Button>
-							
-							
+
+
+
 						</Flex>
 						<Flex gap="4" mt="4" style={{ justifyContent: "flex-center" }}>
 							<Button
@@ -132,8 +124,19 @@ export default function ColorsHome() {
 								size={{ initial: "3", xs: "4" }}
 								asChild
 							>
+								<NextLink href="/consultancy/roads-bridges-buildings">Roads, Bridges & Buildings</NextLink>
+							</Button>
+							<Button
+								highContrast
+								variant="soft"
+								color="gray"
+								size={{ initial: "3", xs: "4" }}
+								asChild
+							>
 								<NextLink href="/consultancy/it-related-services">IT Related Services</NextLink>
 							</Button>
+						</Flex>
+						<Flex gap="4" mt="4" style={{ justifyContent: "flex-center" }}>
 							<Button
 								highContrast
 								variant="soft"
