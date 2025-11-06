@@ -29,14 +29,14 @@ export const PrimitivesMobileMenu = () => {
 									pages: [
 										{
 											title: "Homepage",
-											slug: "products",
+											slug: "/",
 										},
 										{
 											title: "Case studies",
-											slug: "products/case-studies",
+											slug: "/products/case-studies",
 										},
 										{
-											title: "Blog",
+											title: "Press",
 											slug: "blog",
 										},
 									],

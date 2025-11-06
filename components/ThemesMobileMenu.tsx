@@ -20,11 +20,11 @@ export const ThemesMobileMenu = () => (
 									slug: "",
 								},
 								{
-									title: "Playground",
-									slug: "research/playground",
+									title: "Citizen",
+									slug: "/citizen",
 								},
 								{
-									title: "Blog",
+									title: "Press",
 									slug: "blog",
 								},
 							],

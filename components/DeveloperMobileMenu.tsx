@@ -16,10 +16,10 @@ export const DeveloperMobileMenu = () => (
 							pages: [
 								{
 									title: "Homepage",
-									slug: "colors",
+									slug: "/",
 								},
 								{
-									title: "Blog",
+									title: "Press",
 									slug: "blog",
 								},
 							],
