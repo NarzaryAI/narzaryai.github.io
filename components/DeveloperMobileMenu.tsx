@@ -15,8 +15,8 @@ export const DeveloperMobileMenu = () => (
 						{
 							pages: [
 								{
-									title: "Homepage",
-									slug: "/",
+									title: "Products",
+									slug: "/products",
 								},
 								{
 									title: "Press",

@@ -35,7 +35,7 @@ export const ThemesMobileMenu = () => (
 							pages: [
 								{
 									title: "GitHub",
-									slug: "https://github.com/radix-ui/themes",
+									slug: "https://github.com/seekgpt",
 									icon: <GitHubLogoIcon />,
 								},
 							],

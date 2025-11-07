@@ -133,7 +133,7 @@ export const Header = ({ children, gitHubLink, ghost }: HeaderProps) => {
 								href="/civil"
 								active={router.pathname.startsWith("/civil")}
 							>
-								Civil Engineering
+								Engineering
 							</HeaderProductLink>
 							<HeaderProductLink
 								href="/company"

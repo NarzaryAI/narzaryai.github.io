@@ -18,40 +18,62 @@ import { PrimitivesHeader } from "@components/PrimitivesHeader";
 import { PrimitivesMobileMenu } from "@components/PrimitivesMobileMenu";
 import { SolutionsHeader } from "@components/seekgpt/SolutionsHeader";
 
-export default function PrimitivesHome() {
+export default function ProductsHome() {
 	return (
 		<MobileMenuProvider>
-			<PrimitivesMobileMenu />
-
 			<TitleAndMetaTags
-				title="SeekGPT API Reference"
-				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model. SeekGPT is designed to be a versatile and powerful tool for developers, researchers, and businesses looking to leverage the capabilities of advanced AI."
+				title="Products | Narzary Engineering & Consultancy Pvt. Ltd."
+				description="Explore Narzary's suite of products: SeekGPT, Buntha AI, GitSpot, Komkart, and Dotma. Innovative platforms for AI, development, ecommerce, and content management."
 				image="seekgpt.png"
 			/>
-			<Box style={{ height: 0 }}>
-				<PrimitivesHeader ghost />
-			</Box>
-			<FancyBackground>
-				<SolutionsHeader />
-			</FancyBackground>
-			
-			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-				<Separator size="2" />
-			</Container>
-			<Box overflow="hidden">
-				<BenefitsSection />
-				<StatsSection />
-			</Box>
-			<ComponentHighlightsSection />
-			<AccessibilitySection />
-			<DeveloperExperienceSection />
-			<AdoptionSection />
-			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-				<Separator size="2" />
-			</Container>
 			<Section size={{ initial: "2", md: "4" }}>
 				<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-					<CommunitySection />
+					<h1 style={{ fontSize: 36, fontWeight: 700, marginBottom: 24 }}>Our Products</h1>
+					<p style={{ fontSize: 18, color: '#666', maxWidth: 700, marginBottom: 40 }}>
+						Narzary Engineering & Consultancy develops innovative products for AI, development, ecommerce, and content management. Explore our platforms below.
+					</p>
+								<ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+									<li style={{ marginBottom: 32 }}>
+										<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
+											<h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 8 }}>SeekGPT</h2>
+											<p style={{ fontSize: 16, marginBottom: 0 }}>
+												An open source AI platform to manage, maintain, and deploy AI models. SeekGPT empowers organizations to build, fine-tune, and serve advanced AI solutions with transparency and control.
+											</p>
+										</Box>
+									</li>
+									<li style={{ marginBottom: 32 }}>
+										<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
+											<h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 8 }}>Buntha AI</h2>
+											<p style={{ fontSize: 16, marginBottom: 0 }}>
+												A desktop-based application to use AI for productivity, creativity, and automation. Buntha AI brings the power of generative AI to your desktop, enabling offline and secure workflows.
+											</p>
+										</Box>
+									</li>
+									<li style={{ marginBottom: 32 }}>
+										<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
+											<h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 8 }}>GitSpot</h2>
+											<p style={{ fontSize: 16, marginBottom: 0 }}>
+												A developer platform for code collaboration, version control, and project management. GitSpot streamlines the software development lifecycle for teams and individuals.
+											</p>
+										</Box>
+									</li>
+									<li style={{ marginBottom: 32 }}>
+										<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
+											<h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 8 }}>Komkart</h2>
+											<p style={{ fontSize: 16, marginBottom: 0 }}>
+												An ecommerce platform designed for seamless online selling and buying. Komkart offers robust features for merchants, buyers, and marketplace operators.
+											</p>
+										</Box>
+									</li>
+									<li style={{ marginBottom: 32 }}>
+										<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
+											<h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 8 }}>Dotma</h2>
+											<p style={{ fontSize: 16, marginBottom: 0 }}>
+												A modern Content Management System (CMS) for creating, managing, and publishing digital content. Dotma is built for flexibility, scalability, and ease of use.
+											</p>
+										</Box>
+									</li>
+								</ul>
 				</Container>
 			</Section>
 			<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
