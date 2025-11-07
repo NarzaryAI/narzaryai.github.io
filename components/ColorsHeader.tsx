@@ -11,10 +11,10 @@ export const ColorsHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/consultancy"
-				highContrast={router.pathname.includes("/consultancy")}
+				href="/products"
+				highContrast={router.pathname.includes("/products")}
 			>
-				Consultancy
+				Products
 			</Link>
 		</Header>
 	);
