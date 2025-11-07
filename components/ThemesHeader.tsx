@@ -11,10 +11,10 @@ export const ThemesHeader = (props: HeaderProps) => {
 			<Link
 				size="2"
 				color="gray"
-				href="/research/playground"
-				highContrast={router.pathname.includes("/research/playground")}
+				href="/products"
+				highContrast={router.pathname.includes("/products")}
 			>
-				Playground
+				Products
 			</Link>
 		</Header>
 	);
