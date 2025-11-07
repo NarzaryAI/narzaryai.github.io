@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, Section } from "@radix-ui/themes";
+import { Container, Section, Text } from "@radix-ui/themes";
 import { Footer } from "@components/Footer";
 import { MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
@@ -17,6 +17,7 @@ import { Box, Separator } from "@radix-ui/themes";
 import { PrimitivesHeader } from "@components/PrimitivesHeader";
 import { PrimitivesMobileMenu } from "@components/PrimitivesMobileMenu";
 import { SolutionsHeader } from "@components/seekgpt/SolutionsHeader";
+import { SerifHeading } from "@components/SerifHeading";
 
 export default function ProductsHome() {
 	return (
@@ -27,18 +28,19 @@ export default function ProductsHome() {
 				description="Explore Narzary's suite of products: SeekGPT, Buntha AI, GitSpot, Komkart, and Dotma. Innovative platforms for AI, development, ecommerce, and content management."
 				image="seekgpt.png"
 			/>
-			<Box style={{ height: 0 }}>
-				<PrimitivesHeader ghost />
-			</Box>
-			<FancyBackground>
-				<PrimitivesHero />
-			</FancyBackground>
+
 			<Section size={{ initial: "2", md: "4" }}>
 				<Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
-					<h1 style={{ fontSize: 36, fontWeight: 700, marginBottom: 24 }}>Our Products</h1>
-					<p style={{ fontSize: 18, color: '#666', maxWidth: 700, marginBottom: 40 }}>
-						Narzary Engineering & Consultancy develops innovative products for AI, development, ecommerce, and content management. Explore our platforms below.
-					</p>
+					<SerifHeading mb="3" style={{ maxWidth: 720 }}>
+						Our Products
+					</SerifHeading>
+
+					<Box style={{ maxWidth: 780 }}>
+						<Text size="5" as="p" mb="6" color="gray">
+							Narzary Engineering & Consultancy develops innovative products for AI, development, ecommerce, and content management. Explore our platforms below.
+						</Text>
+					</Box>
+					
 					<ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
 						<li style={{ marginBottom: 32 }}>
 							<Box style={{ background: '#f8fafc', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
