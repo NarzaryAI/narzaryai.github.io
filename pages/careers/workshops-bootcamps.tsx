@@ -40,7 +40,7 @@ export default function WorkshopsBootcampsPage() {
       <TitleAndMetaTags
         title="Workshops & Bootcamps | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Hands-on workshops and bootcamps in civil engineering, IT, and related fields."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

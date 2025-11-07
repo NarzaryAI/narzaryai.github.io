@@ -22,7 +22,7 @@ export default function MaintenancePage() {
       <TitleAndMetaTags
         title="Support & Maintenance | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Operational support, maintenance contracts, SLAs and feature roadmaps for project software — bug fixes, security patching, monitoring and prioritized enhancements."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

@@ -217,7 +217,7 @@ export default function Page() {
 				<TitleAndMetaTags
 					title="Team Members | Narzary Engineering & Consultancy Pvt. Ltd."
 					description="Team members of Narzary Engineering & Consultancy Pvt. Ltd."
-					image="seekgpt.png"
+					image="narzary.png"
 				/>
 
 				<Section

@@ -51,7 +51,7 @@ export default function ITServices() {
         <TitleAndMetaTags
           title="IT Related Services | Narzary Engineering & Consultancy Pvt. Ltd."
           description="IT-related services from Narzary Engineering & Consultancy: software development, system integration, cloud & DevOps, GIS, cybersecurity, and ongoing maintenance."
-          image="seekgpt.png"
+          image="narzary.png"
         />
 
         <Section size={{ initial: "2", md: "4" }}>

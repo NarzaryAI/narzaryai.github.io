@@ -15,7 +15,7 @@ export default function ResidentialCommercialPage() {
       <TitleAndMetaTags
         title="Residential & Commercial Planning | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Planning and design services for residential and commercial buildings: concept, drawings, approvals, and project management."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Box style={{ height: 0 }}>
         <PrimitivesHeader ghost />

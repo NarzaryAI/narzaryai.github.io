@@ -40,7 +40,7 @@ export default function InteriorExteriorDesignPage() {
       <TitleAndMetaTags
         title="Interior & Exterior Design | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Interior and exterior design services for residential, commercial, and institutional spaces. Concept, drawings, materials, and project management."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

@@ -69,7 +69,7 @@ export default function CitizenServicesHome() {
 			<TitleAndMetaTags
 				title="Citizen Services | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="Explore our citizen services: ITR Filings, Tax Exemption, Govt. Schemes, Training, Skill Development, and more."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">

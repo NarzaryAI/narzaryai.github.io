@@ -15,7 +15,7 @@ export default function BuildingsHousesPage() {
       <TitleAndMetaTags
         title="Buildings / Houses | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Residential, commercial, and institutional building design and construction."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Box style={{ height: 0 }}>
         <PrimitivesHeader ghost />

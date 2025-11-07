@@ -40,7 +40,7 @@ export default function PlanningDesignPage() {
       <TitleAndMetaTags
         title="Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Urban, site, and infrastructure planning; architectural and engineering design."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

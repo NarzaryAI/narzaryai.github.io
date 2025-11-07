@@ -55,7 +55,7 @@ const EstimationPage: React.FC = () => {
                 <TitleAndMetaTags
                     title="Estimation & Costing | Narzary Engineering & Consultancy"
                     description="Estimate project costs quickly by entering your total project value — the estimator returns 2.5% of the project value as the consultancy cost."
-                    image="seekgpt.png"
+                    image="narzary.png"
                 />
 
                 <Section size={{ initial: "2", md: "4" }}>

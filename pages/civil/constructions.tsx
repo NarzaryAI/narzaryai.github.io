@@ -40,7 +40,7 @@ export default function ConstructionsPage() {
             <TitleAndMetaTags
                 title="Constructions | Narzary Engineering & Consultancy Pvt. Ltd."
                 description="Complete construction services for buildings, infrastructure, and public works."
-                image="seekgpt.png"
+                image="narzary.png"
             />
             <Section size={{ initial: "2", md: "4" }}>
                 <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

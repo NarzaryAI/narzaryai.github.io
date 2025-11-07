@@ -38,7 +38,7 @@ export default function ThemesHome() {
 			<TitleAndMetaTags
 				title="Narzary Engineering & Consultancy Services"
 				description="We provide comprehensive engineering, technology, and design services to individuals, government bodies, corporations, and other entities in India and abroad."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<ThemesMobileMenu />

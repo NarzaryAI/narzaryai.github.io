@@ -23,7 +23,7 @@ export default function SoftwareDevelopmentPage() {
       <TitleAndMetaTags
         title="Software Development Services | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Custom software development from Narzary: enterprise applications, field-data apps, GIS integrations, cloud-native systems, and long-term maintenance for public and private sector projects."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

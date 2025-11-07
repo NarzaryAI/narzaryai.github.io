@@ -19,7 +19,7 @@ export default function GetStartedPage() {
       <TitleAndMetaTags
         title="Get Started | Narzary Engineering & Consultancy"
         description="Start a project with Narzary: request an estimate, schedule a discovery call, or ask about DPR and procurement-ready deliverables."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

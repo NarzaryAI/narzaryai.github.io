@@ -19,7 +19,7 @@ export default function TownCityPlanningPage() {
       <TitleAndMetaTags
         title="Town & City Planning | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Urban and town planning services: master plans, zoning, infrastructure, and sustainable development."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

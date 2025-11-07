@@ -22,7 +22,7 @@ export default function ERPSolutionsPage() {
       <TitleAndMetaTags
         title="ERP Solutions | Narzary Engineering & Consultancy Pvt. Ltd."
         description="ERP & management information systems for contractors and agencies — procurement-ready modules for finance, HR, procurement, inventory and project management."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

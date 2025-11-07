@@ -19,7 +19,7 @@ export default function JobOpeningsPage() {
       <TitleAndMetaTags
         title="Job Openings | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Current job openings at Narzary Engineering & Consultancy for civil engineering, IT, and management roles."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

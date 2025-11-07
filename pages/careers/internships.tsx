@@ -15,7 +15,7 @@ export default function InternshipsPage() {
       <TitleAndMetaTags
         title="Internships | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Internship opportunities for students and graduates in engineering, technology, and management."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Box style={{ height: 0 }}>
         <PrimitivesHeader ghost />

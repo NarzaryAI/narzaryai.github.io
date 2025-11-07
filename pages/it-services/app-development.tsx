@@ -22,7 +22,7 @@ export default function AppDevelopmentPage() {
       <TitleAndMetaTags
         title="App Development Services | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Mobile and cross-platform app development (React Native / Expo) for field-data collection, worker workflows and contractor apps, with offline-first capabilities and GIS integration."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

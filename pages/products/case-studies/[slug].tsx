@@ -57,7 +57,7 @@ export default function CaseStudy({ frontmatter, code }: CaseStudyPage) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – Case studies – Radix Primitives`}
 				description={frontmatter.metaDescription}
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<PrimitivesHeader />

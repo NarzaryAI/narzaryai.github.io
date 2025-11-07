@@ -70,7 +70,7 @@ export default function ColorsHome() {
 				<TitleAndMetaTags
 					title="About SeekGPT by NarzaryAI"
 					description="ur vision is to establish SeekGPT as a globally recognized, open, and ethically grounded Artificial General Intelligence (AGI) foundational model, driven by India's diverse talent and cultural values, contributing to the advancement of humanity."
-					image="seekgpt.png"
+					image="narzary.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>

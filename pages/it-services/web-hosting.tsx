@@ -22,7 +22,7 @@ export default function WebHostingPage() {
       <TitleAndMetaTags
         title="Web & Cloud Hosting | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Reliable web and cloud hosting for project portals, GIS services, and enterprise apps — secure deployments, backups, monitoring, and SLAs for government and enterprise workloads."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

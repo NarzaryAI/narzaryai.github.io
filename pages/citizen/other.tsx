@@ -19,7 +19,7 @@ export default function OtherCitizenServicesPage() {
       <TitleAndMetaTags
         title="Other Citizen Services | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Support for miscellaneous citizen services: custom requests, documentation, government-related assistance, and more."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

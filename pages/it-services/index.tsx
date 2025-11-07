@@ -26,7 +26,7 @@ export default function PrimitivesHome() {
 			<TitleAndMetaTags
 				title="Information Technology Related Services | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="IT-related services from Narzary Engineering & Consultancy: software development, system integration, cloud & DevOps, GIS, cybersecurity, and ongoing maintenance."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 			<Box style={{ height: 0 }}>
 				<PrimitivesHeader ghost />

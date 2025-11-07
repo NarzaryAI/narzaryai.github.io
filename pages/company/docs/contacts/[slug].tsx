@@ -33,7 +33,7 @@ export default function ColorsPaletteCompostionDoc({ frontmatter, code }: Doc) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – Radix Colors`}
 				description={frontmatter.metaDescription}
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<MDXProvider frontmatter={frontmatter}>

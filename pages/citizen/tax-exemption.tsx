@@ -40,7 +40,7 @@ export default function TaxExemptionPage() {
       <TitleAndMetaTags
         title="Tax Exemption | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Tax exemption services as per Section 10(26) of the Income Tax Act for salaried individuals and professionals."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

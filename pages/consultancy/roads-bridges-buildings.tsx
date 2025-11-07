@@ -21,7 +21,7 @@ const RoadsPage: React.FC = () => {
                 <TitleAndMetaTags
                     title="Roads, Bridges & Buildings | Narzary Engineering & Consultancy"
                     description="Design, engineering, and construction supervision services for roads, bridges and buildings. Structural design, BoQ, tendering, and project management."
-                    image="seekgpt.png"
+                    image="narzary.png"
                 />
 
                 <Section size={{ initial: "2", md: "4" }}>

@@ -26,7 +26,7 @@ export default function ProductsHome() {
 			<TitleAndMetaTags
 				title="Products | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="Explore Narzary's suite of products: SeekGPT, Buntha AI, GitSpot, Komkart, and Dotma. Innovative platforms for AI, development, ecommerce, and content management."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 			<PrimitivesHeader ghost />
 			<Section size={{ initial: "2", md: "4" }}>

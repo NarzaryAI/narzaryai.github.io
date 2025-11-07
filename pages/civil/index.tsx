@@ -69,7 +69,7 @@ export default function ColorsHome() {
 			<TitleAndMetaTags
 				title="Civil Engineering Works | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="Explore our civil engineering services: constructions, infrastructures, buildings/houses, roads & bridges, planning & design."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">

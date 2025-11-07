@@ -24,7 +24,7 @@ export default function ColorsGettingStartedDoc({ frontmatter, code }: Doc) {
 			<TitleAndMetaTags
 				title={`${frontmatter.metaTitle} – SeekGPT | NarzaryAI`}
 				description={frontmatter.metaDescription}
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<MDXProvider frontmatter={frontmatter}>

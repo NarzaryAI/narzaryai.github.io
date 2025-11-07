@@ -57,7 +57,7 @@ export default function CareersHome() {
 			<TitleAndMetaTags
 				title="Careers | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="Explore career opportunities, internships, certifications, workshops, mentorship, and counseling at Narzary Engineering & Consultancy."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">

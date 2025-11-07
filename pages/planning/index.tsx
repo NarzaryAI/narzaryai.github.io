@@ -69,7 +69,7 @@ export default function PlanningDesignHome() {
 			<TitleAndMetaTags
 				title="Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
 				description="Explore our planning and design services: Architectures, Residential/Commercial, Town/City Planning, Interior/Exterior Design, Space Planning."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<Box mx={{ initial: "5", xs: "6", sm: "7", md: "9" }} position="relative">

@@ -40,7 +40,7 @@ export default function RoadsBridgesPage() {
       <TitleAndMetaTags
         title="Roads & Bridges | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Design, construction, and maintenance of roads, highways, and bridges."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

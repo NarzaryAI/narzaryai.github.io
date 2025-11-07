@@ -36,7 +36,7 @@ export default function RadixBlog({ frontmatters }: Blog) {
 			<TitleAndMetaTags
 				title="Blog – SeekGPT | NarzaryAI"
 				description={description}
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 
 			<MobileMenuProvider>

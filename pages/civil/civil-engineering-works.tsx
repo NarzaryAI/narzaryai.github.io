@@ -19,7 +19,7 @@ export default function CivilEngineeringWorksPage() {
       <TitleAndMetaTags
         title="Civil Engineering Works | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Civil engineering services — estimation, DPR-ready designs, construction supervision, roads, bridges, buildings, and infrastructure projects with procurement-friendly deliverables."
-        image="seekgpt.png"
+        image="narzary.png"
       />
 
       <Box style={{ height: 0 }}>

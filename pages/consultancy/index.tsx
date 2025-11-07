@@ -70,7 +70,7 @@ export default function ColorsHome() {
 				<TitleAndMetaTags
 					title="Consultancy Services | Narzary Engineering & Consultancy Pvt. Ltd."
 					description="Learn about the consultancy services offered by Narzary Engineering & Consultancy Pvt. Ltd., including IT services, civil engineering works, planning, and citizen services."
-					image="seekgpt.png"
+					image="narzary.png"
 				/>
 				<Section size={{ initial: "2", md: "4" }}>
 					<Container>

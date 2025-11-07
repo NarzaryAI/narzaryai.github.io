@@ -40,7 +40,7 @@ export default function InfrastructuresPage() {
       <TitleAndMetaTags
         title="Infrastructures | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Planning, design, and delivery of infrastructure projects: water, drainage, roads, utilities."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

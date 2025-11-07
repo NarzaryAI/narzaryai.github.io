@@ -25,7 +25,7 @@ export default function PrimitivesHome() {
 			<TitleAndMetaTags
 				title="SeekGPT API Reference"
 				description="An open, and ethically grounded Artificial General Intelligence (AGI) foundational model. SeekGPT is designed to be a versatile and powerful tool for developers, researchers, and businesses looking to leverage the capabilities of advanced AI."
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 			<Box style={{ height: 0 }}>
 				<PrimitivesHeader ghost />

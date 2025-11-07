@@ -21,7 +21,7 @@ const ProjectManagementPage: React.FC = () => {
                 <TitleAndMetaTags
                     title="Project Management | Narzary Engineering & Consultancy"
                     description="Comprehensive project management consultancy for civil, IT, and infrastructure projects. Planning, execution, monitoring, and delivery."
-                    image="seekgpt.png"
+                    image="narzary.png"
                 />
 
                 <Section size={{ initial: "2", md: "4" }}>

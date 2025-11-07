@@ -40,7 +40,7 @@ export default function ArchitecturesPage() {
       <TitleAndMetaTags
         title="Architectural Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Architectural planning and design services for residential, commercial, and institutional projects. Concept, drawings, approvals, and project management."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

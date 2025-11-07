@@ -13,7 +13,7 @@ export default function ExamplePage() {
 			</Head>
 			<TitleAndMetaTags
 				title="Ecommerce Example Layout – Radix Themes"
-				image="seekgpt.png"
+				image="narzary.png"
 			/>
 			<Theme
 				accentColor="gray"

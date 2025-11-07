@@ -21,7 +21,7 @@ const DPRPage: React.FC = () => {
         <TitleAndMetaTags
           title="DPR Preparation | Narzary Engineering & Consultancy"
           description="Comprehensive Detailed Project Report (DPR) preparation services: feasibility, designs, BOQ, costing, and tender-ready documentation."
-          image="seekgpt.png"
+          image="narzary.png"
         />
 
         <Section size={{ initial: "2", md: "4" }}>

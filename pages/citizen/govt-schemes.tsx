@@ -40,7 +40,7 @@ export default function GovtSchemesPage() {
       <TitleAndMetaTags
         title="Government Schemes | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Support and guidance for citizens to access government schemes and benefits."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>

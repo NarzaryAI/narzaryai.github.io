@@ -15,7 +15,7 @@ export default function ITRFilingsPage() {
       <TitleAndMetaTags
         title="ITR Filings | Narzary Engineering & Consultancy Pvt. Ltd."
         description="Income Tax Return (ITR) filing services for individuals, professionals, and businesses."
-        image="seekgpt.png"
+        image="narzary.png"
       />
       <Box style={{ height: 0 }}>
         <PrimitivesHeader ghost />

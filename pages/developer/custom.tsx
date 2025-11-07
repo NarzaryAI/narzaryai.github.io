@@ -217,7 +217,7 @@ export default function Page() {
 				<TitleAndMetaTags
 					title="SeekGPT by NarzaryAI Team Members"
 					description="SeekGPT comprises of several young and experienced team members and students."
-					image="seekgpt.png"
+					image="narzary.png"
 				/>
 
 				<Section
