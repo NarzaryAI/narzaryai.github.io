@@ -62,18 +62,18 @@ import {
 	Tooltip,
 } from "@radix-ui/themes";
 import * as React from "react";
-import styles from "./team.module.css";
+import styles from "./index.module.css";
 import { getPeopleForColor } from "@utils/people";
 import { ThemesPanelBackgroundImage } from "@components/ThemesPanelBackgroundImage";
 import { AvatarIconFallback } from "@components/AvatarIconFallback";
 import { ColorField } from "@components/ColorField";
 import { generateRadixColors } from "@components/generateRadixColors";
-import { useLocalStorage } from "../../utils/use-local-storage";
-import { useLayoutEffect } from "../../utils/use-layout-effect";
-import { useIsHydrated } from "../../utils/use-is-hydrated";
+import { useLocalStorage } from "../../../utils/use-local-storage";
+import { useLayoutEffect } from "../../../utils/use-layout-effect";
+import { useIsHydrated } from "../../../utils/use-is-hydrated";
 import { useTheme } from "next-themes";
 import { ToggleGroup } from "radix-ui";
-import { copy } from "../../utils/clipboard";
+import { copy } from "../../../utils/clipboard";
 import { CustomSwatch } from "@components/CustomSwatch";
 import { ColorUsageRange } from "@components/ColorUsageRange";
 import { ColorStepLabel } from "@components/ColorStepLabel";
