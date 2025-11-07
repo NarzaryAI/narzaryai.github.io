@@ -215,8 +215,8 @@ export default function Page() {
 				<ColorsMobileMenu />
 
 				<TitleAndMetaTags
-					title="Team Members | Narzary Engineering & Consultancy Pvt. Ltd."
-					description="Team members of Narzary Engineering & Consultancy Pvt. Ltd."
+					title="Kanishka Brahma | Narzary Engineering & Consultancy Pvt. Ltd."
+					description="Kanishka Brahma - Director & Co-founder of Narzary Engineering & Consultancy Pvt. Ltd."
 					image="narzary.png"
 				/>
 
@@ -228,14 +228,14 @@ export default function Page() {
 						<Flex direction="column" align="center" mb="7">
 							<Flex asChild align="center" gap="1" mb="3">
 								<Link asChild size="2" color="gray" ml="-2">
-									<NextLink href="/company">
+									<NextLink href="/company/team">
 										<ArrowLeftIcon />
-										About Company
+										Team Members
 									</NextLink>
 								</Link>
 							</Flex>
 							<Heading as="h1" align="center" size="8">
-								Team Members
+								Kanishka Brahma
 							</Heading>
 
 							<SegmentedControl.Root
@@ -258,202 +258,22 @@ export default function Page() {
 								</SegmentedControl.Item>
 							</SegmentedControl.Root>
 						</Flex>
-						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="3" align={"center"} justify="center">
+
+
+
+						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
+
+
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
 										<AvatarIconFallback />
 									</Avatar>
 
-									<Box>
-										<Heading as="h2" size="5">
-											Anfungwra Brahma
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Chief Technology Officer
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covers all the technology operations of the company.
-										</Text>
-									</Box>
-									
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
 
 									<Box>
 										<Heading as="h2" size="5">
 											Kanishka Brahma
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Director & Co-founder
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covers all the operations of the company.
-										</Text>
-									</Box>
-									
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									<Box>
-										<Heading as="h2" size="5">
-											Jasmine Goyari
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Training & Skill Development Head
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covers training and skill development initiatives.
-										</Text>
-									</Box>
-									
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-						</Grid>
-						
-
-						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
-							
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									
-									<Box>
-										<Heading as="h2" size="5">
-											Julina Basumatary
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Sales Executive & Co-founder
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covering the area of Citizen Services.
-										</Text>
-									</Box>
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									
-									<Box>
-										<Heading as="h2" size="5">
-											Biswajit Narzary
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Public Relations & Co-founder
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covering the area of Citizen Services & Referrals.
-										</Text>
-									</Box>
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									
-									<Box>
-										<Heading as="h2" size="5">
-											Hungkhar Brahma
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Public Relations 
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Covering the area of Citizen Services & Referrals.
-										</Text>
-									</Box>
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									
-									<Box>
-										<Heading as="h2" size="5">
-											Monikha Brahma
 										</Heading>
 										<Text size="2" color="gray" mt="1">
 											Director & Co-founder
@@ -468,21 +288,21 @@ export default function Page() {
 								<Separator my="3" />
 
 								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
+									<Box></Box>
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+							<KanishkaBasicProfile />
+							<KanishkaBasicProfileMore />
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
-							
+
 						</Theme>
 					</Container>
 				</Section>
 				<Container>
-					<Footer/>
+					<Footer />
 				</Container>
 			</Theme>
 		</MobileMenuProvider>
@@ -500,132 +320,28 @@ interface ToDoList {
 	onItemsChange: (items: ToDoItem[]) => void;
 }
 
-const peopleData = [
-	{ id: 0, name: "Kanishka Brahma", role: "Director & CEO", description: "Graduate in Electronics and Communication Engineering", avatar: "/avatars/kanishka.png" },
-	{ id: 1, name: "Sanjib Narzary", role: "Research and Development", avatar: "https://www.cit.ac.in/uploads/users/images/1755229478.jpg" },
-	{ id: 2, name: "Rahul Singh", role: "Research and Development", avatar: "/avatars/rahul.png" },
-	{ id: 3, name: "Priya Das", role: "Engineering and Technology", avatar: "/avatars/priya.png" },
-	{ id: 4, name: "Amitabh Roy", role: "Engineering and Technology", avatar: "/avatars/amitabh.png" },
-	{ id: 5, name: "Sneha Patil", role: "Students and Pioneers", avatar: "/avatars/sneha.png" },
-	{ id: 6, name: "Vikram Joshi", role: "Students and Pioneers", avatar: "/avatars/vikram.png" },
-	{ id: 7, name: "Rituparna Barman", role: "Management", avatar: "/avatars/rituparna.png" },
-	{ id: 8, name: "Manoj Kumar", role: "Management", avatar: "/avatars/manoj.png" },
-	{ id: 9, name: "Suman Deka", role: "Supporting Staff", avatar: "/avatars/suman.png" },
-	{ id: 10, name: "Geeta Devi", role: "Supporting Staff", avatar: "/avatars/geeta.png" },
-	{ id: 11, name: "Arjun Nath", role: "Supporting Staff", avatar: "/avatars/arjun.png" },
-	{ id: 12, name: "Meera Jain", role: "Supporting Staff", avatar: "/avatars/meera.png" },
-];
 
-const ToDoList = ({ items, onItemsChange }: ToDoList) => {
-	return (
-		<Flex gap="2" direction="column">
-			{items.map((item) => (
-				<Text as="label" size="2" key={item.id}>
-					<Flex gap="2">
-						<Checkbox
-							checked={item.completed}
-							onCheckedChange={(checked) => {
-								const newItems = items.slice();
-								const newItem = newItems.find(
-									(candidate) => candidate.id === item.id,
-								)!;
-								newItem.completed = !!checked;
-								onItemsChange(newItems);
-							}}
-						/>
-						<Text
-							color={item.completed ? "gray" : undefined}
-							style={
-								{
-									textDecoration: item.completed ? "line-through" : undefined,
-									"--accent-12": "var(--accent-11)",
-								} as React.CSSProperties
-							}
-						>
-							{itemsContent[item.id]}
-						</Text>
-					</Flex>
-				</Text>
-			))}
-		</Flex>
-	);
-};
 
-const itemsContent: Record<string, React.ReactElement> = {
-	a: (
-		<span>
-			Respond to comment{" "}
-			<Link
-				href="#"
-				underline="hover"
-				onClick={(event) => event.preventDefault()}
-			>
-				#384
-			</Link>{" "}
-			from Travis
-		</span>
-	),
-	b: (
-		<span>
-			Invite{" "}
-			<Link
-				href="#"
-				underline="hover"
-				onClick={(event) => event.preventDefault()}
-			>
-				Acme Co.
-			</Link>{" "}
-			team to Slack
-		</span>
-	),
-	c: (
-		<span>
-			Create a report{" "}
-			<Link
-				href="#"
-				underline="hover"
-				onClick={(event) => event.preventDefault()}
-			>
-				requested
-			</Link>{" "}
-			by Danilo
-		</span>
-	),
-	d: <span>Close Q2 finances</span>,
-	e: (
-		<span>
-			Review invoice{" "}
-			<Link
-				href="#"
-				underline="hover"
-				onClick={(event) => event.preventDefault()}
-			>
-				#3456
-			</Link>
-		</span>
-	),
-};
-
-const LinksExample = ({ highContrast = false }) => (
+const KanishkaBasicProfile = ({ highContrast = false }) => (
 	<Blockquote>
-		Susan Kare is an American{" "}
+		Kanishka Brahma is an Electronic Engineer (B.Tech) from{" "}
 		<HoverCard.Root>
 			<HoverCard.Trigger>
 				<Link
 					underline="hover"
 					highContrast={highContrast}
 					target="_blank"
-					href="https://en.wikipedia.org/wiki/Graphic_design"
+					href="https://cit.ac.in"
 				>
-					graphic designer
+					Central Institute of Technology, Kokrajhar
 				</Link>
 			</HoverCard.Trigger>
 			<HoverCard.Content>
 				<Flex>
 					<Inset side="left" pr="current">
 						<img
-							src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&h=480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-							alt="Graphic design"
+							src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&h=480&auto=format&fit=crop"
+							alt="Campus or engineering"
 							style={{
 								display: "block",
 								objectFit: "cover",
@@ -637,68 +353,42 @@ const LinksExample = ({ highContrast = false }) => (
 						/>
 					</Inset>
 					<Text as="p" size="2" style={{ maxWidth: 250 }}>
-						<Strong>Graphic design</Strong> is a profession and applied art
-						whose activity consists in projecting visual communications intended
-						to transmit specific messages to people.
+						Kanishka completed his Bachelor of Technology in{" "}
+						<Strong>Electronic Engineering</Strong> at the Central Institute of
+						Technology, Kokrajhar, where he built a foundation in electronics,
+						embedded systems, and applied engineering practices.
 					</Text>
 				</Flex>
 			</HoverCard.Content>
-		</HoverCard.Root>{" "}
-		and artist, who contributed{" "}
+		</HoverCard.Root>
+		. After graduation he joined a technology company to gain industry
+		experience, working on practical engineering and product development.
+		
+	</Blockquote>
+);
+
+const KanishkaBasicProfileMore = ({ highContrast = false }) => (
+	<Blockquote>
+		
+		He later chose to leave that position to pursue his long-standing dream of
+		creating a company of his own — a company focused on serving the people of{" "}
 		<HoverCard.Root>
 			<HoverCard.Trigger>
 				<Link
 					underline="hover"
 					highContrast={highContrast}
 					target="_blank"
-					href="https://en.wikipedia.org/wiki/User_interface"
+					href="https://en.wikipedia.org/wiki/Bodoland"
 				>
-					interface
+					Bodoland
 				</Link>
 			</HoverCard.Trigger>
 			<HoverCard.Content>
 				<Flex>
 					<Inset side="left" pr="current">
 						<img
-							src="https://images.unsplash.com/photo-1602576666092-bf6447a729fc?q=80&h=480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-							alt="A graphical user interface"
-							style={{
-								display: "block",
-								objectFit: "cover",
-								objectPosition: "right",
-								height: 160,
-								width: 160,
-								backgroundColor: "var(--gray-5)",
-								filter: "contrast(1.05) brightness(1.05)",
-							}}
-						/>
-					</Inset>
-					<Text as="p" size="2" style={{ maxWidth: 250 }}>
-						In the industrial design field of human–computer interaction, a{" "}
-						<Strong>user interface</Strong> is the space where interactions
-						between humans and machines occur.
-					</Text>
-				</Flex>
-			</HoverCard.Content>
-		</HoverCard.Root>{" "}
-		elements and{" "}
-		<HoverCard.Root>
-			<HoverCard.Trigger>
-				<Link
-					underline="hover"
-					highContrast={highContrast}
-					target="_blank"
-					href="https://en.wikipedia.org/wiki/Typeface"
-				>
-					typefaces
-				</Link>
-			</HoverCard.Trigger>
-			<HoverCard.Content>
-				<Flex>
-					<Inset side="left" pr="current">
-						<img
-							src="https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=540&q=80"
-							alt="A graphical user interface"
+							src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&h=480&auto=format&fit=crop"
+							alt="Community or region"
 							style={{
 								display: "block",
 								objectFit: "cover",
@@ -709,53 +399,14 @@ const LinksExample = ({ highContrast = false }) => (
 						/>
 					</Inset>
 					<Text as="p" size="2" style={{ maxWidth: 250 }}>
-						A <Strong>typeface</Strong> or <Strong>font family</Strong> is a
-						design of letters, numbers and other symbols, to be used in printing
-						or for electronic display. There are thousands of different
-						typefaces in existence, with new ones being developed constantly.
+						Bodoland is a region with a distinct cultural and social identity.
+						Kanishka's goal is to build technology and services that empower the
+						local communities and address regional needs.
 					</Text>
 				</Flex>
 			</HoverCard.Content>
-		</HoverCard.Root>{" "}
-		for the first{" "}
-		<HoverCard.Root>
-			<HoverCard.Trigger>
-				<Link
-					underline="hover"
-					highContrast={highContrast}
-					target="_blank"
-					href="https://en.wikipedia.org/wiki/Typeface"
-				>
-					Apple Macintosh
-				</Link>
-			</HoverCard.Trigger>
-			<HoverCard.Content>
-				<Flex>
-					<Inset side="left" pr="current">
-						<img
-							src="https://images.unsplash.com/photo-1553469945-2adfe230284d?q=80&h=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-							alt="A graphical user interface"
-							style={{
-								display: "block",
-								objectFit: "cover",
-								objectPosition: "80%",
-								height: 160,
-								width: 160,
-								backgroundColor: "var(--gray-5)",
-								filter: "grayscale(100%)",
-							}}
-						/>
-					</Inset>
-					<Text as="p" size="2" style={{ maxWidth: 250 }}>
-						The <Strong>Apple Macintosh</Strong>—later rebranded as the{" "}
-						<Strong>Macintosh 128K</Strong>—was the first successful mass-market
-						all-in-one desktop personal computer with a graphical user
-						interface, built-in screen, and mouse.
-					</Text>
-				</Flex>
-			</HoverCard.Content>
-		</HoverCard.Root>{" "}
-		personal computer from 1983 to 1986.
+		</HoverCard.Root>
+		, focusing on practical solutions and long-term community impact.
 	</Blockquote>
 );
 
@@ -838,8 +489,8 @@ ${selector} {
       ${scaleWideGamut.map((value, index) => `--${name}-${index + 1}: ${value};`).join("\n      ")}
 
       ${scaleAlphaWideGamut
-				.map((value, index) => `--${name}-a${index + 1}: ${value};`)
-				.join("\n      ")}
+			.map((value, index) => `--${name}-a${index + 1}: ${value};`)
+			.join("\n      ")}
 
       --${name}-contrast: ${contrast};
       --${name}-surface: ${surfaceWideGamut};
