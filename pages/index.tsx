@@ -44,6 +44,32 @@ export default function ThemesHome() {
 			<ThemesMobileMenu />
 
 			<MagicCurtain.Root>
+				<MagicCurtain.Item>
+					<Theme
+						hasBackground
+						accentColor="teal"
+						grayColor="gray"
+						appearance={inverted}
+					>
+						<Box height="0">
+							<ThemesHeader ghost />
+						</Box>
+
+						<ThemesHeroLayout.Root>
+							<ThemesHeroLayout.Background>
+								<BackgroundImage style={tealBackgroundImageStyle} id="2" />
+							</ThemesHeroLayout.Background>
+
+							<ThemesHeroLayout.Main>
+								<MainContent />
+							</ThemesHeroLayout.Main>
+
+							<ThemesHeroLayout.Main >
+								<SecondMainContent />
+							</ThemesHeroLayout.Main>
+						</ThemesHeroLayout.Root>
+					</Theme>
+				</MagicCurtain.Item>
 				<MagicCurtain.Item defaultVisibility="visible">
 					<Theme hasBackground accentColor="indigo" grayColor="slate">
 						<Box height="0">
@@ -120,32 +146,7 @@ export default function ThemesHome() {
 					</Theme>
 				</MagicCurtain.Item>
 
-				<MagicCurtain.Item>
-					<Theme
-						hasBackground
-						accentColor="teal"
-						grayColor="gray"
-						appearance={inverted}
-					>
-						<Box height="0">
-							<ThemesHeader ghost />
-						</Box>
-
-						<ThemesHeroLayout.Root>
-							<ThemesHeroLayout.Background>
-								<BackgroundImage style={tealBackgroundImageStyle} id="2" />
-							</ThemesHeroLayout.Background>
-
-							<ThemesHeroLayout.Main>
-								<MainContent />
-							</ThemesHeroLayout.Main>
-
-							<ThemesHeroLayout.Main >
-								<SecondMainContent />
-							</ThemesHeroLayout.Main>
-						</ThemesHeroLayout.Root>
-					</Theme>
-				</MagicCurtain.Item>
+				
 
 				<MagicCurtain.Item>
 					<Theme hasBackground accentColor="red" grayColor="slate">
