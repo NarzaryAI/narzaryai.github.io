@@ -81,7 +81,7 @@ export default function SkillDevelopmentPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Interested in skill development programs? Email <a href="mailto:skills@narzary.com">skills@narzary.com</a> or visit our Citizen Services page for details.
+              Interested in skill development programs? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Citizen Services page for details.
             </Text>
           </Box>
         </Container>

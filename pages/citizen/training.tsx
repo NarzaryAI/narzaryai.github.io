@@ -81,7 +81,7 @@ export default function TrainingPage() {
 
                     <Box mt="6">
                         <Text size="4" as="p" color="bronze" weight="bold">
-                            Interested in training programs? Email <a href="mailto:training@narzary.com">training@narzary.com</a> or visit our Citizen Services page for details.
+                            Interested in training programs? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Citizen Services page for details.
                         </Text>
                     </Box>
                 </Container>

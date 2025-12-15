@@ -47,10 +47,10 @@ We welcome contributions! Please open issues or submit pull requests for improve
 
 ## Contact
 
-- General: info@narzary.com
-- Consultancy: consultancy@narzary.com
-- IT Services: it@narzary.com
-- Careers: careers@narzary.com
-- Citizen Services: support@narzary.com
+- General: necpl25@gmail.com
+- Consultancy: necpl25@gmail.com
+- IT Services: necpl25@gmail.com
+- Careers: necpl25@gmail.com
+- Citizen Services: necpl25@gmail.com
 
 Visit [www.narzary.com](https://www.narzary.com) for more information.

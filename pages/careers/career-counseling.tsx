@@ -83,7 +83,7 @@ export default function CareerCounselingPage() {
 
                     <Box mt="6">
                         <Text size="4" as="p" color="bronze" weight="bold">
-                            Ready to plan your career? Email <a href="mailto:careercounseling@narzary.com">careercounseling@narzary.com</a> or visit our Careers page to book a session.
+                            Ready to plan your career? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page to book a session.
                         </Text>
                     </Box>
                 </Container>

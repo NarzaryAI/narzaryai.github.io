@@ -53,7 +53,7 @@ export default function JobOpeningsPage() {
             <ol style={{ marginTop: 12, paddingLeft: 20 }}>
               <li><Text size="2">Review the job openings and select your desired role</Text></li>
               <li><Text size="2">Prepare your CV and cover letter</Text></li>
-              <li><Text size="2">Email your application to <a href="mailto:jobs@narzary.com">jobs@narzary.com</a></Text></li>
+              <li><Text size="2">Email your application to <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a></Text></li>
               <li><Text size="2">Shortlisted candidates will be contacted for interview</Text></li>
               <li><Text size="2">Join our team and start your career journey</Text></li>
             </ol>
@@ -69,7 +69,7 @@ export default function JobOpeningsPage() {
 
             <Box mt="6">
               <Text size="4" as="p" color="bronze" weight="bold">
-                Ready to apply? Email <a href="mailto:jobs@narzary.com">jobs@narzary.com</a> or visit our Careers page for more details.
+                Ready to apply? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page for more details.
               </Text>
             </Box>
           </Container>

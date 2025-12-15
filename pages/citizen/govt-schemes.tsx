@@ -81,7 +81,7 @@ export default function GovtSchemesPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Need help with government schemes? Email <a href="mailto:schemes@narzary.com">schemes@narzary.com</a> or visit our Citizen Services page for more details.
+              Need help with government schemes? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Citizen Services page for more details.
             </Text>
           </Box>
         </Container>

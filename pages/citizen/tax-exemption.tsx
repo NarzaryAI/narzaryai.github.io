@@ -96,7 +96,7 @@ export default function TaxExemptionPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Need help with tax exemption? Email <a href="mailto:tax@narzary.com">tax@narzary.com</a> or visit our Citizen Services page for more details.
+              Need help with tax exemption? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Citizen Services page for more details.
             </Text>
           </Box>
         </Container>

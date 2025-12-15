@@ -83,7 +83,7 @@ export default function MentorshipPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Interested in mentorship? Email <a href="mailto:mentorship@narzary.com">mentorship@narzary.com</a> or visit our Careers page to apply and learn more.
+              Interested in mentorship? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page to apply and learn more.
             </Text>
           </Box>
         </Container>

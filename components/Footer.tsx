@@ -402,7 +402,7 @@ export const Footer = () => {
 							}}
 						>
 							<b>Narzary Engineering &amp; Consultancy Pvt. Ltd.</b><br />
-							JD Road, Opposite Pagla Baba Shiv Mandir, Near BTC Secretariat, BTC, Kokrajhar, Assam - 783347.
+							JD Road, Opposite Pagla Baba Shiv Mandir, Near BTC Secretariat, BTC, Kokrajhar, Assam - 783370.
 						</Heading>
 					</Box>
 

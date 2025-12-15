@@ -64,7 +64,7 @@ export default function InternshipsPage() {
 
             <Box mt="6">
               <Text size="4" as="p" color="bronze" weight="bold">
-                Ready to start your career journey? Email your CV and cover letter to <a href="mailto:careers@narzary.com">careers@narzary.com</a> or visit our Careers page for current openings.
+                Ready to start your career journey? Email your CV and cover letter to <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page for current openings.
               </Text>
             </Box>
           </Container>

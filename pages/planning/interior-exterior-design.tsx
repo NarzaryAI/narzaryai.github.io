@@ -83,7 +83,7 @@ export default function InteriorExteriorDesignPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Need interior or exterior design? Email <a href="mailto:design@narzary.com">design@narzary.com</a> or visit our Planning & Design page for more details.
+              Need interior or exterior design? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Planning & Design page for more details.
             </Text>
           </Box>
         </Container>

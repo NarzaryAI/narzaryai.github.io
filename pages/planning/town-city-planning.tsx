@@ -68,7 +68,7 @@ export default function TownCityPlanningPage() {
 
             <Box mt="6">
               <Text size="4" as="p" color="bronze" weight="bold">
-                Need town or city planning support? Email <a href="mailto:planning@narzary.com">planning@narzary.com</a> or visit our Planning & Design page for more details.
+                Need town or city planning support? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Planning & Design page for more details.
               </Text>
             </Box>
           </Container>

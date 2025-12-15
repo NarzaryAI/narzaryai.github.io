@@ -83,7 +83,7 @@ export default function CertificationsPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Interested in certification? Email <a href="mailto:certifications@narzary.com">certifications@narzary.com</a> or visit our Careers page for details and registration.
+              Interested in certification? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page for details and registration.
             </Text>
           </Box>
         </Container>

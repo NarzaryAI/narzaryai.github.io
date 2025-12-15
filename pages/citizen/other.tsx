@@ -40,7 +40,7 @@ export default function OtherCitizenServicesPage() {
             </Box>
             <Box mb="6">
               <Text size="3" color="bronze" weight="bold">
-                For any other citizen service requests, email <a href="mailto:citizen@narzary.com">citizen@narzary.com</a> or contact us through our Citizen Services page.
+                For any other citizen service requests, email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or contact us through our Citizen Services page.
               </Text>
             </Box>
           </Container>

@@ -84,7 +84,7 @@ export default function WorkshopsBootcampsPage() {
 
           <Box mt="6">
             <Text size="4" as="p" color="bronze" weight="bold">
-              Interested in upcoming workshops or bootcamps? Email <a href="mailto:workshops@narzary.com">workshops@narzary.com</a> or visit our Careers page for schedules and registration.
+              Interested in upcoming workshops or bootcamps? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Careers page for schedules and registration.
             </Text>
           </Box>
         </Container>

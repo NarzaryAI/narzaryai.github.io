@@ -62,7 +62,7 @@ export default function ITRFilingsPage() {
 
             <Box mt="6">
               <Text size="4" as="p" color="bronze" weight="bold">
-                Need help with ITR filing? Email <a href="mailto:sales@narzary.com">sales@narzary.com</a> or visit our Citizen Services page for more details.
+                Need help with ITR filing? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Citizen Services page for more details.
               </Text>
             </Box>
           </Container>

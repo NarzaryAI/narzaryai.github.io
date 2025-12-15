@@ -63,7 +63,7 @@ export default function ResidentialCommercialPage() {
 
             <Box mt="6">
               <Text size="4" as="p" color="bronze" weight="bold">
-                Need planning or design for your building? Email <a href="mailto:planning@narzary.com">planning@narzary.com</a> or visit our Planning & Design page for more details.
+                Need planning or design for your building? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Planning & Design page for more details.
               </Text>
             </Box>
           </Container>
