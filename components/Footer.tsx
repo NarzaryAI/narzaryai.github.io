@@ -164,8 +164,8 @@ export const Footer = () => {
 					<ul>
 						<li>
 							<Text as="p" size="2" mt="3">
-								<NextLink href="/planning/architectures" passHref legacyBehavior>
-									<Link color="gray">Architectures</Link>
+								<NextLink href="/planning/design" passHref legacyBehavior>
+									<Link color="gray">Design</Link>
 								</NextLink>
 							</Text>
 							</li>

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, Section, Box, Separator, Heading, Text } from "@radix-ui/themes";
+import { Container, Section, Box, Separator, Heading, Text, Button, Link } from "@radix-ui/themes";
 import { Footer } from "@components/Footer";
 import { MobileMenuProvider } from "@components/MobileMenu";
 import { TitleAndMetaTags } from "@components/TitleAndMetaTags";
@@ -38,20 +38,28 @@ export default function ArchitecturesPage() {
 
       <ColorsHeader ghost />
       <TitleAndMetaTags
-        title="Architectural Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
-        description="Architectural planning and design services for residential, commercial, and institutional projects. Concept, drawings, approvals, and project management."
+        title="Planning & Design | Narzary Engineering & Consultancy Pvt. Ltd."
+        description="Planning and design services for residential, commercial, and institutional projects. Concept, drawings, approvals, and project management."
         image="narzary.png"
       />
       <Section size={{ initial: "2", md: "4" }}>
         <Container mx={{ initial: "5", xs: "6", sm: "7", md: "9" }}>
           <SerifHeading mb="3" style={{ maxWidth: 720 }}>
-            Architectural Planning & Design
+            Planning & Design
           </SerifHeading>
 
           <Box style={{ maxWidth: 800 }}>
             <Text size="5" as="p" mb="6" color="gray">
               Narzary Engineering & Consultancy provides architectural planning and design services for residential, commercial, and institutional projects. We deliver concept development, detailed drawings, regulatory approvals, and project management for new builds and renovations.
             </Text>
+            <Box mt="3" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+              <Button asChild>
+                <a href="mailto:necpl25@gmail.com">Request Consultation</a>
+              </Button>
+              <Button variant="soft" asChild>
+                <a href="#scope">View Service Scope</a>
+              </Button>
+            </Box>
           </Box>
 
           <Heading as="h3" size="5" mb="2">What we deliver</Heading>
@@ -78,9 +86,21 @@ export default function ArchitecturesPage() {
             <li><Text size="2">Industry-standard tools for design, visualization, and documentation</Text></li>
           </ul>
 
-          <Box mt="6">
-            <Text size="4" as="p" color="bronze" weight="bold">
-              Need architectural planning or design? Email <a href="mailto:necpl25@gmail.com">necpl25@gmail.com</a> or visit our Planning & Design page for more details.
+          <Heading id="scope" as="h3" size="5" mt="6" mb="2">Service Scope</Heading>
+          <ul style={{ marginTop: 12, paddingLeft: 20 }}>
+            <li><Text size="2">Residential: houses, apartments, extensions</Text></li>
+            <li><Text size="2">Commercial: offices, retail, hospitality</Text></li>
+            <li><Text size="2">Institutional: schools, healthcare, government</Text></li>
+            <li><Text size="2">Master planning & site layout</Text></li>
+            <li><Text size="2">Interior planning & fit-out design</Text></li>
+          </ul>
+
+          <Box mt="6" style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <Button asChild>
+              <a href="mailto:necpl25@gmail.com">Start Your Project</a>
+            </Button>
+            <Text size="2" color="gray">
+              Or call +91-XXXXXXXXXX for a quick consultation.
             </Text>
           </Box>
         </Container>
