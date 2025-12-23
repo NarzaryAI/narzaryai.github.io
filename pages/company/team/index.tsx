@@ -474,6 +474,36 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/hume.png" alt="Hume Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Hume Brahma
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Junior Support Staff
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Provides day-to-day operational support across the company.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
+										View profile
+									</Link>
+									<Badge>Staff</Badge>
+								</Flex>
+							</Card>
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
