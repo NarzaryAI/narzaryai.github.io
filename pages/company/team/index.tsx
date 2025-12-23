@@ -270,7 +270,7 @@ export default function Page() {
 											Anfungwra Brahma
 										</Heading>
 										<Text size="2" color="gray" mt="1">
-											Chief Technology Officer
+											Chief Technology Officer, CEO (Acting)
 										</Text>
 										<br />
 										<Text size="2" color="gray" mt="2">
