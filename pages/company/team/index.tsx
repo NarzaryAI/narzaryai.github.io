@@ -514,7 +514,7 @@ export default function Page() {
 
 									<Box>
 										<Heading as="h2" size="5">
-											Hume Brahma
+											Helina Brahma
 										</Heading>
 										<Text size="2" color="gray" mt="1">
 											Junior Support Staff
