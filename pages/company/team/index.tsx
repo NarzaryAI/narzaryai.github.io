@@ -261,7 +261,37 @@ export default function Page() {
 						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="3" align={"center"} justify="center">
 							<Card>
 								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+									<Avatar fallback size="7" src="/avatars/deshan.png" alt="Deshan Bapna">
+										<AvatarIconFallback />
+									</Avatar>
+
+									<Box>
+										<Heading as="h2" size="5">
+											Deshan Bapna
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Chartered Accountant & Advisor
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Provides advice and accounting of the company.
+										</Text>
+									</Box>
+									
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="/company/team/deshan" underline="hover">
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/anfungwra.png" alt="Anfungwra Brahma">
 										<AvatarIconFallback />
 									</Avatar>
 
@@ -284,6 +314,36 @@ export default function Page() {
 
 								<Flex align="center" justify="between">
 									<Link href="/company/team/anfungwra" underline="hover" >
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+										<AvatarIconFallback />
+									</Avatar>
+
+									
+									<Box>
+										<Heading as="h2" size="5">
+											Monikha Brahma
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Director & Co-founder
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Look after the company operations.
+										</Text>
+									</Box>
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
 										View profile
 									</Link>
 									<Badge>Leadership</Badge>
@@ -321,7 +381,7 @@ export default function Page() {
 							</Card>
 							<Card>
 								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+									<Avatar fallback size="7" src="/avatars/jasmine.png" alt="Jasmine Goyari">
 										<AvatarIconFallback />
 									</Avatar>
 
@@ -353,36 +413,7 @@ export default function Page() {
 						
 
 						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/deshan.png" alt="Deshan Bapna">
-										<AvatarIconFallback />
-									</Avatar>
-
-									<Box>
-										<Heading as="h2" size="5">
-											Deshan Bapna
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Chartered Accountant & Advisor
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Provides financial advice and accounting of the company.
-										</Text>
-									</Box>
-									
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="/company/team/deshan" underline="hover">
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
+							
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
@@ -460,36 +491,6 @@ export default function Page() {
 										<br />
 										<Text size="2" color="gray" mt="2">
 											Covering the area of Citizen Services & Referrals.
-										</Text>
-									</Box>
-								</Flex>
-
-								<Separator my="3" />
-
-								<Flex align="center" justify="between">
-									<Link href="#" underline="hover" onClick={(e) => e.preventDefault()}>
-										View profile
-									</Link>
-									<Badge>Leadership</Badge>
-								</Flex>
-							</Card>
-							<Card>
-								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
-										<AvatarIconFallback />
-									</Avatar>
-
-									
-									<Box>
-										<Heading as="h2" size="5">
-											Monikha Brahma
-										</Heading>
-										<Text size="2" color="gray" mt="1">
-											Director & Co-founder
-										</Text>
-										<br />
-										<Text size="2" color="gray" mt="2">
-											Look after the company operations.
 										</Text>
 									</Box>
 								</Flex>
