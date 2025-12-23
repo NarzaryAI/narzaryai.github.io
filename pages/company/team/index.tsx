@@ -277,7 +277,7 @@ export default function Page() {
 											Provides advice and accounting of the company.
 										</Text>
 									</Box>
-									
+
 								</Flex>
 
 								<Separator my="3" />
@@ -307,7 +307,7 @@ export default function Page() {
 											Covers all the technology operations of the company.
 										</Text>
 									</Box>
-									
+
 								</Flex>
 
 								<Separator my="3" />
@@ -325,7 +325,7 @@ export default function Page() {
 										<AvatarIconFallback />
 									</Avatar>
 
-									
+
 									<Box>
 										<Heading as="h2" size="5">
 											Monikha Brahma
@@ -367,7 +367,7 @@ export default function Page() {
 											Covers all the operations of the company.
 										</Text>
 									</Box>
-									
+
 								</Flex>
 
 								<Separator my="3" />
@@ -397,7 +397,7 @@ export default function Page() {
 											Covers training and skill development initiatives.
 										</Text>
 									</Box>
-									
+
 								</Flex>
 
 								<Separator my="3" />
@@ -415,7 +415,7 @@ export default function Page() {
 										<AvatarIconFallback />
 									</Avatar>
 
-									
+
 									<Box>
 										<Heading as="h2" size="5">
 											Julina Basumatary
@@ -440,10 +440,10 @@ export default function Page() {
 								</Flex>
 							</Card>
 						</Grid>
-						
+
 
 						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
-							
+
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
@@ -478,13 +478,13 @@ export default function Page() {
 										<AvatarIconFallback />
 									</Avatar>
 
-									
+
 									<Box>
 										<Heading as="h2" size="5">
 											Hungkhar Brahma
 										</Heading>
 										<Text size="2" color="gray" mt="1">
-											Public Relations 
+											Public Relations
 										</Text>
 										<br />
 										<Text size="2" color="gray" mt="2">
@@ -502,13 +502,16 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+
+						</Grid>
+						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/hume.png" alt="Hume Brahma">
 										<AvatarIconFallback />
 									</Avatar>
 
-									
+
 									<Box>
 										<Heading as="h2" size="5">
 											Hume Brahma
@@ -535,12 +538,12 @@ export default function Page() {
 						</Grid>
 
 						<Theme className="radix-themes-default-fonts">
-							
+
 						</Theme>
 					</Container>
 				</Section>
 				<Container>
-					<Footer/>
+					<Footer />
 				</Container>
 			</Theme>
 		</MobileMenuProvider>
@@ -896,8 +899,8 @@ ${selector} {
       ${scaleWideGamut.map((value, index) => `--${name}-${index + 1}: ${value};`).join("\n      ")}
 
       ${scaleAlphaWideGamut
-				.map((value, index) => `--${name}-a${index + 1}: ${value};`)
-				.join("\n      ")}
+			.map((value, index) => `--${name}-a${index + 1}: ${value};`)
+			.join("\n      ")}
 
       --${name}-contrast: ${contrast};
       --${name}-surface: ${surfaceWideGamut};
