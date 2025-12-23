@@ -276,11 +276,11 @@ export default function Page() {
 											Angfungwra Brahma
 										</Heading>
 										<Text size="2" color="gray" mt="1">
-											Chief Technology Officer
+											Chief Technology Officer & Acting CEO
 										</Text>
 										<br />
 										<Text size="2" color="gray" mt="2">
-											Look after the technology operations.
+											He oversees company operations and currently serves as the Acting Chief Executive Officer.
 										</Text>
 									</Box>
 								</Flex>
