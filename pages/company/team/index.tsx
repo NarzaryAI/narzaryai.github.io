@@ -353,7 +353,36 @@ export default function Page() {
 						
 
 						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
-							
+							<Card>
+								<Flex align="center" gap="3">
+									<Avatar fallback size="7" src="/avatars/deshan.png" alt="Deshan Bapna">
+										<AvatarIconFallback />
+									</Avatar>
+
+									<Box>
+										<Heading as="h2" size="5">
+											Deshan Bapna
+										</Heading>
+										<Text size="2" color="gray" mt="1">
+											Chartered Accountant & Advisor
+										</Text>
+										<br />
+										<Text size="2" color="gray" mt="2">
+											Provides financial advice and accounting of the company.
+										</Text>
+									</Box>
+									
+								</Flex>
+
+								<Separator my="3" />
+
+								<Flex align="center" justify="between">
+									<Link href="/company/team/deshan" underline="hover">
+										View profile
+									</Link>
+									<Badge>Leadership</Badge>
+								</Flex>
+							</Card>
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
