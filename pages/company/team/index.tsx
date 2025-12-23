@@ -321,7 +321,7 @@ export default function Page() {
 							</Card>
 							<Card>
 								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+									<Avatar fallback size="7" src="/avatars/monikha.png" alt="Kanishka Brahma">
 										<AvatarIconFallback />
 									</Avatar>
 
