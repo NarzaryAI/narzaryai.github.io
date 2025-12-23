@@ -409,14 +409,9 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
-						</Grid>
-						
-
-						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
-							
 							<Card>
 								<Flex align="center" gap="3">
-									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
+									<Avatar fallback size="7" src="/avatars/julina.png" alt="Julina Basumatary">
 										<AvatarIconFallback />
 									</Avatar>
 
@@ -444,13 +439,16 @@ export default function Page() {
 									<Badge>Leadership</Badge>
 								</Flex>
 							</Card>
+						</Grid>
+						
+
+						<Grid columns={{ initial: "1", sm: "2", md: "3" }} gap="5" mb="7">
+							
 							<Card>
 								<Flex align="center" gap="3">
 									<Avatar fallback size="7" src="/avatars/kanishka.png" alt="Kanishka Brahma">
 										<AvatarIconFallback />
 									</Avatar>
-
-									
 									<Box>
 										<Heading as="h2" size="5">
 											Biswajit Narzary
